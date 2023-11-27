@@ -9,4 +9,5 @@
 
 module load miniconda CUDAcore/11.3.1 cuDNN/8.2.1.32-CUDA-11.3.1
 conda activate whisper_asr
-python asr.py
+python run.py --language korean --language_code ko
+

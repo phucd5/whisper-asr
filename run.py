@@ -1,6 +1,16 @@
 import torch
 import subprocess
+import argparse
 from WhisperASR import WhisperASR
+
+# Parse command line arguments
+parser = argparse.ArgumentParser(
+    description='Train WhisperASR model with specified language settings.')
+parser.add_argument('--language', type=str, required=True,
+                    help='Language for the Whisper ASR model')
+parser.add_argument('--language_code', type=str, required=True,
+                    help='Language code for the Whisper ASR model')
+args = parser.parse_args()
 
 # check if GPU is available
 print(torch.__version__)
@@ -20,6 +30,10 @@ except FileNotFoundError:
 else:
     print(gpu_info)
 
-# train the model
-model = WhisperASR()
+# train the model with command-line arguments
+model = WhisperASR(model_name="openai/whisper-small",
+                   language=args.language, language_code=args.language_code)
 model.train()
+
+
+# python run.py --language vietnamese --language_code vi
