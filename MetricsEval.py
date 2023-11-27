@@ -11,6 +11,7 @@ class MetricsEval:
             tokenizer (Tokenizer): The tokenizer used for tokenizing the text.
             metric_type (str, optional): The metric type to use. Defaults to "wer".
         """
+
         self.tokenizer = tokenizer
         self.metric_type = metric_type
         self.metric = evaluate.load(metric_type)
