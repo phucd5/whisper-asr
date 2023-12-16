@@ -16,8 +16,9 @@ from MetricsEval import MetricsEval
 
 from huggingface_hub import HfFolder
 
-OUTPUT_DIR = "../models/whisper-small"
+OUTPUT_DIR = "../models"
 HF_API_KEY = "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"
+BASE_MODEL = "openai/whisper-small"
 
 TRAIN_BATCH_SIZE = 16
 GRAIDENT_ACCUMULATION_STEPS = 1
@@ -30,12 +31,10 @@ EVAL_STEPS = 1000
 LOGGING_STEPS = 25
 
 
-
-
 class WhisperASR:
     """Whisper Model for Automatic Speech Recognition (ASR) using Hugging Face's Transformers library."""
 
-    def __init__(self, model_name="openai/whisper-small", existing_model=False, language="Korean", language_code="ko", save_to_hf=False):
+    def __init__(self, model_name="openai/whisper-small", existing_model=False, language="Korean", language_code="ko", save_to_hf=False, output_dir="./models/whisper"):
         """
         Initialize the model and load the data. 
         The default config is the small model trained on the Common Voice dataset for Hindi.
@@ -48,7 +47,8 @@ class WhisperASR:
             'model_name' path. If False, a new model is initialized.
             
             language (str, optional): The language of the model. Ex: "Korean".
-            language_code (str, optional): The language code of the model. Must match the language. Ex: "ko". 
+            language_code (str, optional): The language code of the model. Must match the language. Ex: "ko"
+            output_dir (str, optional): The output directory of the model to save to
         """
         # setting up to save to hugging face repo
         self.save_to_hf = save_to_hf
@@ -88,8 +88,7 @@ class WhisperASR:
         self.data_collator = DataCollatorSpeechSeq2SeqWithPadding(
             self.processor)
         self._load_data()
-
-        self.OUTPUT_DIR = f"{OUTPUT_DIR}-{language_code}"
+        self.OUTPUT_DIR = output_dir
 
     def _load_data(self):
         """Load the data from the Common Voice dataset and prepare it for training."""
@@ -98,9 +97,9 @@ class WhisperASR:
 
         # load data from Common Voice dataset
         self.data["train"] = load_dataset(
-            "mozilla-foundation/common_voice_13_0", self.language_code, split=self.train_split, token='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')
+            "mozilla-foundation/common_voice_13_0", self.language_code, split=self.train_split, token=HF_API_KEY)
         self.data["test"] = load_dataset(
-           "mozilla-foundation/common_voice_13_0", self.language_code, split=self.test_split, token='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')
+           "mozilla-foundation/common_voice_13_0", self.language_code, split=self.test_split, token=HF_API_KEY)
         
         print("[INFO] Structure of the loaded data:")
         print(self.data)
@@ -168,7 +167,7 @@ class WhisperASR:
             greater_is_better=False,
             push_to_hub=self.save_to_hf,
         )
-        
+ 
         # initialize trainer
         trainer = Seq2SeqTrainer(
             args=training_args,
@@ -184,19 +183,16 @@ class WhisperASR:
 
         # # start training
         print("[INFO] Starting training...: ")
-        # trainer.train()
+        trainer.train()
         
         # training finished and save model to model directory
         print(f"[INFO] Training finished and model saved to {self.OUTPUT_DIR}")
 
         if self.save_to_hf:
             kwargs = {
-                "dataset_tags": "mozilla-foundation/common_voice_13_0",
-                "dataset": "Common Voice 13.0",
-                "dataset_args": f"config: {self.language_code}, split: test",
                 "language": f"{self.language_code}",
-                "model_name": f"Whisper Small - {self.language_code} Model",
-                "finetuned_from": "openai/whisper-small",
+                "model_name": f"Whisper - {self.language} Model",
+                "finetuned_from": f"{BASE_MODEL}",
                 "tasks": "automatic-speech-recognition",
             }
 
