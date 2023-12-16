@@ -51,6 +51,7 @@ def main(args):
     print(f"[INFO] Evaluting {args.model_name} with {args.dataset_name} with language {args.language}/{args.config}")
 
     wer_metric = evaluate.load("wer")
+    cer_metric = evaluate.load("cer")
 
 
     # load model
@@ -72,11 +73,16 @@ def main(args):
     predictions, references = evaluation(dataset, whisper_asr)
     wer = wer_metric.compute(references=references, predictions=predictions)
 
+    if args.cer:
+        cer = cer_metric.compute(references=references, predictions=predictions)
+
     # output results to a file
     os.makedirs(args.output_dir, exist_ok=True)
     with open(os.path.join(args.output_dir, f'model_results_{args.language}.txt'), 'w') as file:
-        file.write(f"[INFO] Evaluated {args.model_name} with {args.dataset_name} with language {args.language}/{args.config}\n")
-        file.write(f"WER : {round(100 * wer, 2)}\n\n")
+        file.write(f"[INFO] Evaluated {args.model_name} with {args.dataset_name} with language {args.language}/{args.config}\n\n")
+        file.write(f"WER : {round(100 * wer, 4)}\n\n")
+        if args.cer:
+            file.write(f"CER : {round(100 * cer, 4)}\n\n")
         if args.save_transcript:
             for ref, pred in zip(references, predictions):
                 file.write(f"Reference: {ref}\nPrediction: {pred}\n{'-' * 40}\n")
@@ -93,6 +99,7 @@ if __name__ == "__main__":
     parser.add_argument("--split", required=False, type=str, default="test", help="The split to evaluate on. (ex: 'test')")
     parser.add_argument("--output_dir", required=False, type=str, default="whisper_eval", help="Directory to save the evaluation results")
     parser.add_argument("--save_transcript", action='store_true', help="Flag to save transcript to a file")
+    parser.add_argument("--cer", action='store_true', help="Flag to calculate cer")
     args = parser.parse_args()
 
     main(args)
