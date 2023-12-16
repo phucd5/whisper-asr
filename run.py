@@ -10,6 +10,13 @@ parser.add_argument('--language', type=str, required=True,
                     help='Language for the Whisper ASR model')
 parser.add_argument('--language_code', type=str, required=True,
                     help='Language code for the Whisper ASR model')
+parser.add_argument('--model_name', type=str, default="openai/whisper-small",
+                    help='Model name from Hugging Face or custom path (default: openai/whisper-small)')
+parser.add_argument('--existing_model', action='store_true',
+                    help='Flag to indicate existing model is being used (default: False)')
+parser.add_argument('--save_to_hf', action='store_true',
+                    help='Flag to indicate saving the model to Hugging Face Hub (default: False)')
+
 args = parser.parse_args()
 
 # check if GPU is available
@@ -31,7 +38,8 @@ else:
     print(gpu_info)
 
 # train the model with command-line arguments
-model = WhisperASR(model_name="openai/whisper-small",
-                   language=args.language, language_code=args.language_code)
+model = WhisperASR(model_name=args.model_name,
+                   language=args.language, language_code=args.language_code, 
+                   existing_model=args.existing_model, save_to_hf=args.save_to_hf)
 model.train()
 

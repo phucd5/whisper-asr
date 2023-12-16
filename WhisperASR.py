@@ -6,6 +6,7 @@ from transformers import WhisperProcessor
 from transformers import WhisperForConditionalGeneration
 from transformers import Seq2SeqTrainingArguments
 from transformers import Seq2SeqTrainer
+from transformers import AutoProcessor, AutoModelForSpeechSeq2Seq
 
 from datasets import load_dataset, DatasetDict
 from datasets import Audio
@@ -15,8 +16,8 @@ from MetricsEval import MetricsEval
 
 from huggingface_hub import HfFolder
 
-OUTPUT_DIR = "../whisper-small"
-SAVE_DIR = "./models/"
+OUTPUT_DIR = "../models/whisper-small"
+HF_API_KEY = "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"
 
 TRAIN_BATCH_SIZE = 16
 GRAIDENT_ACCUMULATION_STEPS = 1
@@ -28,33 +29,40 @@ SAVE_STEPS = 1000
 EVAL_STEPS = 1000
 LOGGING_STEPS = 25
 
-HF_API_KEY = "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"
+
 
 
 class WhisperASR:
     """Whisper Model for Automatic Speech Recognition (ASR) using Hugging Face's Transformers library."""
 
-    def __init__(self, model_name="openai/whisper-small", language="Korean", language_code="ko"):
+    def __init__(self, model_name="openai/whisper-small", existing_model=False, language="Korean", language_code="ko", save_to_hf=False):
         """
         Initialize the model and load the data. 
         The default config is the small model trained on the Common Voice dataset for Hindi.
 
         Args:
-            model_name (str, optional): The model name. Ex: "openai/whisper-small".
-            language (str, optional): The language of the model. Ex: "Hindi".
-            language_code (str, optional): The language code of the model. Ex: "hi".
-
+            model_name (str, optional): The model name from Hugging Face or custom path.
+            If 'existing_model' is True, this should be the path to the pre-trained model. Ex: "openai/whisper-small".
+            
+            existing_model (bool, optional): Flag to indicate whether to load an existing model from the specified 
+            'model_name' path. If False, a new model is initialized.
+            
+            language (str, optional): The language of the model. Ex: "Korean".
+            language_code (str, optional): The language code of the model. Must match the language. Ex: "ko". 
         """
+        # setting up to save to hugging face repo
+        self.save_to_hf = save_to_hf
+        if save_to_hf:
+            HfFolder.save_token(HF_API_KEY) # token to save to HF
 
         # initialize model and tokenizer
         self.model_name = model_name
         self.language = language
         self.language_code = language_code
+        self.existing_model = existing_model
 
         self.train_split = "train+validation"
         self.test_split = "test"
-
-        HfFolder.save_token(HF_API_KEY)
 
         # initalize feature extractor, tokenizer and processor
         self.feature_extractor = WhisperFeatureExtractor.from_pretrained(
@@ -64,9 +72,14 @@ class WhisperASR:
         self.processor = WhisperProcessor.from_pretrained(
             self.model_name, language=language, task="transcribe")
 
-        # load model
-        self.model = WhisperForConditionalGeneration.from_pretrained(
-            self.model_name)
+        # load correct model
+        if existing_model:
+            print(f"[INFO] Loading {self.model_name} model from existing model...")
+            self.model = AutoModelForSpeechSeq2Seq.from_pretrained(model_name)
+        else:
+            print(f"[INFO] Loading {self.model_name} from hugging face library...")
+            self.model = WhisperForConditionalGeneration.from_pretrained(self.model_name)
+
         self.model.config.forced_decoder_ids = None
         self.model.config.suppress_tokens = []
 
@@ -153,7 +166,7 @@ class WhisperASR:
             load_best_model_at_end=True,
             metric_for_best_model="wer",
             greater_is_better=False,
-            push_to_hub=True,
+            push_to_hub=self.save_to_hf,
         )
         
         # initialize trainer
@@ -174,18 +187,20 @@ class WhisperASR:
         # trainer.train()
         
         # training finished and save model to model directory
-        print(f"[INFO] Training finished and model saved to {OUTPUT_DIR}")
+        print(f"[INFO] Training finished and model saved to {self.OUTPUT_DIR}")
 
-        kwargs = {
-            "dataset_tags": "mozilla-foundation/common_voice_13_0",
-            "dataset": "Common Voice 13.0",
-            "dataset_args": f"config: {self.language_code}, split: test",
-            "language": f"{self.language_code}",
-            "model_name": f"Whisper Small - {self.language_code} Model",
-            "finetuned_from": "openai/whisper-small",
-            "tasks": "automatic-speech-recognition",
-        }
-        trainer.push_to_hub(**kwargs)
-        print(f"[INFO] Model saved to Hugging Face Hub {OUTPUT_DIR}")
+        if self.save_to_hf:
+            kwargs = {
+                "dataset_tags": "mozilla-foundation/common_voice_13_0",
+                "dataset": "Common Voice 13.0",
+                "dataset_args": f"config: {self.language_code}, split: test",
+                "language": f"{self.language_code}",
+                "model_name": f"Whisper Small - {self.language_code} Model",
+                "finetuned_from": "openai/whisper-small",
+                "tasks": "automatic-speech-recognition",
+            }
+
+            trainer.push_to_hub(**kwargs)
+            print(f"[INFO] Model saved to Hugging Face Hub")
 
     
