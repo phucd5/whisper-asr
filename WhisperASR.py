@@ -13,6 +13,8 @@ from datasets import Audio
 from DataCollatorSpeechSeq2SeqWithPadding import DataCollatorSpeechSeq2SeqWithPadding
 from MetricsEval import MetricsEval
 
+from huggingface_hub import HfFolder
+
 OUTPUT_DIR = "./whisper-small-hi"
 SAVE_DIR = "./models/"
 
@@ -50,6 +52,8 @@ class WhisperASR:
         self.train_split = "train+validation"
         self.test_split = "test"
 
+        HfFolder.save_token("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")
+
         # initalize feature extractor, tokenizer and processor
         self.feature_extractor = WhisperFeatureExtractor.from_pretrained(
             self.model_name)
@@ -70,6 +74,9 @@ class WhisperASR:
             self.processor)
         self._load_data()
 
+        self.OUTPUT_DIR = f"./whisper-small-hi/{language_code}"
+        self.SAVE_DIR = f"./models/{language_code}"
+
     def _load_data(self):
         """Load the data from the Common Voice dataset and prepare it for training."""
 
@@ -77,18 +84,18 @@ class WhisperASR:
 
         # load data from Common Voice dataset
         self.data["train"] = load_dataset(
-            "mozilla-foundation/common_voice_11_0", self.language_code, split=self.train_split)
+            "mozilla-foundation/common_voice_13_0", self.language_code, split=self.train_split, token='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')
         self.data["test"] = load_dataset(
-            "mozilla-foundation/common_voice_11_0", self.language_code, split=self.test_split)
+           "mozilla-foundation/common_voice_13_0", self.language_code, split=self.test_split, token='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')
 
-        # print(self.data)
+        print(self.data)
 
         # remove unnecessary columns
         self.data = self.data.remove_columns(
             ["accent", "age", "client_id", "down_votes", "gender", "locale", "path", "segment", "up_votes"])
 
-        # print(self.data)
-        # print(self.data["train"][0])
+        print(self.data)
+        print(self.data["train"][0])
 
         # downsample audio data to 16kHz
         self.data = self.data.cast_column("audio", Audio(sampling_rate=16000))
@@ -122,7 +129,7 @@ class WhisperASR:
 
         # configure training arguments
         training_args = Seq2SeqTrainingArguments(
-            output_dir=OUTPUT_DIR,
+            output_dir=self.OUTPUT_DIR,
             per_device_train_batch_size=16,
             gradient_accumulation_steps=1,  # increase by 2x for every 2x decrease in batch size
             learning_rate=LEARNING_RATE,
@@ -141,8 +148,9 @@ class WhisperASR:
             load_best_model_at_end=True,
             metric_for_best_model="wer",
             greater_is_better=False,
-            push_to_hub=False,
+            push_to_hub=True,
         )
+        
 
         # initialize trainer
         trainer = Seq2SeqTrainer(
@@ -155,10 +163,25 @@ class WhisperASR:
             tokenizer=self.processor.feature_extractor,
         )
 
+        self.processor.save_pretrained(training_args.output_dir)
+
         # start training
         print("Starting training...")
         trainer.train()
 
         # save model to model directory
-        trainer.save_model(SAVE_DIR)
+        trainer.save_model(self.SAVE_DIR)
         print("Model saved in the current directory")
+
+        kwargs = {
+            "dataset_tags": "mozilla-foundation/common_voice_11_0",
+            "dataset": "Common Voice 11.0",  # a 'pretty' name for the training dataset
+            "dataset_args": "config: hi, split: test",
+            "language": "hi",
+            "model_name": "Whisper Small Hi - Sanchit Gandhi",  # a 'pretty' name for our model
+            "finetuned_from": "openai/whisper-small",
+            "tasks": "automatic-speech-recognition",
+            "tags": "hf-asr-leaderboard",
+        }
+        trainer.push_to_hub(**kwargs)
+        print("MOdel saved to hub")

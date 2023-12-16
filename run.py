@@ -35,5 +35,3 @@ model = WhisperASR(model_name="openai/whisper-small",
                    language=args.language, language_code=args.language_code)
 model.train()
 
-
-# python run.py --language vietnamese --language_code vi
