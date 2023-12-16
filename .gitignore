@@ -1,1 +1,5 @@
 __pycache__/
+models/
+old_models/
+test.txt
+whisper-eval/

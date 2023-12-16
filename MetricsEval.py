@@ -36,7 +36,9 @@ class MetricsEval:
             label_ids, skip_special_tokens=True)
 
         # Compute the metric
-        metric_value = self.metric.compute(
+        metric_value = 100 * self.metric.compute(
             predictions=pred_str, references=label_str)
 
         return {self.metric_type: metric_value}
+
+
