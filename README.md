@@ -8,7 +8,7 @@ Through the Common Voice Project, an expansive dataset with extensive coverage o
 ## Author
 Phuc Duong and Sophia Kang 
 
-CPSC 480: AI Foundational Models
+CPSC 488: AI Foundational Models
 
 ## References
 1. M. Ardila et al. “Common Voice: A Massively-Multilingual Speech Corpus” Mozilla. [Link](https://huggingface.co/datasets/common_voice)
