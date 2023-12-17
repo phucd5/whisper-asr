@@ -46,11 +46,13 @@ if __name__ == "__main__":
                         help='Flag to indicate existing model is being used (default: False)')
     parser.add_argument('--save_to_hf', action='store_true',
                         help='Flag to indicate saving the model to Hugging Face Hub (default: False)')
+    parser.add_argument('--dataset_name', type=str,  default="mozilla-foundation/common_voice_13_0",
+                        help='Dataset name to train on (default: mozilla-foundation/common_voice_13_0)')
     
     args = parser.parse_args()
 
     # train the model with command-line arguments
     model = WhisperASR(model_name=args.model_name,
                     language=args.language, language_code=args.language_code, 
-                    existing_model=args.existing_model, save_to_hf=args.save_to_hf, output_dir=args.output_dir)
+                    existing_model=args.existing_model, save_to_hf=args.save_to_hf, output_dir=args.output_dir, dataset_name=args.dataset_name)
     model.train()

@@ -16,10 +16,14 @@ from MetricsEval import MetricsEval
 
 from huggingface_hub import HfFolder
 
+# change constants as applicable
 OUTPUT_DIR = "../models"
 HF_API_KEY = "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"
 BASE_MODEL = "openai/whisper-small"
+REF_KEY = "sentence"
 
+
+# training constants
 TRAIN_BATCH_SIZE = 16
 GRAIDENT_ACCUMULATION_STEPS = 1
 LEARNING_RATE = 1e-5
@@ -34,7 +38,7 @@ LOGGING_STEPS = 25
 class WhisperASR:
     """Whisper Model for Automatic Speech Recognition (ASR) using Hugging Face's Transformers library."""
 
-    def __init__(self, model_name="openai/whisper-small", existing_model=False, language="Korean", language_code="ko", save_to_hf=False, output_dir="./models/whisper"):
+    def __init__(self, model_name="openai/whisper-small", dataset_name="mozilla-foundation/common_voice_13_0", existing_model=False, language="Korean", language_code="ko", save_to_hf=False, output_dir="./models/whisper"):
         """
         Initialize the model and load the data. 
         The default config is the small model trained on the Common Voice dataset for Hindi.
@@ -54,6 +58,8 @@ class WhisperASR:
         self.save_to_hf = save_to_hf
         if save_to_hf:
             HfFolder.save_token(HF_API_KEY) # token to save to HF
+        
+        self.dataset_name = dataset_name
 
         # initialize model and tokenizer
         self.model_name = model_name
@@ -93,22 +99,15 @@ class WhisperASR:
     def _load_data(self):
         """Load the data from the Common Voice dataset and prepare it for training."""
 
-        print("[INFO] Preparing data for training phase...")
+        print(f"[INFO] Preparing {self.dataset_name} data for training phase...")
 
         # load data from Common Voice dataset
         self.data["train"] = load_dataset(
-            "mozilla-foundation/common_voice_13_0", self.language_code, split=self.train_split, token=HF_API_KEY)
+            self.dataset_name, self.language_code, split=self.train_split, token=HF_API_KEY)
         self.data["test"] = load_dataset(
-           "mozilla-foundation/common_voice_13_0", self.language_code, split=self.test_split, token=HF_API_KEY)
+           self.dataset_name, self.language_code, split=self.test_split, token=HF_API_KEY)
         
         print("[INFO] Structure of the loaded data:")
-        print(self.data)
-
-        # remove unnecessary columns
-        self.data = self.data.remove_columns(
-            ["accent", "age", "client_id", "down_votes", "gender", "locale", "path", "segment", "up_votes"])
-
-        print("[INFO] Structure of the data after column removal:")
         print(self.data)
 
         print("[INFO] Sample entry from the training dataset: ")
@@ -133,7 +132,7 @@ class WhisperASR:
             audio["array"], sampling_rate=audio["sampling_rate"]).input_features[0]
 
         # encode target text to label ids
-        batch["labels"] = self.tokenizer(batch["sentence"]).input_ids
+        batch["labels"] = self.tokenizer(batch[REF_KEY]).input_ids
         return batch
 
     def train(self):
@@ -198,5 +197,3 @@ class WhisperASR:
 
             trainer.push_to_hub(**kwargs)
             print(f"[INFO] Model saved to Hugging Face Hub")
-
-    
