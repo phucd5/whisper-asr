@@ -8,7 +8,7 @@ from transformers import pipeline
 
 from utils import compute_spacing, remove_punctuation
 
-HF_API_KEY = "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"
+HF_API_KEY = "api_key"
 
 def transcribe(whisper_asr, audio):
     """

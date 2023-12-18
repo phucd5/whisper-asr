@@ -4,8 +4,6 @@ import subprocess
 
 import torch
 
-os.environ["HF_HOME"] = "/home/phd24/palmer_scratch"
-
 from WhisperASR import WhisperASR
 
 def env_check():

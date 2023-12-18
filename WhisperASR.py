@@ -12,7 +12,7 @@ from MetricsEval import MetricsEval
 
 # change constants as applicable
 OUTPUT_DIR = "../models"
-HF_API_KEY = "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"
+HF_API_KEY = "ap_key"
 BASE_MODEL = "openai/whisper-small"
 
 # training constants

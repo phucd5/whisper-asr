@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
 #SBATCH --time=12:00:00
-#SBATCH --output=whisper_train_ko_better_%j.txt
+#SBATCH --output=train_whisper_ko_cv-fleurs_%j.txt
 
 module load miniconda CUDAcore/11.3.1 cuDNN/8.2.1.32-CUDA-11.3.1
 conda activate whisper_asr

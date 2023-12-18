@@ -9,9 +9,9 @@ from google.cloud import speech
 from ibm_watson import SpeechToTextV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-HF_API_KEY = "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"
-WATSON_API_URL = "https://api.us-east.speech-to-text.watson.cloud.ibm.com/instances/df31e263-65c3-4dd5-8be4-08c565c8cdd5"
-WATSON_API_KEY = "wiiYD82U_jjMINMwBbkmkGHM2zdoDvvVEyd5lsHA-M66"
+HF_API_KEY = "api_key"
+WATSON_API_URL = "api_url"
+WATSON_API_KEY = "api_key"
 
 def transcribe_google(audio, language):
     """
