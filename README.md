@@ -10,9 +10,11 @@ In this project, we investigate and improve on OpenAI's Whisper model, as detail
 
 Through the Common Voice and FLEURS datasets and leveraging OpenAI's Whisper API and Hugging Face's transformers library to train and load the model, we aim to finetune Whisper's performance in order to reduce transcription errors and improve adaptability in regards to the model ability to handle the complexity of these two languages.
 
-## Setup
+## Setup and Computing Infrastructure
 
-We used Python 3.10.13 and Pytorch 1.12.1 to train and test our models. However, our model is expected to be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. We use a RTX A5000 graphics card for training and evaluation on the Yale High Performance Computing (HPC) clusters.
+We used Python 3.10.13 and Pytorch 1.12.1 to train and test our models. However, our model is expected to be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. We used an NVIDIA RTX A5000 graphics card for training and evaluation on the Yale High Performance Computing (HPC) clusters, running the Red Hat Enterprise Linux OS with version 8.8, codenamed Ootpa. We used an Intel Xeon Gold 6326 CPU with 64 CPU cores, with 64 GB of RAM available on the cluster, and 4 CPUs allocated per task.
+
+A full list of the dependencies and their versions can be found in `environment.yml`.
 
 To install all the dependencies please do the following command
 
