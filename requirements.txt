@@ -1,0 +1,6 @@
+transformers==4.31.0
+evaluate==0.4.1
+pytorch==2.1.0
+jiwer==3.0.3
+librosa==0.10.1
+soundfile==0.12.1
