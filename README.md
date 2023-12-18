@@ -181,7 +181,7 @@ Flag Parameters:
 
 - `--save_transcript`: Flag to save the transcript to a file (default: False).
 - `--cer`: Flag to calculate the Character Error Rate (default: False).
-- `--spacing_er`: Flag to calculate spacing error rate (default: False)
+- `--spacing_er`: Flag to calculate spacing accuracy rate (default: False)
 
 ### Examples
 
