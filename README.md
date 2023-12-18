@@ -53,7 +53,7 @@ Before running the code, please make sure to update the following constants in t
 
 Official model information is available at Open AI's Whisper [repository](https://github.com/openai/whisper/blob/main/model-card.md).
 
-In addition, please update the training parameters as you wish in `WHISERASR.py`.
+In addition, please update the training parameters as you wish in `WhisperASR.py`.
 
 ## Command-line usage
 
