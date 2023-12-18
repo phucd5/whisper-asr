@@ -12,12 +12,13 @@ Through the Common Voice Project, an expansive dataset with extensive coverage o
 
 ## Setup
 
-We used Python 3.x.x and Pytorch 2.x.x to train and test our models. However, our model is expectedto be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. 
+We used Python 3.10.13 and Pytorch 1.12.1 to train and test our models. However, our model is expected to be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. We use a RTX A5000 graphics card for training and evaluation on the  Yale High Performance Computing (HPC) clusters.
 
-To install all the dependecies please do the following command
+To install all the dependencies please do the following command
 
 ```
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate env_whisper_asr
 ```
 
 ## Files Description
@@ -31,7 +32,7 @@ This technique is adapted from Hugging Face's methodology from [Hugging Face's a
 
 - MetricsEval.py: Utilized in the WhisperASR class to specify the evaluation metric of the model and compute the metric for evaluation. The default metric is Word Error Rate (WER).
 
-- DataColaltorSpeechSeq2SeqWithPadding.py: Preparing batches of data during the training of the model. Convert input features to batched Pytorch tensors and pad labels while ensuring its not taken into account when computing lost. (Credit: Hugging Face). 
+- DataColaltorSpeechSeq2SeqWithPadding.py: Preparing batches of data during the training of the model. Convert input features to batched Pytorch tensors and pad labels while ensuring its not taken into account when computing lost. 
 
 ## Training
 
@@ -40,7 +41,8 @@ Before running the code, please make sure to update the following constants in t
 
 1. `OUTPUT_DIR`: Set this to the directory where you want to save the model and related files.
 2. `HF_API_KEY`: Replace `"api_key"` with your Hugging Face API key.
-3. `BASE_MODEL`: Specify the base model that you want to train on. The base models are below
+3. `BASE_MODEL`: Specify the base model that you want to train on. The base models are below:
+
 
 |  Size  | Parameters | English-only model | Multilingual model |  
 |:------:|:----------:|:------------------:|:------------------:|
@@ -51,6 +53,8 @@ Before running the code, please make sure to update the following constants in t
 | large  |   1550 M   |                    |         ✓          |
 
 Official model information is available at Open AI's Whisper [repository](https://github.com/openai/whisper/blob/main/model-card.md).
+
+In addition, please update the training parameters as you wish in `WHISERASR.py`.
 
 ## Command-line usage
 
@@ -75,7 +79,7 @@ Optional Parameters:
 ### Examples
 
 
-Training a pre-trained local model on the Vietnameselanguage with the google/fleurs dataset
+Training a pre-trained local model on the Vietnamese language with the google/fleurs dataset
 
 ```shell
 python ../train.py \
@@ -152,7 +156,7 @@ Before running the code, please make sure to update the following constants in t
 2. `WATSON_API_URL`: Replace `"api_url"` with your WATSON API URL.
 3. `WATSON_API_KEY`: Replace `"api_key"` with your WATSON API key.
 
-In addition, make sure to have a "key.json" file that represent Google's Cloud Credential found [here]https://console.cloud.google.com/apis/credentials.
+In addition, make sure to have a "key.json" file that represent Google's Cloud Credential found [here](https://console.cloud.google.com/apis/credentials).
 
 ### Command-line usage
 
@@ -185,7 +189,6 @@ Evaluating Google's Speech-to-Text model on mozilla-foundation/common_voice_13_0
 ```bash
 python evaluate_industry_model.py --model_type google --dataset_name google/fleurs --language ko-KR --config ko_kr --spacing_er
 ```
-
 
 ## References
 1. M. Ardila et al. “Common Voice: A Massively-Multilingual Speech Corpus” Mozilla. [Link](https://huggingface.co/datasets/common_voice)
