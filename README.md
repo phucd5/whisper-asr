@@ -8,7 +8,7 @@ CPSC 488: AI Foundational Models
 ## Overview
 In this project, we investigate and improve on OpenAI's Whisper model, as detailed in the paper "Robust Speech Recognition via Large-Scale Weak Supervision," to focus on accurate recognition and transcription of Vietnamese and Korean. These languages present unique linguistic challenges in the speech recognition space: Vietnamese, with its specific tonal nature, dialectical variation, and prevalence of monosyllabic words, and Korean, with word segmentation. 
 
-Through the Common Voice and FLEURS datasets and leveraging OpenAI's Whisper API and Hugging Face's transformers library to train and load the model, we aim to finetune Whisper's performance in order to reduce transcription errors and improve adaptability in regards to the model ability to handle the complexity of these two languages.
+Through the Common Voice and FLEURS datasets and leveraging OpenAI's Whisper API and Hugging Face's transformers library to train and load the model, we aim to finetune Whisper's performance in order to reduce transcription errors and improve adaptability in regards to the model ability to handle the complexity of these two languages. The complete report can be found in `report.pdf`.
 
 ## Setup and Computing Infrastructure
 
