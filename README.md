@@ -213,19 +213,19 @@ There are 3 files for evaluation of industry models. Industry models were all ev
 - `eval-watson-ko-cv`: IBM Watson STT model for ko-KR (Korean)
 
 ## References
-[1] Ardila, Rosana, et al., "Common Voice: A Massively-Multilingual Speech Corpus," in \textit{Proceedings of the Twelfth Language Resources and Evaluation Conference, Association for Computational Linguistics (ACL)}, 2020. Available: [Link](https://aclanthology.org/2020.lrec-1.520/}).
+[1] Ardila, Rosana, et al., "Common Voice: A Massively-Multilingual Speech Corpus," in \textit{Proceedings of the Twelfth Language Resources and Evaluation Conference, Association for Computational Linguistics (ACL)}, 2020. Available: [Link](https://aclanthology.org/2020.lrec-1.520/})
 
-[2] Conneau, Alexis, et al., "FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech," 2022. Available: [Link](https://arxiv.org/pdf/2205.12446.pdf).
+[2] Conneau, Alexis, et al., "FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech," 2022. Available: [Link](https://arxiv.org/pdf/2205.12446.pdf)
 
-[3] Gandhi, Sanchit, "Fine-Tune Whisper For Multilingual ASR with Transformers," 2022. Available: [Link](https://huggingface.co/blog/fine-tune-whisper).
+[3] Gandhi, Sanchit, "Fine-Tune Whisper For Multilingual ASR with Transformers," 2022. Available: [Link](https://huggingface.co/blog/fine-tune-whisper)
 
-[4] Liu, Zoey, et al., "Studying the impact of language model size for low-resource ASR," in \textit{Proceedings of the Sixth Workshop on the Use of Computational Methods in the Study of Endangered Languages, Association for Computational Linguistics (ACL)}, 2023. Available: [Link](https://aclanthology.org/2023.computel-1.11.pdf).
+[4] Liu, Zoey, et al., "Studying the impact of language model size for low-resource ASR," in \textit{Proceedings of the Sixth Workshop on the Use of Computational Methods in the Study of Endangered Languages, Association for Computational Linguistics (ACL)}, 2023. Available: [Link](https://aclanthology.org/2023.computel-1.11.pdf)
 
-[5] OpenAI, "Introducing Whisper," 2022. Available: [Link](https://openai.com/research/whisper}).
+[5] OpenAI, "Introducing Whisper," 2022. Available: [Link](https://openai.com/research/whisper})
 
-[6] Radford, Alec, et al., "Robust Speech Recognition via Large-Scale Weak Supervision," in \textit{Proceedings of the 40th International Conference on Machine Learning (PMLR)}, 2023. Available: [Link](https://proceedings.mlr.press/v202/radford23a/radford23a.pdf).
+[6] Radford, Alec, et al., "Robust Speech Recognition via Large-Scale Weak Supervision," in \textit{Proceedings of the 40th International Conference on Machine Learning (PMLR)}, 2023. Available: [Link](https://proceedings.mlr.press/v202/radford23a/radford23a.pdf)
 
-[7] Ranathunga, Surangika, et al.,`"Neural Machine Translation for Low-resource Languages: A Survey," in \textit{ACM Computing Surveys}, 2023. Available: [Link](https://dl.acm.org/doi/pdf/10.1145/3567592).
+[7] Ranathunga, Surangika, et al.,`"Neural Machine Translation for Low-resource Languages: A Survey," in \textit{ACM Computing Surveys}, 2023. Available: [Link](https://dl.acm.org/doi/pdf/10.1145/3567592)
 
-[8] Singh, Satwinder, et al., "A Novel Self-training Approach for Low-resource Speech Recognition," in \textit{Interspeech}, 2023. Available: [Link](https://www.isca-speech.org/archive/pdfs/interspeech_2023/singh23b_interspeech.pdf).
+[8] Singh, Satwinder, et al., "A Novel Self-training Approach for Low-resource Speech Recognition," in \textit{Interspeech}, 2023. Available: [Link](https://www.isca-speech.org/archive/pdfs/interspeech_2023/singh23b_interspeech.pdf)
 
