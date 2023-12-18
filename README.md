@@ -99,12 +99,16 @@ In addition, the `scripts` folder will also contain Slurm batch scripts that we 
 
 ## Evaluation
 
+### Configuration
+Before running the code, please make sure to update the following constants in the `evaluate_model.py` file to match your specific configuration:
+
+1. `HF_API_KEY`: Replace `"api_key"` with your Hugging Face API key.
+
+### Command-line usage
+
 To evaluate the model on a Hugging Face dataset you use the script evaluate_model.py with the following CLI arguments. 
 
 **Note:**  The evaluate script was built to interface with Hugging Face transformers and datasets available on Hugging Face website. If using a custom Whisper model please make sure it's compaitable with Hugging Face libaries.
-
-
-### Command-line usage
 
 Functional Parameters:
 
@@ -141,6 +145,15 @@ python evaluate_model.py --language vietnamese --config vi_vn --save_transcript 
 
 We evaluated our finetuned model on Google's Speech-to-Text and IBM Watson's Speech-to-Text
 
+### Configuration
+Before running the code, please make sure to update the following constants in the `evaluate_model.py` file to match your specific configuration:
+
+1. `HF_API_KEY`: Replace `"api_key"` with your Hugging Face API key.
+2. `WATSON_API_URL`: Replace `"api_url"` with your WATSON API URL.
+3. `WATSON_API_KEY`: Replace `"api_key"` with your WATSON API key.
+
+In addition, make sure to have a "key.json" file that represent Google's Cloud Credential found [here]https://console.cloud.google.com/apis/credentials.
+
 ### Command-line usage
 
 To perform the same evaluation we created a script `evaluate_industry_models` that can be ran with any Hugging Face dataset with with the following CLI arguments. 
@@ -167,11 +180,12 @@ Flag Parameters:
 
 ### Examples
 
-Evaluating Google's Speech-to-Text model on google/felurs dataset with spacing error enabled
+Evaluating Google's Speech-to-Text model on mozilla-foundation/common_voice_13_0" dataset with spacing error enabled
 
 ```bash
-python --model_type google --dataset_name google/fleurs --language korean --config ko_kr --spacing_er
+python evaluate_industry_model.py --model_type google --dataset_name google/fleurs --language ko-KR --config ko_kr --spacing_er
 ```
+
 
 ## References
 1. M. Ardila et al. “Common Voice: A Massively-Multilingual Speech Corpus” Mozilla. [Link](https://huggingface.co/datasets/common_voice)

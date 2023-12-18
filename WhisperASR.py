@@ -1,20 +1,14 @@
-
-from transformers import WhisperFeatureExtractor
-from transformers import WhisperTokenizer
-from transformers import WhisperProcessor
-
-from transformers import WhisperForConditionalGeneration
-from transformers import Seq2SeqTrainingArguments
-from transformers import Seq2SeqTrainer
-from transformers import AutoProcessor, AutoModelForSpeechSeq2Seq
-
-from datasets import load_dataset, DatasetDict
-from datasets import Audio
+from datasets import Audio, DatasetDict, load_dataset
+from huggingface_hub import HfFolder
+from transformers import (
+    AutoModelForSpeechSeq2Seq, AutoProcessor,
+    Seq2SeqTrainer, Seq2SeqTrainingArguments,
+    WhisperFeatureExtractor, WhisperForConditionalGeneration,
+    WhisperProcessor, WhisperTokenizer
+)
 
 from DataCollatorSpeechSeq2SeqWithPadding import DataCollatorSpeechSeq2SeqWithPadding
 from MetricsEval import MetricsEval
-
-from huggingface_hub import HfFolder
 
 # change constants as applicable
 OUTPUT_DIR = "../models"

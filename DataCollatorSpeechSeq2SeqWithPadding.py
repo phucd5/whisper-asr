@@ -1,7 +1,7 @@
-import torch
 from dataclasses import dataclass
 from typing import Any, Dict, List, Union
 
+import torch
 
 @dataclass
 class DataCollatorSpeechSeq2SeqWithPadding:

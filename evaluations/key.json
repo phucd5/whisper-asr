@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "open-ai-whisper-fine-tuning",
+  "private_key_id": "6b69f4c5e4d075a08b92364c240c0d7e9ff1ce43",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCRXyBUEkN9S/tg\nzzX0N6BSQ7hqNoKJybQJ81+Kr18PU1JD7k2JjXvWRYSqlmaF65z+Tysv6bDkwEsR\nLWC641qAZMwr8LGcQBGtXUuLKp62p92IkrEvnVaPg7bsDFnEtagWrEKbXqZrHwde\nmJgFbpK/FUADEQKDcotxSVGXIefpFEJOXPhNM4gVSzxhMVCTKQ9Lhp6Qva1Bn6Fa\nBostcaYXLP1w7ni9qwRWa8hWVTgk6kKWVjUy3B3MuWXMhEssOV3EGqCGd03JimLh\n0giFgrfKdlsz3sGN6yL8x3ZFbyRmSA8C7yJp08ohbwSd/tUG1rm8JlL+2t7Rdprn\naAfmJ3Y9AgMBAAECggEAK2erz25kmFTHifBUu8agJ+/wcEY2U83V4+K29EHIsFrA\nhWfx3tBP2XqIUib2FaZ0Cbq5umScXLDNuSNDbonTy+JM1BHZ9j1rCciBddwT55XX\nn5+tJ/pijhdV1sUZSJK0zZBBkwJ/zhxFpwkI2xZY2pUNt9ysU3MwD3NE2UtWY1Em\nBZMgHrw1D6WfmGd0TxRJBbWK+VjRZuoeWRj+wHfoxDMBW2djiKqBn/ML3WMPT58F\nj6mlGbQBm7WaDLxTCZs7Npzjh2mEm882NHFm4R1oXHBBGT5yNarXioJ62X1eqhbx\n4pPJjea7L/y86Egy1ZO2bs3eYDLPkby6Ys7nFOjiQQKBgQDDOXtYNOkIAw+B7q8/\nCjcnoVEmhIxvPDtpIxNvAU2xDijDudmFYNfa6jQoHbqO6p71VK11I6BgKrv1TRIq\ng8leCDQ1gL4LM5FY4KPo/IXkhShD9aeH0J738Ay/sB3pbv8lIUgJGiN+GGI3hFRf\nOWnWhV9VqhVmV1PsgRzjoThXUwKBgQC+oJadI9oLiJHE8G1jgODYC1pM8SPqFjIf\neP/GpUAYQIq/EtwHdOwlTw99rWtlyonSMVeuOTAUgT3Vx150TxR2ZSKR5l019PRo\nXFhCCkrHNelwf71ALLHvUriMxZAhHzEah1xr+Jt0jki1LATzbKIbfQ2RWLuis1Qh\nveCtUysaLwKBgQCmIhWYM7aXbdtVjCQwNmZHYF1ptOS5iH1adFIGZgqSgOUp4s98\nVLR8hFAMT3hCROEvD3dpNv80t0kqcALkkS/cyIh9e2i+qYyoIMr762GZ3cMtSjDe\nQCf4AJ0oxxw9WYrhMxhVPpwzo1Z5vi/6tSYfO3KsuMfrRqeRnTJTeBA1JwKBgHgM\n+G1kG7ixvGOTqsBEdNV6aNcV8jFE4zIQ6Lv4bCIZ24cz4F/N0b45SR8z7PQBFsTK\nEFcHavEu53tPgHutJczeKmRJ+J+3cYibx3Vnt+o3WJlhyRS2USTQKqt07Cz/0NPN\nNXZF7dj8lmuKml+XJYw8OCQ2Bo0TdMN/KhTd0MI/AoGBAL3DnJl7dGV9rEp44Pw6\nO29kx/etfjahA2loIQUf0r41x0UZU8JJ6ZZwF2/eaePlKFEGYOWZJc2IcQLgoj8F\nGnNrCP+2X1jzWSTimvymQFDBNqVck9BlsYgAXxaoQ1WRDeQBvkvEOgxBtSUfJFgM\nPsXvbh7y5bSWnRtZMTL93WCG\n-----END PRIVATE KEY-----\n",
+  "client_email": "cpsc488@open-ai-whisper-fine-tuning.iam.gserviceaccount.com",
+  "client_id": "100882503750575081303",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cpsc488%40open-ai-whisper-fine-tuning.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

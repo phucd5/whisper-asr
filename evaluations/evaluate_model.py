@@ -1,10 +1,12 @@
+import argparse
 import os
-from transformers import pipeline
-from datasets import load_dataset, Audio
+
+from datasets import Audio, load_dataset
 import evaluate
 from tqdm import tqdm
-import argparse
-from utils import remove_punctuation, compute_spacing
+from transformers import pipeline
+
+from utils import compute_spacing, remove_punctuation
 
 HF_API_KEY = "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"
 

@@ -1,6 +1,5 @@
 import evaluate
 
-
 class MetricsEval:
     """Class for evaluating using certain metrics."""
 
