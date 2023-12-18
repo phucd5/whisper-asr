@@ -97,7 +97,7 @@ python ../train.py \
 Training Hugging Face openai/whisper-small on Vietnamese using the mozilla-foundation/common_voice_13_0 dataset.
 
 ```shell
-python ../train.py --language Vietnamese --language_code vi --output_dir ../models/whisper-small-vi --save_to_hf
+python train.py --language Vietnamese --language_code vi --output_dir ../models/whisper-small-vi --save_to_hf
 ```
 
 In addition, the `scripts` folder will also contain Slurm batch scripts that we used to train the model on Yale High Performance Computing (HPC) clusters for references. 
@@ -153,7 +153,7 @@ All three of WER, CER, and Spacing Accuracy metrics are included in the tables f
 We evaluated our finetuned model on Google's Speech-to-Text and IBM Watson's Speech-to-Text
 
 ### Configuration
-Before running the code, please make sure to update the following constants in the `evaluate_model.py` file to match your specific configuration:
+Before running the code, please make sure to update the following constants in the `evaluate_industry_models.py` file to match your specific configuration:
 
 1. `HF_API_KEY`: Replace `"api_key"` with your Hugging Face API key.
 2. `WATSON_API_URL`: Replace `"api_url"` with your WATSON API URL.
@@ -163,7 +163,7 @@ In addition, make sure to have a "key.json" file that represent Google's Cloud C
 
 ### Command-line usage
 
-To perform the same evaluation we created a script `evaluate_industry_models` that can be ran with any Hugging Face dataset with with the following CLI arguments. 
+To perform the same evaluation we created a script `evaluate_industry_models.py` that can be ran with any Hugging Face dataset with with the following CLI arguments. 
 
 
 Required Parameters:
