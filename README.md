@@ -3,7 +3,7 @@
 ## Author
 Phuc Duong and Sophia Kang 
 
-CPSC 480: AI Foundational Models
+CPSC 488: AI Foundational Models
 
 ## Overview
 In this project, we investigate and improve on OpenAI's Whisper model, as detailed in the paper "Robust Speech Recognition via Large-Scale Weak Supervision," to focus on accurate recognition and transcription of Vietnamese and Korean. These languages present unique linguistic challenges in the speech recognition space: Vietnamese, with its specific tonal nature, dialectical variation, and prevalence of monosyllabic words, and Korean, with word segmentation. 
