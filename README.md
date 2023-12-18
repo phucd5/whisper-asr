@@ -3,16 +3,16 @@
 ## Author
 Phuc Duong and Sophia Kang 
 
-CPSC 480: AI Foundational Models
+CPSC 488: AI Foundational Models
 
 ## Overview
 In this project, we investigate and improve on OpenAI's Whisper model, as detailed in the paper "Robust Speech Recognition via Large-Scale Weak Supervision," to focus on accurate recognition and transcription of Vietnamese and Korean. These languages present unique linguistic challenges in the speech recognition space: Vietnamese, with its specific tonal nature, dialectical variation, and prevalence of monosyllabic words, and Korean, with word segmentation. 
 
-Through the Common Voice Project, an expansive dataset with extensive coverage on both languages and leveraging OpenAI's Whisper API and HuggingFace's transformers library to train and load the model, we aim to fine-tune Whisper's performance in order to reduce transcription errors and improve adaptability in regards to the model ability to handle the complexity of these two languages.
+Through the Common Voice and FLEURS datasets and leveraging OpenAI's Whisper API and Hugging Face's transformers library to train and load the model, we aim to finetune Whisper's performance in order to reduce transcription errors and improve adaptability in regards to the model ability to handle the complexity of these two languages.
 
 ## Setup
 
-We used Python 3.10.13 and Pytorch 1.12.1 to train and test our models. However, our model is expected to be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. We use a RTX A5000 graphics card for training and evaluation on the  Yale High Performance Computing (HPC) clusters.
+We used Python 3.10.13 and Pytorch 1.12.1 to train and test our models. However, our model is expected to be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. We use a RTX A5000 graphics card for training and evaluation on the Yale High Performance Computing (HPC) clusters.
 
 To install all the dependencies please do the following command
 
@@ -27,12 +27,11 @@ This technique is adapted from Hugging Face's methodology from [Hugging Face's a
 
 - train.py: Initiates the model, and ensure the environment is set up for training. 
 
-- WhisperASR.py: Interface with the Hugging Transformer Library to load data, prepare the model for training and train the model.
-
+- WhisperASR.py: Interface with the Hugging Face transformers library to load data, prepare the model for training and train the model.
 
 - MetricsEval.py: Utilized in the WhisperASR class to specify the evaluation metric of the model and compute the metric for evaluation. The default metric is Word Error Rate (WER).
 
-- DataColaltorSpeechSeq2SeqWithPadding.py: Preparing batches of data during the training of the model. Convert input features to batched Pytorch tensors and pad labels while ensuring its not taken into account when computing lost. 
+- DataCollatorSpeechSeq2SeqWithPadding.py: Preparing batches of data during the training of the model. Convert input features to batched Pytorch tensors and pad labels while ensuring its not taken into account when computing lost. 
 
 ## Training
 
@@ -54,7 +53,7 @@ Before running the code, please make sure to update the following constants in t
 
 Official model information is available at Open AI's Whisper [repository](https://github.com/openai/whisper/blob/main/model-card.md).
 
-In addition, please update the training parameters as you wish in `WHISERASR.py`.
+In addition, please update the training parameters as you wish in `WhisperASR.py`.
 
 ## Command-line usage
 
@@ -129,11 +128,11 @@ Flag Parameters:
 
 - `--save_transcript`: Flag to save the transcript to a file (default: False).
 - `--cer`: Flag to calculate the Character Error Rate (default: False).
-- `--spacing_er`: Flag to calculate spacing error rate (default: False)
+- `--spacing_er`: Flag to calculate spacing accuracy rate (default: False)
 
 ### Examples
 
-Evaluting standard openai/whisper-small on commmon voice dataset for the Korean language using WER and Spacing Error metric.
+Evaluting standard openai/whisper-small on commmon voice dataset for the Korean language using WER and Spacing Accuracy metric.
 
 ```bash
 python evaluate_model.py --language ko --config ko --save_transcript --output_file eval-ko-cv-standard --dataset_name mozilla-foundation/common_voice_13_0 --ref_key sentence --spacing_er
@@ -144,6 +143,8 @@ Evaluting standard local finetuned model on Google Fleurs dataset for the Vietna
 ```bash
 python evaluate_model.py --language vietnamese --config vi_vn --save_transcript --output_file eval-vi-fleurs-finetuned --model_name ../working-models/whisper-vi-cv/ --dataset_name google/fleurs --ref_key transcription --cer 
 ```
+
+All three of WER, CER, and Spacing Accuracy metrics are included in the tables for our final report.
 
 ## Evaluation with Industry Standard Models
 
@@ -180,7 +181,7 @@ Flag Parameters:
 
 - `--save_transcript`: Flag to save the transcript to a file (default: False).
 - `--cer`: Flag to calculate the Character Error Rate (default: False).
-- `--spacing_er`: Flag to calculate spacing error rate (default: False)
+- `--spacing_er`: Flag to calculate spacing accuracy rate (default: False)
 
 ### Examples
 
@@ -189,6 +190,25 @@ Evaluating Google's Speech-to-Text model on mozilla-foundation/common_voice_13_0
 ```bash
 python evaluate_industry_model.py --model_type google --dataset_name google/fleurs --language ko-KR --config ko_kr --spacing_er
 ```
+
+### Evaluations
+Our evaluation results (text files) are included in the evaluations > evaluation-results folder.
+There are 6 files for Korean, 6 files for Vietnamese, and 3 files for industry models.
+
+The following illustrates how to interpret filenames.
+- `eval-ko-cv-standard`: pretrained whisper for Korean, evaluated on CV test set.
+- `eval-ko-cv-finetuned`: fine-tuned whisper for Korean on CV, evaluated on CV test set.
+- `eval-ko-cv-finetuned-cv+fleurs`: fine-tuned whisper for Korean on CV + FLEURS, evaluated on CV test set.
+- `eval-ko-fleurs-standard`: pretrained whisper for Korean, evaluated on FLEURS test set.
+- `eval-ko-fleurs-finetuned`: fine-tuned whisper for Korean on CV, evaluated on FLEURS test set.
+- `eval-ko-fleurs-finetuned-cv+fleurs`: fine-tuned whisper for Korean on CV + FLEURS, evaluated on FLEURS test set.
+
+The same file naming convention applies for the six Vietnamese files.
+
+There are 3 files for evaluation of industry models. Industry models were all evaluated on the CV test set, for reasons we detail in the report.
+- `eval-google-ko-cv`: Google STT model for ko-KR (Korean)
+- `eval-google-vi-cv`: Google STT model for vi-VN (Vietnamese)
+- `eval-watson-ko-cv`: IBM Watson STT model for ko-KR (Korean)
 
 ## References
 1. M. Ardila et al. “Common Voice: A Massively-Multilingual Speech Corpus” Mozilla. [Link](https://huggingface.co/datasets/common_voice)
