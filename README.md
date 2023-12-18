@@ -3,16 +3,16 @@
 ## Author
 Phuc Duong and Sophia Kang 
 
-CPSC 480: AI Foundational Models
+CPSC 488: AI Foundational Models
 
 ## Overview
 In this project, we investigate and improve on OpenAI's Whisper model, as detailed in the paper "Robust Speech Recognition via Large-Scale Weak Supervision," to focus on accurate recognition and transcription of Vietnamese and Korean. These languages present unique linguistic challenges in the speech recognition space: Vietnamese, with its specific tonal nature, dialectical variation, and prevalence of monosyllabic words, and Korean, with word segmentation. 
 
-Through the Common Voice Project, an expansive dataset with extensive coverage on both languages and leveraging OpenAI's Whisper API and HuggingFace's transformers library to train and load the model, we aim to fine-tune Whisper's performance in order to reduce transcription errors and improve adaptability in regards to the model ability to handle the complexity of these two languages.
+Through the Common Voice Project, an expansive dataset with extensive coverage on both languages and leveraging OpenAI's Whisper API and Hugging Face's transformers library to train and load the model, we aim to finetune Whisper's performance in order to reduce transcription errors and improve adaptability in regards to the model ability to handle the complexity of these two languages.
 
 ## Setup
 
-We used Python 3.10.13 and Pytorch 1.12.1 to train and test our models. However, our model is expected to be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. We use a RTX A5000 graphics card for training and evaluation on the  Yale High Performance Computing (HPC) clusters.
+We used Python 3.10.13 and Pytorch 1.12.1 to train and test our models. However, our model is expected to be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. We use a RTX A5000 graphics card for training and evaluation on the Yale High Performance Computing (HPC) clusters.
 
 To install all the dependencies please do the following command
 
@@ -27,12 +27,11 @@ This technique is adapted from Hugging Face's methodology from [Hugging Face's a
 
 - train.py: Initiates the model, and ensure the environment is set up for training. 
 
-- WhisperASR.py: Interface with the Hugging Transformer Library to load data, prepare the model for training and train the model.
-
+- WhisperASR.py: Interface with the Hugging Face transformers library to load data, prepare the model for training and train the model.
 
 - MetricsEval.py: Utilized in the WhisperASR class to specify the evaluation metric of the model and compute the metric for evaluation. The default metric is Word Error Rate (WER).
 
-- DataColaltorSpeechSeq2SeqWithPadding.py: Preparing batches of data during the training of the model. Convert input features to batched Pytorch tensors and pad labels while ensuring its not taken into account when computing lost. 
+- DataCollatorSpeechSeq2SeqWithPadding.py: Preparing batches of data during the training of the model. Convert input features to batched Pytorch tensors and pad labels while ensuring its not taken into account when computing lost. 
 
 ## Training
 
