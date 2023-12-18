@@ -20,8 +20,6 @@ from huggingface_hub import HfFolder
 OUTPUT_DIR = "../models"
 HF_API_KEY = "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"
 BASE_MODEL = "openai/whisper-small"
-REF_KEY = "sentence"
-
 
 # training constants
 TRAIN_BATCH_SIZE = 16
@@ -38,7 +36,7 @@ LOGGING_STEPS = 25
 class WhisperASR:
     """Whisper Model for Automatic Speech Recognition (ASR) using Hugging Face's Transformers library."""
 
-    def __init__(self, model_name="openai/whisper-small", dataset_name="mozilla-foundation/common_voice_13_0", existing_model=False, language="Korean", language_code="ko", save_to_hf=False, output_dir="./models/whisper"):
+    def __init__(self, model_name="openai/whisper-small", dataset_name="mozilla-foundation/common_voice_13_0", existing_model=False, language="Korean", language_code="ko", save_to_hf=False, output_dir="./models/whisper", ref_key="sentence"):
         """
         Initialize the model and load the data. 
         The default config is the small model trained on the Common Voice dataset for Hindi.
@@ -60,6 +58,7 @@ class WhisperASR:
             HfFolder.save_token(HF_API_KEY) # token to save to HF
         
         self.dataset_name = dataset_name
+        self.ref_key = ref_key
 
         # initialize model and tokenizer
         self.model_name = model_name
@@ -132,7 +131,7 @@ class WhisperASR:
             audio["array"], sampling_rate=audio["sampling_rate"]).input_features[0]
 
         # encode target text to label ids
-        batch["labels"] = self.tokenizer(batch[REF_KEY]).input_ids
+        batch["labels"] = self.tokenizer(batch[self.ref_key]).input_ids
         return batch
 
     def train(self):

@@ -1,14 +1,136 @@
 # Fine-tuning OpenAI's Whisper for Multilingual ASR with Transformers
 
+## Author
+Phuc Duong and Sophia Kang 
+
+CPSC 480: AI Foundational Models
+
 ## Overview
 In this project, we investigate and improve on OpenAI's Whisper model, as detailed in the paper "Robust Speech Recognition via Large-Scale Weak Supervision," to focus on accurate recognition and transcription of Vietnamese and Korean. These languages present unique linguistic challenges in the speech recognition space: Vietnamese, with its specific tonal nature, dialectical variation, and prevalence of monosyllabic words, and Korean, with word segmentation. 
 
 Through the Common Voice Project, an expansive dataset with extensive coverage on both languages and leveraging OpenAI's Whisper API and HuggingFace's transformers library to train and load the model, we aim to fine-tune Whisper's performance in order to reduce transcription errors and improve adaptability in regards to the model ability to handle the complexity of these two languages.
 
-## Author
-Phuc Duong and Sophia Kang 
+## Setup
 
-CPSC 480: AI Foundational Models
+We used Python 3.x.x and Pytorch 2.x.x to train and test our models. However, our model is expectedto be compatible with Python 3.9-3.11 and recent Pytorch versions (although not explicilty verified). We also used Hugging Face transformer library to interface with the models. 
+
+To install all the dependecies please do the following command
+
+```
+pip install -r requirements.txt
+```
+
+## Files Description
+
+This technique is adapted from Hugging Face's methodology from [Hugging Face's article](https://huggingface.co/blog/fine-tune-whisper) on fine-tuning Whisper.
+
+- train.py: Initiates the model, and ensure the environment is set up for training. 
+
+- WhisperASR.py: Interface with the Hugging Transformer Library to load data, prepare the model for training and train the model.
+
+
+- MetricsEval.py: Utilized in the WhisperASR class to specify the evaluation metric of the model and compute the metric for evaluation. The default metric is Word Error Rate (WER).
+
+- DataColaltorSpeechSeq2SeqWithPadding.py: Preparing batches of data during the training of the model. Convert input features to batched Pytorch tensors and pad labels while ensuring its not taken into account when computing lost. (Credit: Hugging Face). 
+
+## Training
+
+### Configuration
+Before running the code, please make sure to update the following constants in the `WhisperASR.py` file to match your specific configuration:
+
+1. `OUTPUT_DIR`: Set this to the directory where you want to save the model and related files.
+2. `HF_API_KEY`: Replace `"api_key"` with your Hugging Face API key.
+3. `BASE_MODEL`: Specify the base model that you want to train on. The base models are below
+
+|  Size  | Parameters | English-only model | Multilingual model |  
+|:------:|:----------:|:------------------:|:------------------:|
+|  tiny  |    39 M    |         ✓          |         ✓          |
+|  base  |    74 M    |         ✓          |         ✓          |
+| small  |   244 M    |         ✓          |         ✓          |
+| medium |   769 M    |         ✓          |         ✓          |
+| large  |   1550 M   |                    |         ✓          |
+
+Official model information is available at Open AI's Whisper [repository](https://github.com/openai/whisper/blob/main/model-card.md).
+
+## Command-line usage
+
+To train the model you use the script train.py with the following CLI arguments. 
+
+**Note:** The train script was built to interface with Hugging Face transformers and datasets available on Hugging Face website. If using a custom Whisper model or custom dataset, please make sure it's compaitable with Hugging Face libaries.
+
+Required Parameters:
+
+- `--language`: Language to train the Whisper ASR model with (ex: `Vietnamese`)
+- `--language_code`: Language code for the Whisper ASR model based on the data set. (ex: `vi` for Common Voice)
+- `--output_dir`: Directory to save the trained model.
+
+Optional Parameters:
+
+- `--model_name`: Model name from Hugging Face or custom path (default: `openai/whisper-small`).
+- `--existing_model`: Flag to indicate an existing model is being used (default: False).
+- `--save_to_hf`: Flag to indicate saving the model to Hugging Face Hub (default: False).
+- `--dataset_name`: Dataset name to train on (default: `mozilla-foundation/common_voice_13_0`).
+- `--ref_key`: Key in dataset for reference data (default: `sentence` - matches with Common Voice).
+
+### Examples
+
+
+Training a pre-trained local model on the Vietnameselanguage with the google/fleurs dataset
+
+```shell
+python ../train.py \
+    --model_name ../working-models/whisper-vi-cv \
+    --language Vietnamese \
+    --language_code vi_vn \
+    --output_dir ../models/whisper-vi-cv-fleurs \
+    --dataset_name google/fleurs \
+    --ref_key transcription \
+    --save_to_hf \
+    --existing_model
+```
+
+Training Hugging Face openai/whisper-small on Vietnamese using the mozilla-foundation/common_voice_13_0 dataset.
+
+```shell
+python ../train.py --language Vietnamese --language_code vi --output_dir ../models/whisper-small-vi --save_to_hf
+```
+
+In addition, the `scripts` folder will also contain Slurm batch scripts that we used to train the model on Yale High Performance Computing (HPC) clusters for references. 
+
+## Evaluation
+
+### Command-line usage
+
+Functional Parameters:
+
+- `--model_name`: Hugging Face Whisper model name, or the path to a local model directory. (default: `openai/whisper-small`)
+- `--dataset_name`: Name of the dataset from Hugging Face (default: `mozilla-foundation/common_voice_13_0`)
+- `--config`: The configuration of the dataset (default: 'vi' for Vietnamese for Common Voice)
+- `--language`: Language code for transcription (default: 'vi' for Vietnamese for Common Voice)
+- `--device`: GPU ID for using a GPU (e.g., 0), or -1 to use CPU (default: 0).
+- `--split`: The dataset split to evaluate on (default: 'test').
+- `--output_file`: Name of the file to save the evaluation results.
+
+Flag Parameters:
+
+- `--save_transcript`: Flag to save the transcript to a file (default: False).
+- `--cer`: Flag to calculate the Character Error Rate (default: False).
+- `--ref_key`: Key in the dataset for reference data (default: 'sentence' - matches with Common Voice).
+- `--spacing_er`: Flag to calculate spacing error rate (default: False)
+
+### Examples
+
+Evaluting standard openai/whisper-small on commmon voice dataset for the Korean language using WER and Spacing Error metric.
+
+```bash
+python evaluate_model.py --language ko --config ko --save_transcript --output_file eval-ko-cv-standard --dataset_name mozilla-foundation/common_voice_13_0 --ref_key sentence --spacing_er
+```
+
+Evaluting standard local finetuned model on Google Fleurs dataset for the Vietnamese language using WER and CER metric.
+
+```bash
+python evaluate_model.py --language vietnamese --config vi_vn --save_transcript --output_file eval-vi-fleurs-finetuned --model_name ../working-models/whisper-vi-cv/ --dataset_name google/fleurs --ref_key transcription --cer 
+```
 
 ## References
 1. M. Ardila et al. “Common Voice: A Massively-Multilingual Speech Corpus” Mozilla. [Link](https://huggingface.co/datasets/common_voice)

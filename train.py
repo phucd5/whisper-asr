@@ -33,26 +33,29 @@ if __name__ == "__main__":
 
     # parse command line arguments
     parser = argparse.ArgumentParser(
-        description='Train WhisperASR model with specified language settings.')
+        description='Train WhisperASR model with a specified language and a Hugging Face dataset.')
     parser.add_argument('--language', type=str, required=True,
-                        help='Language for the Whisper ASR model')
+                        help="Language to train the Whisper ASR model with (e.g., 'Vietnamese')")
     parser.add_argument('--language_code', type=str, required=True,
-                        help='Language code for the Whisper ASR model')
+                        help="Language code for the Whisper ASR model based on the data set. (e.g., 'vi' for Common Voice)")
     parser.add_argument('--output_dir', type=str, required=True,
                         help='Directory to save the trained model')
+
+
     parser.add_argument('--model_name', type=str, default="openai/whisper-small",
-                        help='Model name from Hugging Face or custom path (default: openai/whisper-small)')
+                        help="Model name from Hugging Face or custom path (default: 'openai/whisper-small')")
     parser.add_argument('--existing_model', action='store_true',
-                        help='Flag to indicate existing model is being used (default: False)')
+                        help="Flag to indicate an existing model is being used (default: False)")
     parser.add_argument('--save_to_hf', action='store_true',
-                        help='Flag to indicate saving the model to Hugging Face Hub (default: False)')
+                        help="Flag to indicate saving the model to Hugging Face Hub (default: False).")
     parser.add_argument('--dataset_name', type=str,  default="mozilla-foundation/common_voice_13_0",
-                        help='Dataset name to train on (default: mozilla-foundation/common_voice_13_0)')
+                        help="Dataset name to train on (default: 'mozilla-foundation/common_voice_13_0')")
+    parser.add_argument("--ref_key", type=str, default="sentence", help="Key in dataset for reference data (default: 'sentence' - matches with Common Voice)")
     
     args = parser.parse_args()
 
     # train the model with command-line arguments
     model = WhisperASR(model_name=args.model_name,
                     language=args.language, language_code=args.language_code, 
-                    existing_model=args.existing_model, save_to_hf=args.save_to_hf, output_dir=args.output_dir, dataset_name=args.dataset_name)
+                    existing_model=args.existing_model, save_to_hf=args.save_to_hf, output_dir=args.output_dir, dataset_name=args.dataset_name, ref_key=args.ref_key)
     model.train()
