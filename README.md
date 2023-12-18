@@ -1,9 +1,11 @@
 # Fine-tuning OpenAI's Whisper for Multilingual ASR with Transformers
 
 ## Author
-Phuc Duong and Sophia Kang 
+Phuc Duong, Sophia Kang 
 
 CPSC 488: AI Foundational Models
+
+Yale University, Department of Computer Science
 
 ## Overview
 In this project, we investigate and improve on OpenAI's Whisper model, as detailed in the paper "Robust Speech Recognition via Large-Scale Weak Supervision," to focus on accurate recognition and transcription of Vietnamese and Korean. These languages present unique linguistic challenges in the speech recognition space: Vietnamese, with its specific tonal nature, dialectical variation, and prevalence of monosyllabic words, and Korean, with word segmentation. 
