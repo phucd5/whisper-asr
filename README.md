@@ -196,19 +196,19 @@ Our evaluation results (text files) are included in the evaluations > evaluation
 There are 6 files for Korean, 6 files for Vietnamese, and 3 files for industry models.
 
 The following illustrates how to interpret filenames.
-- eval-ko-cv-standard: pretrained whisper for Korean, evaluated on CV test set.
-- eval-ko-cv-finetuned: fine-tuned whisper for Korean on CV, evaluated on CV test set.
-- eval-ko-cv-finetuned-cv+fleurs: fine-tuned whisper for Korean on CV + FLEURS, evaluated on CV test set.
-- eval-ko-fleurs-standard: pretrained whisper for Korean, evaluated on FLEURS test set.
-- eval-ko-fleurs-finetuned: fine-tuned whisper for Korean on CV, evaluated on FLEURS test set.
-- eval-ko-fleurs-finetuned-cv+fleurs: fine-tuned whisper for Korean on CV + FLEURS, evaluated on FLEURS test set.
+- `eval-ko-cv-standard`: pretrained whisper for Korean, evaluated on CV test set.
+- `eval-ko-cv-finetuned`: fine-tuned whisper for Korean on CV, evaluated on CV test set.
+- `eval-ko-cv-finetuned-cv+fleurs`: fine-tuned whisper for Korean on CV + FLEURS, evaluated on CV test set.
+- `eval-ko-fleurs-standard`: pretrained whisper for Korean, evaluated on FLEURS test set.
+- `eval-ko-fleurs-finetuned`: fine-tuned whisper for Korean on CV, evaluated on FLEURS test set.
+- `eval-ko-fleurs-finetuned-cv+fleurs`: fine-tuned whisper for Korean on CV + FLEURS, evaluated on FLEURS test set.
 
 The same file naming convention applies for the six Vietnamese files.
 
 There are 3 files for evaluation of industry models. Industry models were all evaluated on the CV test set, for reasons we detail in the report.
-- eval-google-ko-cv: Google STT model for ko-KR (Korean)
-- eval-google-vi-cv: Google STT model for vi-VN (Vietnamese)
-- eval-watson-ko-cv: IBM Watson STT model for ko-KR (Korean)
+- `eval-google-ko-cv`: Google STT model for ko-KR (Korean)
+- `eval-google-vi-cv`: Google STT model for vi-VN (Vietnamese)
+- `eval-watson-ko-cv`: IBM Watson STT model for ko-KR (Korean)
 
 ## References
 1. M. Ardila et al. “Common Voice: A Massively-Multilingual Speech Corpus” Mozilla. [Link](https://huggingface.co/datasets/common_voice)
