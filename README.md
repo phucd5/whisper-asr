@@ -99,6 +99,11 @@ In addition, the `scripts` folder will also contain Slurm batch scripts that we 
 
 ## Evaluation
 
+To evaluate the model on a Hugging Face dataset you use the script evaluate_model.py with the following CLI arguments. 
+
+**Note:**  The evaluate script was built to interface with Hugging Face transformers and datasets available on Hugging Face website. If using a custom Whisper model please make sure it's compaitable with Hugging Face libaries.
+
+
 ### Command-line usage
 
 Functional Parameters:
@@ -110,12 +115,12 @@ Functional Parameters:
 - `--device`: GPU ID for using a GPU (e.g., 0), or -1 to use CPU (default: 0).
 - `--split`: The dataset split to evaluate on (default: 'test').
 - `--output_file`: Name of the file to save the evaluation results.
+- `--ref_key`: Key in the dataset for reference data (default: 'sentence' - matches with Common Voice).
 
 Flag Parameters:
 
 - `--save_transcript`: Flag to save the transcript to a file (default: False).
 - `--cer`: Flag to calculate the Character Error Rate (default: False).
-- `--ref_key`: Key in the dataset for reference data (default: 'sentence' - matches with Common Voice).
 - `--spacing_er`: Flag to calculate spacing error rate (default: False)
 
 ### Examples
@@ -130,6 +135,42 @@ Evaluting standard local finetuned model on Google Fleurs dataset for the Vietna
 
 ```bash
 python evaluate_model.py --language vietnamese --config vi_vn --save_transcript --output_file eval-vi-fleurs-finetuned --model_name ../working-models/whisper-vi-cv/ --dataset_name google/fleurs --ref_key transcription --cer 
+```
+
+## Evaluation with Industry Standard Models
+
+We evaluated our finetuned model on Google's Speech-to-Text and IBM Watson's Speech-to-Text
+
+### Command-line usage
+
+To perform the same evaluation we created a script `evaluate_industry_models` that can be ran with any Hugging Face dataset with with the following CLI arguments. 
+
+
+Required Parameters:
+
+- `--model_type`: STT model to evaluate on. (google, watson) - (default: `google`)
+
+Functional Parameters:
+
+- `--dataset_name`: Name of the dataset from Hugging Face (default: `mozilla-foundation/common_voice_13_0`)
+- `--config`: The configuration of the dataset (default: 'vi' for Vietnamese for Common Voice)
+- `--language`: Language code for transcription (default: 'vi' for Vietnamese for Common Voice)
+- `--split`: The dataset split to evaluate on (default: 'test').
+- `--output_file`: Name of the file to save the evaluation results.
+- `--ref_key`: Key in the dataset for reference data (default: 'sentence' - matches with Common Voice).
+
+Flag Parameters:
+
+- `--save_transcript`: Flag to save the transcript to a file (default: False).
+- `--cer`: Flag to calculate the Character Error Rate (default: False).
+- `--spacing_er`: Flag to calculate spacing error rate (default: False)
+
+### Examples
+
+Evaluating Google's Speech-to-Text model on google/felurs dataset with spacing error enabled
+
+```bash
+python --model_type google --dataset_name google/fleurs --language korean --config ko_kr --spacing_er
 ```
 
 ## References

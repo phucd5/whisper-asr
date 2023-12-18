@@ -1,0 +1,3683 @@
+[INFO] Evaluated ../working-models/whisper-vi-cv/ with mozilla-foundation/common_voice_13_0 with language vi/vi
+
+WER : 27.2176
+
+CER : 11.8753
+
+Spacing: 96.4823
+
+Reference: ạ. Dạ không ạ. Ngại quá
+Prediction: À ra không hả Nãy quá
+----------------------------------------
+Reference: Hương thu còn thoảng đâu đây bên thềm
+Prediction: Hương thu còn thoải đau đây bên thờn
+----------------------------------------
+Reference: Gió đông lạnh heo may về khắp lối.
+Prediction: Gió đông đạnh heo may về khóc lối
+----------------------------------------
+Reference: Sao anh vội về ngay?
+Prediction: Sao anh vội về ngay
+----------------------------------------
+Reference: Ngày em đi cất nhẹ gót quay về
+Prediction: Người em đi cất nhẹ cót quay về
+----------------------------------------
+Reference: Anh đã biết tình kia là không thể
+Prediction: Ai nào biết tìm kia là không thể
+----------------------------------------
+Reference: Cây cỏ tỉnh táo
+Prediction: Cây còn tình tháo
+----------------------------------------
+Reference: Vợ tôi cũng bị một chiếc xe như vậy
+Prediction: vợ tôi cũng bị bố chiếc xe như vậy
+----------------------------------------
+Reference: Em không trả lời
+Prediction: Em không chả lời
+----------------------------------------
+Reference: mẹ lại cầm tay của em lẩm bẩm
+Prediction: Mày là căm tích cửa em làm bấm
+----------------------------------------
+Reference: Vừa muốn nói thì lại thừ người ra
+Prediction: Vừa muốn nói thì lại thơ mười ra
+----------------------------------------
+Reference: Bà bói liền đáp lại
+Prediction: bà bói liền đáp lại
+----------------------------------------
+Reference: Nhưng tất cả chỉ là sự vô thức
+Prediction: Nhưng tất cả chỉ là sự vô thức
+----------------------------------------
+Reference: Tháng mười một chiếc khăn như bóng rợp
+Prediction: Tháng mười một chiếc găn như bỗng rọc
+----------------------------------------
+Reference: Ra đến chỗ để xe thì Phương chép miệng
+Prediction: Ra đến chỗ để xe thì Phương chép mịn
+----------------------------------------
+Reference: Khỉ cánh cửa đóng lại
+Prediction: Sị cánh cửa đóng lại
+----------------------------------------
+Reference: Tô thắm sắc cho vườn hoa sống động
+Prediction: Tô thắm sắc cho Vừa Hòa sóng động
+----------------------------------------
+Reference: Từng chút từng chút một
+Prediction: Từng chút từng chút bộ
+----------------------------------------
+Reference: Không heo may cũng chẳng cúc rợp chiều
+Prediction: Không heo may cũng chẳng cúc đợm chiều
+----------------------------------------
+Reference: Gió hãi hùng giật rú từng cơn
+Prediction: Gió hãi hùng giật dú từng cơn
+----------------------------------------
+Reference: Để sớm mai sương giăng mành thổn thức
+Prediction: Để giấu mai sương dăng mình thổn thức
+----------------------------------------
+Reference: Na ngoan của mẹ
+Prediction: Na hoang của mẹ
+----------------------------------------
+Reference: Dắt tay em, bước bên thềm hạnh phúc!
+Prediction: Dắt tay em bước bên thềnh hạnh phúc
+----------------------------------------
+Reference: Trên thảm cỏ mấy hạt còn chưa nở
+Prediction: Trên thảm cỏ mấy hạt còn chưa nữa
+----------------------------------------
+Reference: Bất ngờ cánh cửa trên tầng đóng sập lại
+Prediction: Bóc ngờ cánh cửa trên tầng đóm sập lại
+----------------------------------------
+Reference: Phải về quán nằm nghỉ lúc nào khỏe thì đi
+Prediction: Phải ba quán nằm nghỉ lúc nào khỏe thế đi
+----------------------------------------
+Reference: Thảo cố hết sức đạp vào người của em để ra ngoài
+Prediction: Thảo cô xuyến đạc vào người của em để ra ngoài
+----------------------------------------
+Reference: mẹ em làm việc
+Prediction: Mẹ em làm việc
+----------------------------------------
+Reference: Chẳng hiểu trinh đang nhìn cái gì trên đùi
+Prediction: Chẳng hiểu trên đây nhìn cách gì khen đủ
+----------------------------------------
+Reference: Con của tao Ngoan hiền lắm dễ thương biết nghe lời
+Prediction: con của ta ngoan hiền làm dễ thương biết nghe lại
+----------------------------------------
+Reference: Mày lại mơ à
+Prediction: Mày lại mơ à
+----------------------------------------
+Reference: Anh chàng chạy xe đáp ngay
+Prediction: Anh tang kè xe đáp ngay
+----------------------------------------
+Reference: Chiều hoàng hôn tím đỏ những chân mây
+Prediction: Chêu vàng hôn tiếm đỏ nhưng chân mấy
+----------------------------------------
+Reference: sự dằn vặt
+Prediction: sự sản vặt
+----------------------------------------
+Reference: đang nhớ lại chuyện cũ
+Prediction: Đau nhớ là trình cứu
+----------------------------------------
+Reference: Thì cố học cho xong
+Prediction: Thì cứ học cho xong
+----------------------------------------
+Reference: Nghe bà ấy nói mà Cả nhà em đều sợ hãi
+Prediction: Nghe bà ấy nói mà cái nhà em đều sợ hãi
+----------------------------------------
+Reference: Xã hội phát triển thông tin được cập nhật trên internet liên tục
+Prediction: Xã hỏi phát truyện thông tin được cập nhặt trên internet liên tục
+----------------------------------------
+Reference: cô nàng bị hai người bạn của mình nói xấu sau lưng
+Prediction: Cô nàn bị hai người bạn của mình nó xấu sau lưng
+----------------------------------------
+Reference: Chết người rồi
+Prediction: Chết người rồi
+----------------------------------------
+Reference: Nồng nàn hoa sữa giữa bầu trời đêm
+Prediction: Nong nàng hoa sở dỡ bầu trời đêm
+----------------------------------------
+Reference: Con sẽ thốt lên
+Prediction: Con sẽ thốt lên
+----------------------------------------
+Reference: thầy lại cũng nói là bị che cơ mà
+Prediction: Thầy lại cũng nói là bị che cứ mà
+----------------------------------------
+Reference: Đến rồi đấy mọi người
+Prediction: Đến rồi đấy mọi người
+----------------------------------------
+Reference: Mở cửa nhà cô chạy ngay lên phòng của mình
+Prediction: Mở cửa nhà cố chạy ngay linh phòng của mình
+----------------------------------------
+Reference: Trời tháng mười e ấp những vì sao
+Prediction: Trời thảo mời e ớt những vì sao
+----------------------------------------
+Reference: Chúng mình nguyện ước....
+Prediction: Chúng mình nguyện ướt
+----------------------------------------
+Reference: Hương men say man mác của mùa thu
+Prediction: Hương mên xay măn mắt của mùa thu
+----------------------------------------
+Reference: Thế bây giờ tôi cần phải làm gì
+Prediction: Thế bây giờ tôi cần phải làm gì
+----------------------------------------
+Reference: bố liền nói
+Prediction: Bố liền nói
+----------------------------------------
+Reference: Các bình chọn của Tuần báo Time
+Prediction: Các bình trộn của tùần báo tham
+----------------------------------------
+Reference: Thôn e ri a ở đâu
+Prediction: Thôi em ria ở đâu
+----------------------------------------
+Reference: Đặt bát cháo ở lên bàn Quân liền hỏi
+Prediction: Đặt bắt cháu ạ nên bà an quân điện hỏi
+----------------------------------------
+Reference: Nhất là khi nhìn vào con búp bê đó
+Prediction: Nước là khi nhìn vào con búp bê đó
+----------------------------------------
+Reference: Vậy phải xem số trời thế nào
+Prediction: Vây vài xem giữa trôi thể nào
+----------------------------------------
+Reference: Bấc tràn về vuốt ve nhành hoa sữa
+Prediction: Bất tràn về vút vẹ nành hoa sữa
+----------------------------------------
+Reference: Giáo án mầm non chủ đề Thơ Tình bạn
+Prediction: Giãn mầm non chủ đề thơ tình bàn
+----------------------------------------
+Reference: Duyên tháng mười và cải đắng vàng tươi
+Prediction: Yên thánh mười và kẻ đắng vàng tươi
+----------------------------------------
+Reference: tao nghĩ ma cũng chẳng có gì đáng sợ
+Prediction: tao nghĩ ma cũng chẳng có gì đáng sợ
+----------------------------------------
+Reference: Chinh thay váy ngủ rồi đi sang phòng thờ
+Prediction: Chinh thấy váy ngủ rồi đi sang phòng thờ
+----------------------------------------
+Reference: những gì em đòi
+Prediction: Những gì em đòi
+----------------------------------------
+Reference: Hơi thở càng ngày càng gấp gáp
+Prediction: Với thở căn này cao gấp gáp
+----------------------------------------
+Reference: Lòng mẹ bao la
+Prediction: Lòng mẹ bao lang
+----------------------------------------
+Reference: Có ai biết cái gì đâu
+Prediction: Có ai biết cái gì đâu
+----------------------------------------
+Reference: Bây giờ Ngay cả bản thân của bà còn không có biết
+Prediction: Bây giờ ngay cả bản thân của bà còn không có biết
+----------------------------------------
+Reference: Dở dang hoài, dang dở, dở dang thôi
+Prediction: Giở ra ngoài gang giở giở gang thuân
+----------------------------------------
+Reference: Ôi tình yêu và kẻ đời viễn xứ
+Prediction: Ui thình yêu và cả đời biện xứ
+----------------------------------------
+Reference: Vỡ trên chuỗi nhớ sợi đong đưa buồn
+Prediction: Võ trên chủi nhớ Sải Đông đưa bùn
+----------------------------------------
+Reference: Như là gói cả mùi hương đất trời
+Prediction: Như là gói cả mùi hương đất trời
+----------------------------------------
+Reference: Cùng bạn đùa vui.
+Prediction: Công bản đồ vui
+----------------------------------------
+Reference: Vô tình anh không nói
+Prediction: Vô tình anh không nói
+----------------------------------------
+Reference: Em có nhớ màu hoa trong gió thổi
+Prediction: Em có nhớ màu hoa trong gió thổi
+----------------------------------------
+Reference: Anh có biết thôn e ri a không
+Prediction: Anh có biết thôn e ri a không
+----------------------------------------
+Reference: Cháy khát khao anh dâng tình sâu đậm
+Prediction: Cháy khác cao anh dâng tình sâu động
+----------------------------------------
+Reference: đêm nay chúng ta tiếp tục
+Prediction: Đêm nay chúng ta tiếp tục
+----------------------------------------
+Reference: Nếu biết rằng sẽ chẳng gặp lại nhau
+Prediction: Nếu biết rằng sẽ chẳng gặp lại nhau
+----------------------------------------
+Reference: Em như một đứa vô hồn không bước nổi
+Prediction: Em như một đứa vô hồn không bước nột
+----------------------------------------
+Reference: Ở cái nơi rừng thiêng nước độc này
+Prediction: Ở ném nơi dự thương đọc này
+----------------------------------------
+Reference: Hoặc là có thể là nhờ kuman
+Prediction: Khoặc là có thể là ngạc khu mát chứ không
+----------------------------------------
+Reference: Không không không sao đâu
+Prediction: Không sáng đâu
+----------------------------------------
+Reference: Chưa hề khắc ghi
+Prediction: Chưa hề khắc đi
+----------------------------------------
+Reference: Thảo đã mất rồi
+Prediction: thảo đã mất rồi
+----------------------------------------
+Reference: Bà bói vẫn ăn mặc bình thường
+Prediction: Và bói với ánh mặt bình thường
+----------------------------------------
+Reference: Chờ chân đêm khua nhịp bước tình yêu
+Prediction: Chờ chân đêm khô nhịp bước tình yêu
+----------------------------------------
+Reference: Tôi đợi em sau những chiều tan học
+Prediction: Tôi đợi em sau những chiều tan học
+----------------------------------------
+Reference: Thu vội vã nhặt gom từng hạt nắng
+Prediction: Thu vội vã nhặt gong từng hạt nắng
+----------------------------------------
+Reference: In bóng nhau vờn luân điệu vũ
+Prediction: Yên bấm nhau vườn luôn đều vũ
+----------------------------------------
+Reference: Sau nhà là bụi cây với những khóm cỏ dại nhô cao
+Prediction: Sau nhà là bụi cây với những khóng cỏ dại nhô cao
+----------------------------------------
+Reference: Việc làm ăn quá thuận lợi
+Prediction: việc làm ăn quá thủn lợi
+----------------------------------------
+Reference: Thảo không thể về nhà
+Prediction: Thảo không thể về nhà
+----------------------------------------
+Reference: Ông dắt mang tai
+Prediction: Ôm giác mang tay
+----------------------------------------
+Reference: Nhanh như cắt
+Prediction: Nên như cách
+----------------------------------------
+Reference: Mới gặp anh đôi má em ửng đỏ
+Prediction: Mới gặp anh đôi má em ửng đọ
+----------------------------------------
+Reference: Tháng đầu đông cho đôi mắt đen huyền
+Prediction: Tháng đầu đông cho đôi mắt đen huyền
+----------------------------------------
+Reference: Ông ấy đưa cho tôi cái địa chỉ tới đây rồi đi luôn
+Prediction: Nó gái được cho tôi cái đẹ chị tới đây rồi đi luôn
+----------------------------------------
+Reference: Anh là chồng của Nhi anh đừng khách sáo như vậy
+Prediction: Anh là trồng của Nhi anh đừng thất tráo như vậy
+----------------------------------------
+Reference: Không
+Prediction: Không
+----------------------------------------
+Reference: cho tới thành lập Việt Nam Dân chủ Cộng hòa
+Prediction: Cho tới thành nắm Việt Nam Dân trủ cộng hòa
+----------------------------------------
+Reference: Coi kìa cậu ấy tỉnh táo lại như thường rồi đó
+Prediction: Cói kìa cậu ấy tận téo hại như thương rồi đó
+----------------------------------------
+Reference: Gửi vào cơn gió ngàn lời yêu em
+Prediction: Gửi vào cơn gió ngàn rời yêu em
+----------------------------------------
+Reference: Gió thổi nghiêng mưa qua miền ký ức
+Prediction: Gió thổi nghiêng mưa qua miền kĩ ớt
+----------------------------------------
+Reference: Tháng mười là tháng mười ơi
+Prediction: Tháng mười à tháng mười ơi!
+----------------------------------------
+Reference: Ý cô là sao
+Prediction: Ý cô là sao
+----------------------------------------
+Reference: Lập tức cơn đau lại nhói lên dữ dội
+Prediction: Lập tức cơn đó lại nhói lên giữ rội
+----------------------------------------
+Reference: Tầm một tuần ở đây thôi
+Prediction: Tâm một toân ở đấy thôi
+----------------------------------------
+Reference: Bằng mọi giá anh phải là của em
+Prediction: Băng ngoài giả anh phải là của em
+----------------------------------------
+Reference: Chồng tôi vẫn biết tôi thương nhớ
+Prediction: Trồng tôi vẫn biết tôi thương nhớ
+----------------------------------------
+Reference: tôi là một công dân mỹ
+Prediction: tôi là một công dân mĩ
+----------------------------------------
+Reference: Hãy còn sớm hay là anh quân vào trong nhà em ngồi chơi
+Prediction: Hãy còn sớm hay là anh quân vào trong nhà em ngồi trơi
+----------------------------------------
+Reference: Bà Thảo thì khuyên mọi người nên đi xem thầy khác
+Prediction: bà thảo thì khuyên mọi người nên đi xem thầy khác
+----------------------------------------
+Reference: từ đấy Đến giờ em có dám tẩn nó đâu vợ nhỉ
+Prediction: Từ đấy đến giờ em có dám tận nó đâu vọ nhị
+----------------------------------------
+Reference: nó cô đơn lặng lẽ nhìn em theo gia đình
+Prediction: Nó cô đơn lặng lẽ nhìn em theo gia đình
+----------------------------------------
+Reference: Hoa mọc đầy hai bên đường Chỉ có điều là
+Prediction: Va mọc đấy hai bên đường chỉ có điều là
+----------------------------------------
+Reference: Nhi đã có nhiều cơ hội nhưng cô vẫn tự mình vứt bò
+Prediction: Nhi đã có nhiều cơ hội nhưng cô vẫn tự mình vất bò
+----------------------------------------
+Reference: chứ tình trạng hoảng loạn như vậy sẽ rất nguy hiểm
+Prediction: Chứ tình trạng hoảng loạn như vậy sẽ rất nguy hiểm
+----------------------------------------
+Reference: Trời ơi người ấy có buồn không
+Prediction: Chời ơi người ấy cũng buồn không
+----------------------------------------
+Reference: Như mẹ chúng ta
+Prediction: Như mẹ chúng ta
+----------------------------------------
+Reference: Chữ Đức chữ TÂM
+Prediction: Chữ đức chớ tâm
+----------------------------------------
+Reference: Anh ta nheo đôi mắt rồi gật đầu
+Prediction: Anh ta nhèo đôi mắt rồi gặp đầu miếc
+----------------------------------------
+Reference: Bởi cứ nhắm mắt lại là em lại thấy hình ảnh của thảo
+Prediction: ờ bởi cứ nhắm mắt là em lại hấy phình ảnh của Hảo
+----------------------------------------
+Reference: Trong Mơ Hồ
+Prediction: Trong ma hồ
+----------------------------------------
+Reference: Có công việc gì kiếm tiền cho tôi làm với
+Prediction: Cá không thể gì kiếm niền cho tôi làm với
+----------------------------------------
+Reference: Sáng hôm sau cả đoàn thức dậy
+Prediction: Sáng hôm sau cái đoàn thức dậy
+----------------------------------------
+Reference: con bé còn thông minh nhanh nhẹn hơn trước đúng không
+Prediction: Còn bé còn thông minh nhanh nhẹ nhanh hơn chứa đúng không
+----------------------------------------
+Reference: Có hay chăng là con bé đó gây ra không
+Prediction: Có hai chăng và con bè đó gây ra không
+----------------------------------------
+Reference: Nhưng sự việc đi qua đã khiến cho Trinh không thể không tin
+Prediction: Những sự việc đi qua đã khiến cho Trinh không thể không tin
+----------------------------------------
+Reference: Sắp tới bốn mươi chín ngày của con bé kia
+Prediction: Sắp tới bốn mươi chín ngày của con bé kia
+----------------------------------------
+Reference: Nhưng do có nhiều chuyện nên bán nhà đó để mua nơi khác
+Prediction: Nhưng do có nhiều chuyện nên bán nhà đó để mua nơi khác
+----------------------------------------
+Reference: Văn hay chữ tốt
+Prediction: Văn hai tự tốt
+----------------------------------------
+Reference: Và đêm nay, nến thắp sáng lên rồi
+Prediction: Và đêm nay nến táp sáng lên rồi
+----------------------------------------
+Reference: Cho nên cũng nhẫn nại ngồi trên xe
+Prediction: Cho men cũng những nại ngồi trên xe
+----------------------------------------
+Reference: Mưa rồi cũng tạnh
+Prediction: Mơ ơi cũng tạnh
+----------------------------------------
+Reference: Tấc đất tấc vàng
+Prediction: Tắc tắc tắc đang
+----------------------------------------
+Reference: Tôi thực sự lo lắng về con thanh
+Prediction: tôi thực sự lo lắng dậy con thanh
+----------------------------------------
+Reference: Nhặt lòng theo chiếc lá rơi
+Prediction: Nhặt lòng theo chiếc lá rơi
+----------------------------------------
+Reference: Chút sắc vàng óng ả chẳng còn đâu!
+Prediction: Chút sắp vang ống à chẳng còn đâu
+----------------------------------------
+Reference: Khe khẽ
+Prediction: Khên khẽ
+----------------------------------------
+Reference: Mảnh thơ tình khờ dại
+Prediction: Mảnh thơ tình phơ dại
+----------------------------------------
+Reference: Bà tâm đau khổ nhìn con rồi lắc đầu
+Prediction: bà tâm đau khó nhìn câu rồi lắc đầu
+----------------------------------------
+Reference: Tôi có cái ý như thế này
+Prediction: Tôi có cái ý như thế này
+----------------------------------------
+Reference: Thì dân tộc Thái tức là bản làng đây
+Prediction: Thì nhân tập thái tức là bản lang đây
+----------------------------------------
+Reference: Sông sâu còn có kẻ dò, đố ai lấy thước mà đo lòng người
+Prediction: Xong sau còn khẻ dò đóa lấy thức mà đó lòng người
+----------------------------------------
+Reference: Đành đem thơ trải lối đời tháng năm.
+Prediction: Đàn đêm thơ chả lối đời thánh năm
+----------------------------------------
+Reference: Mà sao đã thấy sương mờ nhẹ bay
+Prediction: Mà sao đã thấy Sương mờ nhẹ bay
+----------------------------------------
+Reference: Hỡi ơi lá rụng tháng mười
+Prediction: Hở ơi lái rộn tháng mười
+----------------------------------------
+Reference: Làn mây lả lướt thả mình... trôi xa.
+Prediction: Lành may lẽ lứa khả mẩn trôi xe
+----------------------------------------
+Reference: Nhưng con chỉ nhớ
+Prediction: Nhắn con sẽ nhớ
+----------------------------------------
+Reference: Và phải nhớ kỹ là không bao giờ được bỏ bê nó
+Prediction: Tại sao nhé chứ đã không bao giờ được bỏ ra nữa nó
+----------------------------------------
+Reference: Vụng dại tấm bé
+Prediction: Hôm nhả con bé
+----------------------------------------
+Reference: bà thản nhiên đứng dậy đi ra ngoài
+Prediction: Bà thỏi như đến vậy đây gan hoặc
+----------------------------------------
+Reference: Tối hôm đó sau khi ăn uống xong
+Prediction: Ôm đã tao vẹo ốm tồn
+----------------------------------------
+Reference: Đi qua cùng heo may.
+Prediction: Đi qua cũng hêu may
+----------------------------------------
+Reference: Tần tảo vì con
+Prediction: Tầng đảo vì con
+----------------------------------------
+Reference: Mọi thứ im lìm đến lạnh người
+Prediction: Mọi thứ im lình đến lặng người
+----------------------------------------
+Reference: Đôi mắt lim dim thở hổn hển
+Prediction: Đôi mắt linh nghiên thảo hộn hển
+----------------------------------------
+Reference: Là lãnh tụ được nhiều người ngưỡng mộ và tôn sùng
+Prediction: Là lãnh tộ được nhiều người ướng mộ và tông sùng
+----------------------------------------
+Reference: tại Quảng trường Ba Đình
+Prediction: Tại quàng trường ba đình
+----------------------------------------
+Reference: người ta lái xe cán nát cả cô ấy ngay tại chỗ
+Prediction: Người ta lái xe cán nát tạ côi ngày tại chỗ
+----------------------------------------
+Reference: Trinh đưa tay lên xem đồng hồ Bây giờ là mấy giờ
+Prediction: Trinh đưa tay lên xem đồng hồ bây giờ là mấy giờ
+----------------------------------------
+Reference: Gọi xe cấp cứu đi người này vẫn còn sống này
+Prediction: Cõi xe cấp cứu đi người này vẫn còn sống này
+----------------------------------------
+Reference: Some trai bất giác giật mình hắn ta vội vàng
+Prediction: Xo mẹ trai bất giác giật mình hấn ta bộ bà
+----------------------------------------
+Reference: Anh nấy cũng khoe rằng ảnh của mình hơn
+Prediction: Anh ấy cũng khe rằng ảnh của mình hơn
+----------------------------------------
+Reference: Bà tâm vừa ho vừa nhìn con thều thào nói
+Prediction: Bà tâm vừa ho, vừa nhìn con thểu thảo nói
+----------------------------------------
+Reference: Chinh không trả lời
+Prediction: Trinh không chả lời
+----------------------------------------
+Reference: Vậy mà khi ra tay thì bà dạ quỳ thật nhanh
+Prediction: Vậy mà khi ra tay thì bà dạ quỳ thật nhanh
+----------------------------------------
+Reference: Một tuần sau thì bà tâm chết
+Prediction: Một tuần sau thì bà tâm chết
+----------------------------------------
+Reference: Quân đứng ở bên ngoài
+Prediction: Quân đứng ở bên ngoài
+----------------------------------------
+Reference: Sân trường nhộn nhịp
+Prediction: Sân trường Nhộn Yếp
+----------------------------------------
+Reference: tôi lừa đảo của gia đình anh cái gì
+Prediction: Tôi lừa đào của gia đình anh cái gì
+----------------------------------------
+Reference: Cả nhà hạnh phúc.
+Prediction: cả nhà hạnh phúc
+----------------------------------------
+Reference: Thì Nhi là một cô gái hoàn hảo
+Prediction: Ti Nhi là một cô gái màn hạ
+----------------------------------------
+Reference: nô en vui vẻ
+Prediction: Nơi em vừa vẽ
+----------------------------------------
+Reference: đi đâu sao mày biết tao đi chơi
+Prediction: Đi đâu sao mày biết ta đi chơi
+----------------------------------------
+Reference: nên mỗi lần đi đâu về muộn một chút
+Prediction: Nên mỗi lần đi đâu về một chút
+----------------------------------------
+Reference: Nhà mới của em ở trong xóm
+Prediction: Nhà mới của em ấy đúng sớ
+----------------------------------------
+Reference: Trích dẫn từ báo chí
+Prediction: Trích dẫn từ bao chí
+----------------------------------------
+Reference: Chỉ dùng tay vào những bức ảnh của quân
+Prediction: Chỉ dung tay với những bức ảnh của quân
+----------------------------------------
+Reference: Mùa thu và hoa cúc
+Prediction: Mùa thu và hóa cúc
+----------------------------------------
+Reference: Nó kìa, nó kìa
+Prediction: Nó kìa nó kìa
+----------------------------------------
+Reference: Người chở mùa thu tôi vừa đỏ
+Prediction: Người chở một thu, tôi vừa đỏ
+----------------------------------------
+Reference: Ngồi dưới gốc cây một cách mệt nhọc
+Prediction: Mồi dưới gục lên một cách mệt nhau
+----------------------------------------
+Reference: Ở cái chốn vắng vẻ này xưa nay vốn yên bình
+Prediction: Ở cái chỗ nó vắng vẻ này xưa nay vuôn yên bình
+----------------------------------------
+Reference: Mấy cái chuyện tâm linh này khó nói lắm
+Prediction: Mấy cái chuyện tâm linh này khó nói lắm
+----------------------------------------
+Reference: Lời mẹ khuyên lơn
+Prediction: Lời mẹ khuyên lên
+----------------------------------------
+Reference: đổ hết mồ hôi
+Prediction: Độ hết mồ hôi
+----------------------------------------
+Reference: Nhưng anh chàng đã kịp phóng qua hàng rào
+Prediction: Nhưng anh chàng đã kịp phóng qua hàng dào
+----------------------------------------
+Reference: Thầm lặng hy sinh
+Prediction: Tầm lặng hay sinh
+----------------------------------------
+Reference: Thiện tai Thiện tai
+Prediction: Thiển tay thiển tay
+----------------------------------------
+Reference: Mày Đừng tránh tao được không
+Prediction: Mày đừng trấn tao được không
+----------------------------------------
+Reference: Sau tiếng sấm trời bắt đầu đổ mưa rào rào
+Prediction: Sao tiếng xắm trời bắt đầu đổ mưa rào rào
+----------------------------------------
+Reference: Đưa tình về với mộng
+Prediction: Đơ tình về với mỏng
+----------------------------------------
+Reference: Em mang mùa Thu giấu kỹ nơi nào
+Prediction: Em mang mùa thu giấu kĩ nơi nào
+----------------------------------------
+Reference: Dệt mộng ước bản hòa ca đến lớp..
+Prediction: Giờ mọc ướt bạn Hòa Kha đến lớp
+----------------------------------------
+Reference: Mùa thu cái lạnh dịu dàng
+Prediction: Mùa thu váy lạnh dự dàng
+----------------------------------------
+Reference: Nhà của bà len đó
+Prediction: Nhà của bà Lan đó
+----------------------------------------
+Reference: Gửi hương yêu thắp lửa mộng lòng xinh
+Prediction: Với hương yêu thác lửa mộng nòng phim
+----------------------------------------
+Reference: Đến bố mẹ còn chẳng nhận ra cháu ạ
+Prediction: Đến bố mẹ còn chẳng nhận ra cháu ạ
+----------------------------------------
+Reference: lạnh khô lên cánh mũi
+Prediction: Là nó khô lên cánh mủi
+----------------------------------------
+Reference: em căng mắt ra nhìn nhưng mà không rõ là ai cả
+Prediction: Em cắt mắt ra nhìn nhưng mà không rõ là ai cả
+----------------------------------------
+Reference: Thấy ánh mặt trời
+Prediction: Thấy ánh mặt trời
+----------------------------------------
+Reference: Để cùng tiến tới
+Prediction: Để cùng tính tới
+----------------------------------------
+Reference: Cây tương tư bên đường chờ thay áo
+Prediction: Cây tương tư bên đường chờ thay áo
+----------------------------------------
+Reference: Ôi ta mông lung - tháng chín - tháng mười...
+Prediction: Ôi ta mong lung tháng chính tháng mười
+----------------------------------------
+Reference: Xuyến xao hoài đợi người đến cùng hoa.
+Prediction: Xuyến xao ngoài đợi người đến cùng hoa
+----------------------------------------
+Reference: Có bà dã quỳ ở nhà không cô
+Prediction: có bà dã quỳ ở nhà không cố
+----------------------------------------
+Reference: Rót vào hồn sầu cung thương trầm lắng
+Prediction: Rót vào hộn dậu cũng thương trầm lắng
+----------------------------------------
+Reference: "Ăn nữa đi con
+Prediction: Anh nở đi con
+----------------------------------------
+Reference: Không kịp ngăn lại hà ni chỉ gọi với theo
+Prediction: Không kịp ngăn lại hà ni chỉ gọi với theo
+----------------------------------------
+Reference: con ma dại kia
+Prediction: Khăm ma dại kia
+----------------------------------------
+Reference: Ông nội con bé thì còn sống toàn nói như vậy
+Prediction: Ôm nợ có bé thì còn sống ta nói như vậy
+----------------------------------------
+Reference: Trời ơi con gái của tôi, sao con lại khổ như vậy chứ
+Prediction: Trở con gác của tôi sao còn lại khỏi như vậy chứ
+----------------------------------------
+Reference: Khung hình của trình bày sản trong mạch hơn trước
+Prediction: Khung hình của trình bày sản trong mạch hơn trước
+----------------------------------------
+Reference: mẹ em nói đỡ lời
+Prediction: Mẹ em nói đỡ lời
+----------------------------------------
+Reference: Nó hay nhốt Mình ở trong phòng
+Prediction: Nó hay nhốt mình ở trong phòng
+----------------------------------------
+Reference: Không nên coi nhẹ
+Prediction: Không nên coi nhẹ
+----------------------------------------
+Reference: A hồi liền quay sang thì kể
+Prediction: A hồi liền quay sang thì kể
+----------------------------------------
+Reference: Mà vừa nói vừa trở ra bên ngoài
+Prediction: Mà vừa nói vừa trở ra bên ngoài
+----------------------------------------
+Reference: Những ngày bên mẹ
+Prediction: Những ngày bên mẹ
+----------------------------------------
+Reference: em như người bị bóp chặt lấy cổ
+Prediction: Em như người bị bóp chặt lấy cổ
+----------------------------------------
+Reference: Nhớ mẹ làm sao
+Prediction: Nhớ mẹ làm sao
+----------------------------------------
+Reference: em bị đuổi học
+Prediction: Em bị đuối họ
+----------------------------------------
+Reference: Vợ của chú sửa xe lắc đầu nói
+Prediction: Vội của chú sửa xe lắc đầu nói
+----------------------------------------
+Reference: Phong cách phối đồ hiện đại
+Prediction: Phong cách phối đồ hiện đợi
+----------------------------------------
+Reference: Cũng có thể là ma lắm bởi Nếu không phải là ma
+Prediction: Cũng khắc hởi mao lắm bởi nếu không phải là ma
+----------------------------------------
+Reference: Em biết rồi cái con bé bị xe cán bẹp đầu
+Prediction: Em biết rồi cái công bế bị xe cám bệp đầu
+----------------------------------------
+Reference: Phong đáp
+Prediction: Phong đác
+----------------------------------------
+Reference: tôi đoán không nhầm
+Prediction: tôi đoạn không nhầm
+----------------------------------------
+Reference: Con bé vẫn ăn uống học hành Bình thường
+Prediction: Con bé văn ăn uống học hòa bình thường
+----------------------------------------
+Reference: Em đúng là một người bạn tốt của Nhi và anh
+Prediction: Em đúng là một người bạn tốt của Nhi và anh
+----------------------------------------
+Reference: Cũng là để cho kumanthong có một nơi ở mới đầy đủ hơn
+Prediction: cũng là để cho kumanthong có một lơi ở mới đầy đủ hơn
+----------------------------------------
+Reference: Bà bói Có vẻ hơi giận lời của bố thảo
+Prediction: Bà bói có vẻ hơi dẫn lời của bố thảo
+----------------------------------------
+Reference: Anh cảm thấy thế nào
+Prediction: Anh cảm tấy thế nào
+----------------------------------------
+Reference: Đang nói ở chỗ
+Prediction: Đang nói ở chỗ
+----------------------------------------
+Reference: Giọng còn pha lẫn tiếng địa phương
+Prediction: Giọng còn pha lẫn tiếng địa phương
+----------------------------------------
+Reference: lẽ ra thì chúng tôi không nên nhắc lại
+Prediction: Lẽ ra thì chúng tôi không nên nhắc lại
+----------------------------------------
+Reference: Nó cứ nhìn chằm chằm vào đó
+Prediction: Nó cứ nhìn chầm chầm vào đó
+----------------------------------------
+Reference: để cho em học
+Prediction: Để cho em học
+----------------------------------------
+Reference: Những lời cuối cùng mà quân nói khiến cho Trinh cảm thấy lo lắng
+Prediction: Những nời cuối cùng mà quân nói khiến cho chinh cảm thấy nó nặng
+----------------------------------------
+Reference: Như chú rất thích
+Prediction: Như chú rất tích
+----------------------------------------
+Reference: Dạ vâng thế để em gặp anh sau vậy
+Prediction: Dạ vâng thế để em gặp anh sau vậy
+----------------------------------------
+Reference: Ngay lập tức trong đầu của Trinh nảy ra một ý nghĩ
+Prediction: Ngay là tức trong đầu của Trinh phải ra một bình minh
+----------------------------------------
+Reference: Đứng trước bàn thờ trinh vui sướng nói
+Prediction: Đứng trước bàn thờ chinh vui xương nói
+----------------------------------------
+Reference: Vậy nó có liên quan gì đến con gái tôi chứ
+Prediction: Vậy nó có liên quan gì đến con gái tôi chứ
+----------------------------------------
+Reference: Lối viễn vọng chờ rong gót tim
+Prediction: Lối viễn vọng chờ ròng gót tim
+----------------------------------------
+Reference: Không Tao xin mày Tao sợ
+Prediction: Không Tao xin mày Tao xoa
+----------------------------------------
+Reference: Sâu mắt đợi chờ
+Prediction: Sâu mắt đợi chờ
+----------------------------------------
+Reference: Năm tháng mỏi mòn
+Prediction: Nhăm áng áng
+----------------------------------------
+Reference: Nhuộm ánh nắng tà qua mái tóc
+Prediction: Gợm ánh những tăng là cuông mày tóc
+----------------------------------------
+Reference: sau đó bị đấu đá đến nghẹt thở
+Prediction: Sau đã bị tấu đã đến hệt hợ
+----------------------------------------
+Reference: Đèn dầu được thắp sáng trưng
+Prediction: en dầu được thắp láng chưng
+----------------------------------------
+Reference: Sau khi anh chết rồi
+Prediction: Sâu phia anh sẽ chết rồi
+----------------------------------------
+Reference: Chuyện bé xé ra to: chuyện nhỏ, bị thêu dệt ra nhiều chi tiết
+Prediction: Chuyện bé sẽ gát tao mức nhỏ để thiếu thể tận dầu chỉ tiết
+----------------------------------------
+Reference: Cô cũng chẳng hiểu tại sao như vậy
+Prediction: Cô cũng chẳng hiểu tại sao như vậy
+----------------------------------------
+Reference: Đón em với hoa hồng.
+Prediction: Đón em với hoa hồng
+----------------------------------------
+Reference: Vẫn hoài bay...
+Prediction: Vẫn hỏi bây
+----------------------------------------
+Reference: Rồi không đợi cho cô đáp
+Prediction: Rồi không đợi cho cố đáp
+----------------------------------------
+Reference: Anh ta chẳng đi đâu xa cả
+Prediction: Anh ta chẳng đi đâu xa cả
+----------------------------------------
+Reference: Mẹ em hốt hoảng nói
+Prediction: Mẹ em hốt hoảng nói
+----------------------------------------
+Reference: Nhưng mà tiếc là không qua nổi năm mười năm
+Prediction: Nhưng mà tiếc là không qua nỗi năm bười năm
+----------------------------------------
+Reference: Giọng của cô bé Thu Ngân đang trả lại Trinh tiền thừa
+Prediction: Giọc của cô bé Thù ngần đang chạy trinh tiền thử
+----------------------------------------
+Reference: cố mà đỗ vào trường quốc lập cho mẹ
+Prediction: Cố mà đỗ vào trường Quốc lập cho mẹ
+----------------------------------------
+Reference: Trộm không thể vào
+Prediction: Trọ không thể bạn
+----------------------------------------
+Reference: Chỉ còn nồng hơi thở những vần thơ
+Prediction: Chỉ còn nồng hơi thở những vần thơ
+----------------------------------------
+Reference: Tâm lý bất ổn định khi vừa mất đi cái thai ở trong bụng
+Prediction: Tâm lý bất ổn định khi vừa mất đi cái thai ở trong bụng
+----------------------------------------
+Reference: đêm qua con bé mơ thấy ác mộng
+Prediction: Đêm qua con bé mơ thấy ác mộng
+----------------------------------------
+Reference: về nước chơi chưa được bao lâu laij bị tai nạn
+Prediction: Về nước chơi chưa được báo lâu lại bị tai nạn
+----------------------------------------
+Reference: Ép bà đưa bà đi bệnh viện bà không chịu
+Prediction: Em bà đưa bà đi bận viện, bà không chiều
+----------------------------------------
+Reference: Chính liền trả lời
+Prediction: Chính liền trả lời
+----------------------------------------
+Reference: Em cảm giác lạnh buốt đến tận não
+Prediction: Em cảm giác lạnh buốt đến tận nảo
+----------------------------------------
+Reference: bởi thảo đang bị giữ chân không đi được
+Prediction: bởi thảo đang bị giữ trân không đi được
+----------------------------------------
+Reference: Chết đi Đồ quỷ dữ
+Prediction: chết đi đồ quỷ giữ
+----------------------------------------
+Reference: Nhưng vẫn phải theo dõi để kiểm tra kỹ hơn
+Prediction: Nhưng vẫn phải theo dõi để kiểm trá kĩ hơn
+----------------------------------------
+Reference: Cuộc sống bất công biết mấy cho vừa
+Prediction: Cuộc sống bất công biết mấy cho hừa
+----------------------------------------
+Reference: Mặt khác chị cũng rất tò mò không biết được rằng
+Prediction: Mặt khác chị cũng tất tò mò không biết được rằng
+----------------------------------------
+Reference: Những cái Hiện tượng trên đều là bình thường thôi
+Prediction: Những cái hiện tượng trên đều là bình thường thôi
+----------------------------------------
+Reference: Những cái xác đang phân hủy để lại bộ xương trắng tinh
+Prediction: Những cánh sát đang vân hủy để lại bộ xương chắng tinh
+----------------------------------------
+Reference: Xe hoa anh chờ đó.
+Prediction: Xe hoa anh chờ đó
+----------------------------------------
+Reference: Đóng vội cửa quán hà ni thúc giục
+Prediction: Đóng vội cửa quán Hà Ni thúc dục
+----------------------------------------
+Reference: Sương giăng đọng đầy vơi từng giọt đắng
+Prediction: Sơn giăng động đầy vơi từng giọt đắng
+----------------------------------------
+Reference: Trên cành cây vẫn vương vài tia nắng.
+Prediction: Trên cạnh cây vấn vương và tiên ánh
+----------------------------------------
+Reference: Anh ta gật đầu
+Prediction: Anh ta gật đầu
+----------------------------------------
+Reference: Nên cô dịu giọng hỏi lại
+Prediction: Nên cô riệu dọng hỏi lại
+----------------------------------------
+Reference: Thả lòng mình vào nhịp bước bình sinh
+Prediction: Thả lòng mình vào nhịp bước bình sinh
+----------------------------------------
+Reference: đặt trên bàn thờ
+Prediction: Đặt trơn, bàn thờ
+----------------------------------------
+Reference: Chết rồi
+Prediction: Chết rồi
+----------------------------------------
+Reference: Cho nên Trinh phải đỗ xe ở ngoài đường lớn rồi bước bộ vào
+Prediction: Cho nên Trinh phải đổ xe ở ngoài đường ớt rồi bước bổ vào
+----------------------------------------
+Reference: Là báo ra chơi
+Prediction: Là báo ra trôi
+----------------------------------------
+Reference: Mở cửa bước vào phòng thờ kumanthong
+Prediction: Mở cửa bước vào phòng thờ khu man thông
+----------------------------------------
+Reference: Bởi vậy Mà từ đó bà thường hiện hồn về
+Prediction: Bởi vậy mà từ đó bà thường nhiễn hồn về
+----------------------------------------
+Reference: sau cùng mẹ em chốt lại
+Prediction: Sao cùng mẹ em trốt lại
+----------------------------------------
+Reference: Tháng mười một chạm thực lẫn trong mơ
+Prediction: Tháng mười một chạm thực lẫn trong mơ
+----------------------------------------
+Reference: Ta cầm tay ngơ ngác giữa phố chiều
+Prediction: Tất cả mười tây ngơ ngác giữa phố chiều
+----------------------------------------
+Reference: Mình về đi Cảm ơn cô hà ni
+Prediction: Mình về đi cảm ơn cô Hà Ni
+----------------------------------------
+Reference: Sụt sùi mưa suốt canh thâu
+Prediction: suột sùi mưa suốt canh thâu
+----------------------------------------
+Reference: Anh cho tôi ra ngoài chợ tôi sẽ xuống ở đó
+Prediction: Anh cho tôi ra ngoài chợ tôi sẽ xuống ở đó
+----------------------------------------
+Reference: Ôm cổ gầy mắc cỡ đến mùa sau
+Prediction: Ôm cổ gầy mắt cở đến mùa sau
+----------------------------------------
+Reference: Quỳ lạy như là tế sao
+Prediction: quỳ lại như là tế sao
+----------------------------------------
+Reference: Đến phiên hà ni ngạc nhiên
+Prediction: Đến phim Hà Ni Ngạc nhiên
+----------------------------------------
+Reference: Căn phòng vắng nỗi âu sầu tràn tới.
+Prediction: Căn phòng vắng nỗi ưu sầu tràn tới
+----------------------------------------
+Reference: chị ấy đang có bầu
+Prediction: chị ý đang có bụng
+----------------------------------------
+Reference: Con nhỏ nó bị quỷ ám đấy
+Prediction: Con nhỏ nó bị quỷ ám đấy
+----------------------------------------
+Reference: Xởi lởi trời cho, so đo trời lấy lại
+Prediction: Sới lới trời cho, sau đó trời lấy lại
+----------------------------------------
+Reference: Người xa có hiểu nỗi niềm chờ mong
+Prediction: Người xa có hiểu nỗi nhịm chờ mong
+----------------------------------------
+Reference: Thi thoảng lại bị gió thổi đập mạnh vào cánh cửa sổ
+Prediction: thi thoảng lại bị gió thủi đập mạnh vào cánh cửa sổ
+----------------------------------------
+Reference: sẽ bị quỷ sai khiến
+Prediction: Xe bị quỷ sai khi
+----------------------------------------
+Reference: lúc cháu giật mình tỉnh dậy thì cháu còn bị rét run
+Prediction: Lúc cháu giật mình thính dậy thì cháu còn bị rét run
+----------------------------------------
+Reference: thì vẫn không hiện tượng gì tiếp tục xảy đến
+Prediction: thì vẫn không hiện tượng gì tiếp tục xảy đến
+----------------------------------------
+Reference: Chẳng ai bảo ai tự giác đi về
+Prediction: Chẳng ai bọn ai tự ra đi về
+----------------------------------------
+Reference: quyết tâm chiến thắng
+Prediction: Cuuyết tâm chiến thắng
+----------------------------------------
+Reference: em liền gọi to
+Prediction: Em liền gọi to
+----------------------------------------
+Reference: Cũng không còn cách nào khác
+Prediction: Cũng không còn cách nào khác
+----------------------------------------
+Reference: Khuôn mặt thanh tú không có chút gì của dân nhà xe
+Prediction: Không mặt thanh tú không có chất gì của dân ở xe
+----------------------------------------
+Reference: Và mắt của cô chăm chú một cách khó hiểu
+Prediction: mà mấy của cô tâm trú một cách khó hiểu
+----------------------------------------
+Reference: Chân tay bủn rủn
+Prediction: Chấn tay buồn ruộn
+----------------------------------------
+Reference: nên tính cho em đi chơi xa hai ngày
+Prediction: nên tính cho em đi trê xa hai ngày
+----------------------------------------
+Reference: Hay là do chúng ta không trùm khăn
+Prediction: Hay là do chúng ta không trùm khăn
+----------------------------------------
+Reference: Trinh có phần hoang mang
+Prediction: Trinh có phần hoang mang
+----------------------------------------
+Reference: Để cho tình đẹp đẹp hơn
+Prediction: Để cho tình đẹp đẹp hơn
+----------------------------------------
+Reference: Yêu là chết ở trong lòng một ít
+Prediction: Yêu lại chết ở trong làng một ít
+----------------------------------------
+Reference: Người chết là Vong
+Prediction: Người chết là vong
+----------------------------------------
+Reference: Với những cái móng dài ngoẵng
+Prediction: Với những cái máu dài hoảng
+----------------------------------------
+Reference: Căn phòng thờ Kumanthong đối diện với phòng ngủ của Chinh
+Prediction: Tran phòng thờ kumanthong đối diện với phòng ngủ của Trinh
+----------------------------------------
+Reference: Xong trai này
+Prediction: Song trai này
+----------------------------------------
+Reference: Bố nó thì không tin chuyện ma quỷ
+Prediction: Bố nó thì không tân chuyện ma quỷ
+----------------------------------------
+Reference: Những câu chuyện hay những bức ảnh được chúng tôi khoe lại
+Prediction: Những câu chuyện hay những bức ảnh được chúng tôi khuya lại
+----------------------------------------
+Reference: Bố em thắc mắc nói
+Prediction: Bố em thắc bắc nói
+----------------------------------------
+Reference: Em yên tâm là kẻ đó sẽ không làm phiền
+Prediction: Em yên tâm là kẽ đó sẽ không làm phiền
+----------------------------------------
+Reference: dần dà học xong
+Prediction: Nhằm nhà học xong
+----------------------------------------
+Reference: hà Sợ quá giật lùi lại phía sau suýt ngã ngửa ra đất
+Prediction: Hà sợ quá dực lùi lại phía sau suýt nghe ngỡ ra đất
+----------------------------------------
+Reference: Giai đoạn cuối đời
+Prediction: Dai đoạn cuối đời
+----------------------------------------
+Reference: thảo Đứng sững lại không chạy trốn em nữa
+Prediction: Thảo đứng sửng lại không chạy trống em nữa
+----------------------------------------
+Reference: Em ngỡ như chiêm bao
+Prediction: Em ngỡ như chìm bèo
+----------------------------------------
+Reference: Gọi tôi là dã quỳ
+Prediction: gọi tôi là dã quỳ
+----------------------------------------
+Reference: Gió bên ngoài cửa sổ hành lang khẽ thổi vào bên trong
+Prediction: Gió bên ngoài cửa sổ hành lang khẽ thổi bào bên trong
+----------------------------------------
+Reference: con nói linh tinh cái gì thế
+Prediction: Con nói linh tinh cái gì thế
+----------------------------------------
+Reference: Tuôn trào cảm xúc
+Prediction: Tuôn trào cảm xúc
+----------------------------------------
+Reference: Mọi chuyện để mẹ tính sau
+Prediction: Mọi chuyện để mẹ tính sau
+----------------------------------------
+Reference: Mà không có đi lên tầng ba vào phòng thờ Phật nữa
+Prediction: mà không có đi lên tầng ba vào phòng thờ phật nữa
+----------------------------------------
+Reference: Nó còn bảo là hôm nay mà đi
+Prediction: Nó còn bảo là hôm nay mà đi
+----------------------------------------
+Reference: Thì liệu rằng cuộc đời này cô có thay đổi không
+Prediction: Thì liệu rằng cuộc đời này cô có thấy đổi không
+----------------------------------------
+Reference: Đây là Tuấn người yêu của cháu lâu nay đi làm xa mới về
+Prediction: Đây là tuấn người yêu của cháu lâu nay đi làm xa mới về
+----------------------------------------
+Reference: nếu mà qua bốn mươi chín ngày
+Prediction: Nếu mà qua bốn mươi chín ngày
+----------------------------------------
+Reference: Ngày thơ đi mất
+Prediction: Ngày thơ đi mất
+----------------------------------------
+Reference: Nó giúp chứ có phải đâu
+Prediction: Nó giúp chứ có phải đâu
+----------------------------------------
+Reference: Em chả hiểu mẹ nói có nghĩa là gì
+Prediction: Em chả hiểu mẹ nói có nghĩa là gì
+----------------------------------------
+Reference: Để tâm trí đem hoà cùng sách vở
+Prediction: Để tâm xí đem hoa cùng sách gọt
+----------------------------------------
+Reference: Ngày ấy vào mùa thu
+Prediction: Ngày đấy vào mùa thu
+----------------------------------------
+Reference: Trong phòng lúc này lửa trên thành ngọn nến đang cháy
+Prediction: Trong phòng lúc này lượt trên hành hoạn để nát cháy
+----------------------------------------
+Reference: Giờ đi sang bản bên phía ta
+Prediction: Giờ đi sang bạn bên thế ta
+----------------------------------------
+Reference: Người người thì đang tấp nập đi lại
+Prediction: Người người thì đang tất nập đi lại
+----------------------------------------
+Reference: Nhi cũng tìm được một đức lang quân Hoàn Mỹ
+Prediction: Nhi cũng tìm được một đất lang quân hoàng mĩ
+----------------------------------------
+Reference: Mẹ Thảo quay sang nhìn bà bói một lượt rồi hỏi lại
+Prediction: bẹ hã qua xa nhìn bà bói một lượt rồi hỏi lại
+----------------------------------------
+Reference: mẹ liền nói với em
+Prediction: Mẹ liền nói với em
+----------------------------------------
+Reference: Mẹ Ơi Con Xin Lỗi
+Prediction: Mẹ ơi con xin lỗi
+----------------------------------------
+Reference: Như màu thu úa vàng
+Prediction: Như màu thu uống vàng
+----------------------------------------
+Reference: em bị mấy người ghì chặt lấy lôi ra ngoài
+Prediction: Em bị bán người người chắc lái, lôi ra ngồi
+----------------------------------------
+Reference: Hoặc những trường hợp của cháu thảo
+Prediction: Họ những chương hợp của cháu Thảo
+----------------------------------------
+Reference: Ban đầu Trinh không định nói
+Prediction: Bác nào chân không định nói
+----------------------------------------
+Reference: Sau bốn mươi chín ngày tôi không giúp được nữa đâu
+Prediction: Xa bốn mươi chín ngày tôi không giúp được nữa đau
+----------------------------------------
+Reference: cho nên Trinh yên tâm phần nào
+Prediction: Chá nên trinh yên tâm bần nào
+----------------------------------------
+Reference: cũng vừa mới ngồi thôi, nước còn chưa uống hết một nửa đây này
+Prediction: Cũng vừa mới ngồi thôi, nước còn chưa uống hết một nửa đây này
+----------------------------------------
+Reference: cút đi
+Prediction: Bốt đi
+----------------------------------------
+Reference: Những lời nói của Quân khiến cho trinh như chết lặng
+Prediction: Những lời nói phộ quân khiến cho chinh như chết lặng
+----------------------------------------
+Reference: Em mới đáp lại
+Prediction: em mới đáp lại
+----------------------------------------
+Reference: Dạ bẩm thầy giờ đã muộn rồi à
+Prediction: Sạ bẫm thầy giờ đã muộn rồi hà
+----------------------------------------
+Reference: Sợ lắm, cảm giác vô cùng sợ hãi
+Prediction: sợ lắm cảm tác vô cùng sợ hãi
+----------------------------------------
+Reference: Thì hãy chấp nhận anh ta và chăm sóc cẩn thận
+Prediction: Thì Hãy chấp nhận anh ta và chăm sóc cẩn thận
+----------------------------------------
+Reference: Yêu
+Prediction: Yêu
+----------------------------------------
+Reference: Vả lại
+Prediction: Và lại
+----------------------------------------
+Reference: Song trai liền hỏi tiếp
+Prediction: Sóng chơi liền hỏi tiếp
+----------------------------------------
+Reference: Khôn lớn thêm rồi
+Prediction: Khôn lớn thêm rồi
+----------------------------------------
+Reference: Trường hợp của Thảo khác với họ
+Prediction: Trương hợp của thầu khát với họ
+----------------------------------------
+Reference: Căn phòng kín
+Prediction: Cơn vòng kín
+----------------------------------------
+Reference: Nhớ mẹ nhớ cha
+Prediction: Nhớ mẹ nhớ cho
+----------------------------------------
+Reference: Qua cầu rút ván
+Prediction: Qua cậu rốt vắng
+----------------------------------------
+Reference: Vẫn là Trinh
+Prediction: Vấn vở chinh
+----------------------------------------
+Reference: Từ giọng cô dịu hiền
+Prediction: Tì giọng cô nhiều hiện
+----------------------------------------
+Reference: Nghiệp báo hài nhi
+Prediction: Nghiệp báo hởi nhi
+----------------------------------------
+Reference: Dường như chậm lại
+Prediction: Vường nhớ chậu lấy
+----------------------------------------
+Reference: Mong như anh tưởng phút như thế này
+Prediction: Mong nhơ anh tưởng phút như thế này
+----------------------------------------
+Reference: Những anh em dân tộc khác thì rất hiếu khách và cởi mở
+Prediction: Những anh em dân tộc khác thì sẽ thiếu khách mà cười mợ
+----------------------------------------
+Reference: Để cười nhạo Thảo rằng
+Prediction: thế cười nhạc thảo sáng
+----------------------------------------
+Reference: Trâu già thích gặm cỏ non.
+Prediction: Trâu giá thích đậm còn non
+----------------------------------------
+Reference: Không ngờ cái nốt ruồi trên mặt thôi
+Prediction: Không ngờ cái nước dưới Trinh mặt thôi
+----------------------------------------
+Reference: Không được đó là tất cả những gì mình có không thể mất được
+Prediction: Không được đó là tất cả những gì mình có thể mắt được
+----------------------------------------
+Reference: Chẳng hiểu sao lại rớt xuống đất ngổn ngang mỗi thứ một góc
+Prediction: Chẳng hiểu sao lại rất xuống đách hổn em mỗi thứ một góc
+----------------------------------------
+Reference: Sau cùng bố Thảo nói
+Prediction: Sao cùng bố thảo nói
+----------------------------------------
+Reference: Tôi liền trả lời
+Prediction: Tôi liền trả lời
+----------------------------------------
+Reference: Em run giọng nói
+Prediction: Em dương tập nói
+----------------------------------------
+Reference: Mẹ vẫn kề bên
+Prediction: Mẹ vẫn kể bên
+----------------------------------------
+Reference: Cô tìm ai ở đó thì nói đi
+Prediction: Có tìm ai ở đó thì nói đi
+----------------------------------------
+Reference: Dẫu cuộc đời dù có phải đổi thay
+Prediction: Dẫu cuộc đời dù có phải đỡ thay
+----------------------------------------
+Reference: Anh đưa tay chạm vào miền ký ức
+Prediction: Anh rơi tay chạm dào mềm ký ức
+----------------------------------------
+Reference: Trong lòng anh nghe một chút nao nao
+Prediction: Trong lòng anh nghe một rút nào nào
+----------------------------------------
+Reference: Em còn hẹn nữa không.
+Prediction: Em còn hẹ nữa không
+----------------------------------------
+Reference: Bà ấy cũng bị tai nạn xe ư
+Prediction: báy cũng bị tai nạn xe ư
+----------------------------------------
+Reference: Một mình mẹ thôi
+Prediction: Một bên mẽ thôi
+----------------------------------------
+Reference: Tháng mười ơi cho ta phút êm đềm
+Prediction: Thảo mời ơi cho tao phúc em đẹp
+----------------------------------------
+Reference: Tim buồn không chịu nhả thơ
+Prediction: Têm bùn hóng chịu nhả thơ
+----------------------------------------
+Reference: Còn anh đưa cô này về quán
+Prediction: Có anh đưa con này ra quán
+----------------------------------------
+Reference: Ai người cùng ta chơi tiếp...
+Prediction: Ai người cùng ta chơi tiếp
+----------------------------------------
+Reference: Như lời gió gọi tháng mười thao thức
+Prediction: Như là dã gọi tháng mười thao thức
+----------------------------------------
+Reference: Đã nhiều lần ông thầy đó tìm về đây
+Prediction: Đã nhiều lần ông thầy đỏ tìm về đây
+----------------------------------------
+Reference: Rồi tháng mười qua vội.
+Prediction: Rồi tháng mười qua vội
+----------------------------------------
+Reference: Tháng Mười đêm vắng lê thê
+Prediction: Tháng mười đêm vắng lê thê
+----------------------------------------
+Reference: Thu dùng dằng nên hoa mãi ngẩn ngơ
+Prediction: Thu dùng rằng nên hoa mãi hần gơ
+----------------------------------------
+Reference: Phong đang trong tình trạng choáng váng
+Prediction: Phong đang trong tình trạng tróng váng
+----------------------------------------
+Reference: Cuộc đời ta: Thân trai mãi tha phương
+Prediction: Cuộc đời ta thân trai mãi tha vương
+----------------------------------------
+Reference: Sửa lỗi không gõ được tiếng Việt trong Word, excel, firefox, chrome
+Prediction: Sừa lỡ thông bõ được tiếng viên trong quốc Excel Phyphox Chrome
+----------------------------------------
+Reference: Gửi theo gió đến ai nơi xa ấy.
+Prediction: Gười theo dò đến ai nơi xa ấy
+----------------------------------------
+Reference: Dù con có yêu với nhiều mạnh mẽ
+Prediction: Dứ con có yêu với nhiều mệnh mẽ
+----------------------------------------
+Reference: Anh nói chưa hết câu
+Prediction: Anh nói chưa hết câu
+----------------------------------------
+Reference: Cơn gió bấc gửi trao... màu hạnh phúc!
+Prediction: Con gió bấp gửi tra màu hạnh phúc
+----------------------------------------
+Reference: Vần thơ ươm trong tâm trí mơ hồ
+Prediction: Vần thơ ương trong tâm trí mơ hồ
+----------------------------------------
+Reference: Rồi nhớ trở về quán của cô Hà Ni này
+Prediction: Rồi nhớ chờ về quán của Ohà Ni này
+----------------------------------------
+Reference: khi còn sống lún sâu vào tội ác
+Prediction: Khi còn sống lúng sâu vào thoát
+----------------------------------------
+Reference: Cả nhà em và Thảo cũng xuống xem thầy bói ở dưới huyện
+Prediction: Cái nhà em và Thảo cũng xuống xem thầy bói ở dưới huyền
+----------------------------------------
+Reference: "Sao anh không đứng lại?
+Prediction: Sao anh không đứng lại
+----------------------------------------
+Reference: Tháng mười một,chờ mong duyên mới
+Prediction: Tháng mười một chờ mong duyên mới
+----------------------------------------
+Reference: Và sáng mai nếu chiếc xe kia không trở lại
+Prediction: Dạ giám mai nó đi xe kia không trả lại
+----------------------------------------
+Reference: con hâm này đi với không đi cái gì
+Prediction: Con Ham này đi với không đi kí gì
+----------------------------------------
+Reference: Em công chuyện thì em cứ đi
+Prediction: Em cũng chuyển thì em cứ đi
+----------------------------------------
+Reference: Như trên trời biếc
+Prediction: Như trên rồi biết
+----------------------------------------
+Reference: thì Trinh cảm thấy yên tâm
+Prediction: Thị rên cảm thấy yên tâm
+----------------------------------------
+Reference: Ru tôi ngọn gió trang đài
+Prediction: Ru tôi ngủi gió càng đài
+----------------------------------------
+Reference: Bóng nhạn phương xa lẻ bầy tìm kiếm
+Prediction: Bóng nhạc phương xa lẽ bày tìm kiếm
+----------------------------------------
+Reference: Nợ em thêm một câu thơ
+Prediction: Nói anh thêm một câu thơ
+----------------------------------------
+Reference: đi tìm phương trời mới
+Prediction: Đi thìm phương rồi mới
+----------------------------------------
+Reference: À nhớ ra rồi nhớ rồi
+Prediction: À nhậu ra rôi nhậu rôi
+----------------------------------------
+Reference: Tôi xin phép rồi ngồi thưa chuyện với ông
+Prediction: Tôi xin phạt bôi môi thưa triền với ông
+----------------------------------------
+Reference: Rồi bất ngờ anh ta phóng vụt ra giường
+Prediction: Rồi bất ngờ ánh ta phận một ra giường
+----------------------------------------
+Reference: Cũng không có hiệu nghiệm hay sao
+Prediction: Cùng không có hiểu niềm ai sao
+----------------------------------------
+Reference: Vậy thì tại sao không giúp mình chiếm được tình cảm của quân
+Prediction: Vậy thì tại sao không giúp mình chìm được tinh cảm của cậu
+----------------------------------------
+Reference: Thì lắc đầu nói rằng không còn cách
+Prediction: Thì lắc đầu nội ra không có cách
+----------------------------------------
+Reference: Câu hỏi khiến cho Tuấn ngẩng mặt lên nhìn
+Prediction: Cấu hỏi chuyện tró tộng nần mặt lén nhìn
+----------------------------------------
+Reference: Hà ni Lúc này mới hốt hoảng
+Prediction: Hà ni lúc nay mới hồn hỏng
+----------------------------------------
+Reference: Có ý là muốn thăm bé
+Prediction: Có ý la muộn thắm bé
+----------------------------------------
+Reference: Nhưng mà mày đi đâu
+Prediction: Nhấn ma mày đi đâu
+----------------------------------------
+Reference: Trinh nghe xong cô tắt máy điện thoại
+Prediction: Trinh nghe xong muốn tập mệ đình thôi
+----------------------------------------
+Reference: Như chiếc áo trên tường, như trang sách
+Prediction: Nhứ chiệt ảo trến tương, như trá sắp tương
+----------------------------------------
+Reference: Chỉ còn ánh trăng mờ yếu dõi qua những kẽ lá
+Prediction: Chỉ con anh đắng mơ yêu dòi theo những kài lác
+----------------------------------------
+Reference: Vậy tôi sẽ Nhờ thầy giúp cho
+Prediction: Vậy tối xảy nhơ thầy giúp cho
+----------------------------------------
+Reference: Ngày đầu tháng môi hồng ai lơ đễnh
+Prediction: Ngày đậu thảo muôi hồng ai lơ đận
+----------------------------------------
+Reference: Trao hơi ấm khi đông vừa chạm ngõ
+Prediction: Trao hơi ấm khi đông vừa chạm ngõ
+----------------------------------------
+Reference: Nghe trong gió một màu Đông bàng bạc
+Prediction: Nghe trong gió một màu đông bằng bạn
+----------------------------------------
+Reference: Chỉ còn nghe tiếng ngoài hiên lá đổ
+Prediction: Chị còn nghe tiếng ngoài hiên lá đổ
+----------------------------------------
+Reference: Đời mênh mông che phủ áng mây mù
+Prediction: Đời minh mông trê phụ áng mây mù
+----------------------------------------
+Reference: Mờ theo bóng vách xanh xao tuổi chờ...
+Prediction: Lờ thiờ bóng vách xanh sao tuổi trờ
+----------------------------------------
+Reference: Ở bên trong căn phòng của con gái ông phúc
+Prediction: Ở bên saoong căn phòng của con gái ông Phúc
+----------------------------------------
+Reference: Hà Ni lắc đầu
+Prediction: Hà ni lắc đầu
+----------------------------------------
+Reference: Đúng là bà ấy
+Prediction: Đúng là bà ấy
+----------------------------------------
+Reference: Hà ni gọi với theo
+Prediction: Hà ni gọi với theo
+----------------------------------------
+Reference: Anh chàng kia phải rồ máy xe
+Prediction: Anh chàng kia phải rồ mấy xe
+----------------------------------------
+Reference: Ôm lòng đêm nỗi nhớ nhung
+Prediction: Ôm lòng đêm nỗi nhớ nhung
+----------------------------------------
+Reference: Tháng mười vương mùi hoa sữa
+Prediction: Tháng mười vươn mùi hoa sữa
+----------------------------------------
+Reference: Những ngày này con vẫn sẽ về thôi
+Prediction: Dững ngày này con vẫn sẽ về thôi
+----------------------------------------
+Reference: Chiều thơm nồng hương rạ.
+Prediction: Chỉu thơm nồng hương rạ
+----------------------------------------
+Reference: Bỗng nhiên dừng lại
+Prediction: Bỗng nhiên dừng lại
+----------------------------------------
+Reference: Dạ Khúc Mưa
+Prediction: Dã cúp mơ
+----------------------------------------
+Reference: nhi khẽ đặt bức ảnh của quân
+Prediction: Nhi khẽ đặt bước ảnh của Quân
+----------------------------------------
+Reference: những cánh đồng thẳng cánh
+Prediction: Những cánh đọm thẳng cánh
+----------------------------------------
+Reference: Già làng lại nói tiếp
+Prediction: Già làng lại nói tiếp
+----------------------------------------
+Reference: con nhớ cầm viên đá ấy
+Prediction: Con nhớ cầm viên đá ấy
+----------------------------------------
+Reference: Cô thu ngân lo lắng gọi
+Prediction: Câu thương ngăn lo lắng gọi
+----------------------------------------
+Reference: Hắn đang đi lên đây
+Prediction: Hắn đang đi lên đây
+----------------------------------------
+Reference: Từng bỏ nhà đi suốt mấy năm trời
+Prediction: Từng bỏ nhà đi xuống mấy năm trời
+----------------------------------------
+Reference: Anh song trai anh song trai
+Prediction: Anh xong trai, anh xong trai
+----------------------------------------
+Reference: tay bà ấy xách cái bị to lắm
+Prediction: Đay bà ấy xác cái bị đo lắm
+----------------------------------------
+Reference: Người ấy chính là anh chàng phong
+Prediction: Người ấy chính là anh chàng Phong
+----------------------------------------
+Reference: Trong lọ thủy tinh ấy
+Prediction: Trong lọ thủy tên ấy
+----------------------------------------
+Reference: Hương thơm mát rượi
+Prediction: Hương thơm mát rưới
+----------------------------------------
+Reference: Cứ dại dại cái kiểu gì ấy
+Prediction: Cứ dại dại cái chịu gì ấy
+----------------------------------------
+Reference: Con cứ yên tâm đi làm đi
+Prediction: Con cứ yên tâm đi làm đi
+----------------------------------------
+Reference: Còn nữa
+Prediction: Còn nữa
+----------------------------------------
+Reference: Tay của em cứ ôm chặt lấy Thảo
+Prediction: Đay của em cứ ôm chặt lái thảo
+----------------------------------------
+Reference: Các người tính làm gì
+Prediction: Các người tến nam gìn
+----------------------------------------
+Reference: Thì chiếc xe tải cho anh tới đây
+Prediction: Thì chiếc xe tải cho anh tay đây
+----------------------------------------
+Reference: Tháng mười về, hương xưa rơi đầy áo
+Prediction: Tháng mời về hương xưa rơi đầy ảo
+----------------------------------------
+Reference: Mà anh còn nợ chưa đền được em
+Prediction: Mà anh còn nợ chưa đền được em
+----------------------------------------
+Reference: Tháng mười đến thu tàn trêu gió lộng
+Prediction: Tháng mười đến thu tàn trêu gió lộng
+----------------------------------------
+Reference: Gửi mây xa biền biệt bóng chân trời
+Prediction: Gửi mây xa biển biệt bóng chân trời
+----------------------------------------
+Reference: Trên tay cầm những vần thơ
+Prediction: Trên tay cầm những vần thơ
+----------------------------------------
+Reference: Tháng mười góc phố liêu xiêu
+Prediction: Thẳng mười gấp phố liêu siêu
+----------------------------------------
+Reference: Mùa thu cũng bớt úa vàng
+Prediction: Mùa thu cũng bớt uống vàng
+----------------------------------------
+Reference: Em là nắng ấm giữa trời mùa thu
+Prediction: Em là nặng ấm giữa trời mùa thu
+----------------------------------------
+Reference: em lắc đầu bò lùi lại sát tường
+Prediction: Em lắc đầu bỏ lùi lại xác tường
+----------------------------------------
+Reference: Tháng mười êm dịu mong chờ bình an.
+Prediction: Tháng mười êm dịu mong chờ bình an
+----------------------------------------
+Reference: Lay phay mưa bụi thầm thì chữ yêu
+Prediction: Lai phay mưa bụi thầm thì chứ yêu
+----------------------------------------
+Reference: Se lòng ngọn gió heo may
+Prediction: Xe lòng ngọn gió heo may
+----------------------------------------
+Reference: Dịu dàng đón ánh bình minh
+Prediction: Dịu dàng đọn ánh bình minh
+----------------------------------------
+Reference: tôi không phải người ý
+Prediction: Tôi không phải người ý
+----------------------------------------
+Reference: Nửa thu còn lại tần ngần điều chi
+Prediction: Nửa thu còn lại tần ngần điều chi
+----------------------------------------
+Reference: Sao con tôi lại khổ thế này hả trời
+Prediction: Sao con tôi lại khổ thế này hả trời
+----------------------------------------
+Reference: Anh vào trong khám phá đến tanh bành
+Prediction: Anh vào trong khám phá đến tanh bành
+----------------------------------------
+Reference: Tình yêu ơi, ngọt ngào và cay đắng
+Prediction: Tình yêu ơi ngọt ngào và cái đăng
+----------------------------------------
+Reference: Ta ngồi đong cả một trời kỷ niệm
+Prediction: Ta ngồi đọng cả một thời kỷ niệm
+----------------------------------------
+Reference: Cô gái dương mắt nhìn khách như không hiểu
+Prediction: Cô gái dương mắt nhìn khách như không hiểu
+----------------------------------------
+Reference: Tiếng thời gian chìm hút giữa hư vô
+Prediction: Tiếng thời gian chìm húc giữa hư vô
+----------------------------------------
+Reference: Mùa thu từng khóc tiễn một người đi
+Prediction: Mua thu từng khóc tỉ một người đi
+----------------------------------------
+Reference: Dòng thơ mãi vẫn còn hoài dang dở
+Prediction: Dòng thơ mãi vẫn còn hoài gian dở
+----------------------------------------
+Reference: Món quà này chỉ chút thôi tiền lẻ
+Prediction: Móng quà này chỉ chút thôi tiền lẽ
+----------------------------------------
+Reference: Tháng mười một lòng chợt thấy chênh chao
+Prediction: Sáng mười bộng cầu lòng chật thấy y chân chào
+----------------------------------------
+Reference: Gọi một chiếc xe thồ cô hỏi
+Prediction: Gọi búi chiếc xe thâu cô hỏi
+----------------------------------------
+Reference: Mỗi thu sang, mỗi khắc nhớ em nhiều...
+Prediction: Bỗi thu xang mỗi khách nhớ em nhiều
+----------------------------------------
+Reference: Nhưng mà sau này nghe nói là ông ta ủng hộ bà ta
+Prediction: Nhưng mà sau này nghe nói rãng tãng hỏi bà ta
+----------------------------------------
+Reference: Trăng thề chiếc bóng bên đường
+Prediction: Trăng thề chiếc bóng bên đờ
+----------------------------------------
+Reference: Anh chàng lái xe bảo
+Prediction: thân chàng lấy xe bảo
+----------------------------------------
+Reference: Mà lần nào cũng thấy bó hoa dã quỳ nằm bên cạnh
+Prediction: Mà lần nào cũng thấy bó hoa dã quỳ nằm bên cạnh
+----------------------------------------
+Reference: Tôi có việc cần kíp muốn gặp bà len xin cô giúp cho
+Prediction: Tôi có vị càng kếp muốn gặp bà len xinh cô giúp cho
+----------------------------------------
+Reference: Nó sẽ giúp cô thực hiện những yêu cầu
+Prediction: nó sẽ giúp cô thực hiện những yêu cầu
+----------------------------------------
+Reference: Vậy anh có biết một bà tên là dã quỳ không
+Prediction: Dện có biết một bà tên là Dã Quy không
+----------------------------------------
+Reference: Tháng mười rồi, sao nhung nhớ còn đây?
+Prediction: Tháng mười rồi sao nhúc nhớ còn đây
+----------------------------------------
+Reference: Điều đơn giản bây giờ em mới biết
+Prediction: Điều đơn giản bây giờ em mới biết
+----------------------------------------
+Reference: Chạm vào đâu cũng thấy nhiều kỷ niệm
+Prediction: Chảm giao đâu cũng thấy nhiều kỷ niệm
+----------------------------------------
+Reference: Giọt chờ tí tách âm như hồi chuông
+Prediction: Dọc chờ tý tách ấm như hổi chua
+----------------------------------------
+Reference: Bởi sáng nay anh nghe lòng thổn thức
+Prediction: Bởi sáng nay anh nghe lòng thổn thức
+----------------------------------------
+Reference: Tôi muốn hỏi bà len
+Prediction: Tôi muốn hỏi bà Lên
+----------------------------------------
+Reference: Con bé nhà anh chị
+Prediction: Con bẻ nhà anh chị
+----------------------------------------
+Reference: và chỉ ăn với chơi và tiêu thôi
+Prediction: Và chỉ ăn với chơi và tiêu thôi
+----------------------------------------
+Reference: Thì Trinh nói là muốn về nhà
+Prediction: Thì Trinh nói là muốn tề nhà
+----------------------------------------
+Reference: Mẹ em liền kéo tay em rồi nói
+Prediction: Mẹ em liền kéo tay em suy nói
+----------------------------------------
+Reference: Thì chắc chắn con gái nhà cô sẽ gặp vận lớn
+Prediction: Thì chắc chắn con gái nhà cô sẽ gặp vận lớn
+----------------------------------------
+Reference: Trước cuộc nói chuyện của mình với Nhi
+Prediction: Chước cuộc nói chuyện của mình với Nhiên
+----------------------------------------
+Reference: Nghe vè nói ngược
+Prediction: Nghe về nói ngợ
+----------------------------------------
+Reference: Mùa giao mùa lặng thinh
+Prediction: Mùa giao mùa lặng thinh
+----------------------------------------
+Reference: Sao mày nói dù chuyện gì cũng xảy ra
+Prediction: Săm mày nói dô truy gì bỗ xảy ra
+----------------------------------------
+Reference: Tuyển tập thơ về các loại động vật cho bé mầm non
+Prediction: Tuyền tức thơ về cácại động vật cho bè mong non
+----------------------------------------
+Reference: Bánh kẹo mới
+Prediction: Bánh cạo mới
+----------------------------------------
+Reference: Bát hương của bố vừa bốc cháy
+Prediction: Bác thương của bố vừa bóc cháy
+----------------------------------------
+Reference: Vừa khấn xong thì điện thoại của Trinh đổ chuông
+Prediction: Vừa khấn xong thì điện thoại của Trinh đổ chuông
+----------------------------------------
+Reference: Hạ liền nói tiếp
+Prediction: Hạ gì anh nói tiếp
+----------------------------------------
+Reference: Ông nội nó suốt ngày phàn nàn rằng
+Prediction: Ông nội nó sắc ngày phàn nàn rằng
+----------------------------------------
+Reference: Lòng sao vương vấn
+Prediction: Lòng sao vương vấn
+----------------------------------------
+Reference: Cô ta
+Prediction: Không ta
+----------------------------------------
+Reference: lời cảm ơn
+Prediction: Lời cảm ơn
+----------------------------------------
+Reference: Anh ta là một người khác
+Prediction: Anh ta là một người khác
+----------------------------------------
+Reference: Thật thà ăn cháo, láo nháo ăn cơm
+Prediction: Thật thà anh cháo tảo nháo anh cơm
+----------------------------------------
+Reference: Cảm ơn con
+Prediction: Cảm ơn con
+----------------------------------------
+Reference: Giờ phải nhìn mới thấy thôi
+Prediction: Giờ phải nhìn mới thấy thôi
+----------------------------------------
+Reference: kẻ bất tài
+Prediction: kẹp mắt tài
+----------------------------------------
+Reference: hơi nuối tiếc bởi hôm nay
+Prediction: Hơi nổi tiếc bởi hôm nay
+----------------------------------------
+Reference: Cô nào
+Prediction: Cô nào
+----------------------------------------
+Reference: Người ta gọi cặp đôi chúng tôi là loài hoa rừng đẹp nhất
+Prediction: Mười ta gọi cảm thôi chúng tôi là loài hoa rừng đẹp nhất
+----------------------------------------
+Reference: Bối cảnh tạo bày ai là kẻ thế vai?
+Prediction: Púi cảnh tạo bày ai là kể thay vai
+----------------------------------------
+Reference: Chuyện này thực chất thì không khó
+Prediction: Chuyện này thực chắc thì không khó
+----------------------------------------
+Reference: Sao Toàn những cái chuyện không đâu vậy anh
+Prediction: Sao toàn những cái chuyện không đau vậy em
+----------------------------------------
+Reference: Trinh nằm trong xe thở mạnh và dồn dập
+Prediction: Trinh nằm trong xe thở mạnh và dụm nhập
+----------------------------------------
+Reference: Mọi người hãy ở nhà tìm kiếm thằng bé hộ ta
+Prediction: Mọi người hãy ở nhà tìm kiếm thằng bé hậu ta
+----------------------------------------
+Reference: Biển trời tình mẹ
+Prediction: Biến trời tình mẹ
+----------------------------------------
+Reference: Thế là tất cả đều nghe theo
+Prediction: Thế là tất cả đều nghe theo
+----------------------------------------
+Reference: lại thấy thương tình nên mới mở lời giúp đỡ
+Prediction: Lại thấy thông tình nên mới mở loài giúp đỡ
+----------------------------------------
+Reference: Lúc nào Phương khỏe bọn Cháu sẽ đến thăm sau ạ
+Prediction: Lúc nào Phương khỏe bọn cháu sẽ đến thăm sau ạ
+----------------------------------------
+Reference: Thì chúng ta sẽ giúp cháu tại nguyện
+Prediction: Thầy chúng ta sẽ giúp cháu tải nguyện
+----------------------------------------
+Reference: Phải rồi cô ấy ở ngoài kia
+Prediction: Phải rồi cô ấy ở ngoài kia
+----------------------------------------
+Reference: mắc tè nó nhanh chóng chạy ra bên ngoài để giải quyết
+Prediction: Mắc tè nó nhanh chóng chạy ra bên ngoài để dãi khuyết
+----------------------------------------
+Reference: Sưởi ấm lòng con
+Prediction: Sối ấm lòng con
+----------------------------------------
+Reference: Mày xem có những gì mình muốn
+Prediction: Mày xem có những gì mình muốn
+----------------------------------------
+Reference: mà con bé nó lại khỏe mạnh, đi lại bình thường
+Prediction: Mà con bé nó lại khóe mạnh đi lại bình thường
+----------------------------------------
+Reference: Kết thúc không phải là hết
+Prediction: Cái thúc không phải là hết
+----------------------------------------
+Reference: Cứ bám riết đeo đẳng em tội nghiệp
+Prediction: Cứ bám rét đeo đẳng em tội nghiệp
+----------------------------------------
+Reference: Ông vừa nói xong vội một bước ra ngoài
+Prediction: Ông vừa nói xong vội một bước ra ngoài
+----------------------------------------
+Reference: sát thủ
+Prediction: Sác hủ
+----------------------------------------
+Reference: đến cả cơ thể cũng không còn nguyên vẹn nữa
+Prediction: Đến cả cơ thể cũng không còn nguyên vệ nữa
+----------------------------------------
+Reference: Em vẫn biết Thảo đã mất rồi nên mới ngập ngừng
+Prediction: Em vẫn biết Thảo đã mất rồi nên mới ngặp ngờ
+----------------------------------------
+Reference: Trinh chợt giật nảy mình khi tiếng Quân gọi
+Prediction: Chinh chẳng giặn nãy mần khi tính quân gọi
+----------------------------------------
+Reference: Quân ngượng ngùng rồi đáp lại
+Prediction: Quân ở ngùng rồi đáp lại
+----------------------------------------
+Reference: Trước khi đi bà ấy còn nói
+Prediction: Trước khi đi bà ấy còn nói
+----------------------------------------
+Reference: Thì biết làm thế nào hả con
+Prediction: Thì biết làm tế nào hả con
+----------------------------------------
+Reference: Dẫu đã được giải
+Prediction: Dẫu đã đồ cháy
+----------------------------------------
+Reference: Rằng là trước đây Nhi đã từng phá thai
+Prediction: Rằng là trước đây Nhi đã từng phá thai
+----------------------------------------
+Reference: ai vậy
+Prediction: Ngay vậy
+----------------------------------------
+Reference: Ngày tháng nào xa ngái
+Prediction: Ngày tháng nào xa ngái
+----------------------------------------
+Reference: Em cố gắng nhắm mắt lại để ngủ tiếp
+Prediction: Em cố gắng nhắm mắt lại để ngủ tiếp
+----------------------------------------
+Reference: Nhưng mà thông thường phải sau bốn mươi chín ngày
+Prediction: Nhưng mà thông thường phải sau bốn mươi chín ngày
+----------------------------------------
+Reference: Có cái chuyện gì sao con không cho mẹ biết
+Prediction: Có cái chuyện gì sao con không cho mẹ biết
+----------------------------------------
+Reference: Còn bệnh thì lại đổ cho ma quỷ
+Prediction: Con bận thời lai đỗ cho ma quý
+----------------------------------------
+Reference: Chồng chồng của mẹ
+Prediction: Trong trong của mẹ
+----------------------------------------
+Reference: Thấy ai cũng ví cánh hoa xưa
+Prediction: Thấy ai cũng vý cánh qua xưa
+----------------------------------------
+Reference: Mưa về phố nhỏ
+Prediction: Mưa về vô nhỏ
+----------------------------------------
+Reference: Đôi mắt ngây dại khuôn miệng nhoẻn miệng cười đầy đê mê
+Prediction: Đôi mắt nghe dại khuôn miệng nhém miền cười đầy đê mê...
+----------------------------------------
+Reference: Hà quay lại nhìn như không thấy gì cả
+Prediction: Hà qua lại nhìn nhưng không thấy gì cả
+----------------------------------------
+Reference: Mà thôi nhắc cái chuyện đấy làm gì cho nó buồn ra
+Prediction: Mà thôi chắc chuyện đấy làm gì cho nó buồn ra
+----------------------------------------
+Reference: Tôi muốn mùi thơm của nước hoa
+Prediction: Tôi muốn mùi thơm của nước qua
+----------------------------------------
+Reference: Mẹ chẳng có gì
+Prediction: Mẹ chẳng có gì
+----------------------------------------
+Reference: Nghe thấy tiếng gọi mà không thế nào phát ra để trả lời
+Prediction: Nghe thấy tiếng gọi mà không thấy nào pháp ra để trả lời
+----------------------------------------
+Reference: Thì đột nhiên nghe thấy tiếng động lạ ở dưới nhà
+Prediction: Thì đột nhiên nghe thấy tiếng đồng lạ ở dưới nhà
+----------------------------------------
+Reference: Chỉ lăn ra giường rồi ngủ
+Prediction: Chỉ lăng ra dường con ngủ
+----------------------------------------
+Reference: mẹ liền bảo
+Prediction: mẹ liền báo
+----------------------------------------
+Reference: tao nói thật thì mày lại chẳng tin
+Prediction: Tao nói thật thì mày là chẳng tinh
+----------------------------------------
+Reference: Hai mẹ con chỉ cách nhau bởi ngưỡng cửa
+Prediction: Hai mẹ con chỉ cách nhau bởi ngứng cửa
+----------------------------------------
+Reference: Phong tỉnh táo hẳn lại rồi nói
+Prediction: Phong tưởng táo hẳn lại rồi nói
+----------------------------------------
+Reference: Rồi tư duy lại lần hồi tuôn chảy
+Prediction: Rồi tương dí lại lần hồi tung trả
+----------------------------------------
+Reference: Tốn tiền lại toàn bọn nghịch ngợm
+Prediction: Tốn tền lại tòn có nghịch ngẩm
+----------------------------------------
+Reference: Mẹ cũng uống thuốc rồi
+Prediction: Mẹ cũng muốn thuốc rồi
+----------------------------------------
+Reference: Nhận quà nhưng lòng lại nghĩ nhiều
+Prediction: Nhận quá nhưng lòng lại nghĩ nhiều
+----------------------------------------
+Reference: Sao khẽ khẽ tiếng lá rơi còn đó?
+Prediction: Sao khẽ khẽ tiếng má dơi còn đó
+----------------------------------------
+Reference: Anh chàng lái xe do vậy không thể nói tiếp điều đang muốn nói
+Prediction: Anh chẳng lái xe do vậy không thể nói tiếp biểu đang muốn nói
+----------------------------------------
+Reference: Tháng mười về em còn nhớ hay quên!?
+Prediction: Tháng mười về em còn nhớ hay quên
+----------------------------------------
+Reference: Cậu này cần đi đâu thì anh cứ chở
+Prediction: Cậu này cần đi câu thì anh cứ chờ
+----------------------------------------
+Reference: Cô ơi
+Prediction: Cô ơi
+----------------------------------------
+Reference: Sầu Thu kết lại cùng mưa
+Prediction: Sầu thu kết lại cùng mưa
+----------------------------------------
+Reference: Về ngồi đây, trái tim nghe gõ cửa
+Prediction: Về ngồi đây cháy tim nghe gõ cường
+----------------------------------------
+Reference: Tháng mười tưởng xa lắm.
+Prediction: Tháng mười tưởng xa lắm
+----------------------------------------
+Reference: Như có một vật gì đó chặn ngang cổ họng
+Prediction: Như có một vật vì đó chẳng nang cổ học
+----------------------------------------
+Reference: Bị một chiếc xe tải đụng chết
+Prediction: Bị một chiếc xe tải được chết
+----------------------------------------
+Reference: Bài thơ chào ngày mới, chào buổi sáng vui vẻ ý nghĩa
+Prediction: Bài thơ chào ngày mới chào buổi sáng vui vẻ ý nghĩa
+----------------------------------------
+Reference: Nên chen vào rồi nói
+Prediction: Đến chen vào rồi nói
+----------------------------------------
+Reference: Mưa đến muộn hay trời còn cất giấu
+Prediction: Mưa đến buận hay trời còn cất giấu
+----------------------------------------
+Reference: Mùa thu đẹp lắm em ơi
+Prediction: Mùa thu đẹp lắm em ơi
+----------------------------------------
+Reference: Tháng mười về bên góc phố liêu xiêu
+Prediction: Tháng mười về bên góc phủ liêu siêu
+----------------------------------------
+Reference: Tỏ ra rành rẽ sự việc anh ta nói thêm
+Prediction: Tọ ra giành rẽ sự biết anh ta nói thêm
+----------------------------------------
+Reference: Người lữ khách lan man đầy bối rối
+Prediction: Người lữ khác lan man đầy bối rối
+----------------------------------------
+Reference: Hình như là lúc đầu muốn trừ khử cái oan hồn của bà len
+Prediction: Hình như là lúc đầu muốn chừ khử cái hoang hồn của Mà Lan
+----------------------------------------
+Reference: Thấy bên đời tháng mười một đến mau
+Prediction: Thấy bên đời tháng mười một đến mau
+----------------------------------------
+Reference: Để ta rảo bước khoan thai trên đường
+Prediction: Để ta dạo bước khoang thay trên đường
+----------------------------------------
+Reference: Xe hoa sao chật cả đường
+Prediction: Xe hoa sao chất cả đường
+----------------------------------------
+Reference: Không có gì đáng kể cả mẹ yêu
+Prediction: Không có gì đáng kể cả mẹ yêu
+----------------------------------------
+Reference: Ru lòng ta say mê niềm hạnh phúc
+Prediction: Dù lòng ta xây mê liềm hạnh phúc
+----------------------------------------
+Reference: Thảm lá vàng xao xác gót cuồng si
+Prediction: Thảm lá vàng xao xác góp cuồng xi
+----------------------------------------
+Reference: Còn ở hồn tôi tuổi mong manh
+Prediction: Còn ở hồn tôi tuổi máu manh
+----------------------------------------
+Reference: song trai liền hỏi
+Prediction: Song trai liền hỏi
+----------------------------------------
+Reference: Được đánh thức cơn mê phòng ngơ ngác
+Prediction: Đột đánh thức cơn mê phòng ơn ác
+----------------------------------------
+Reference: Điều đáng chú ý nhất chính là theo như Hà được biết
+Prediction: Điều đảng trúy nhất chính hà theo như hà được viết
+----------------------------------------
+Reference: Mắt mẹ đã mờ
+Prediction: Mắt mẹ đã mò
+----------------------------------------
+Reference: Cho tôi được lau khô dòng lệ chảy
+Prediction: Cho tôi được nắng khô dòng để chạy
+----------------------------------------
+Reference: Nó chỉ còn là dấu vết không hồn
+Prediction: Nó chỉ còn là tố bế thồng hồn
+----------------------------------------
+Reference: Năm mười ba tuổi
+Prediction: Năm mười ba tuổi
+----------------------------------------
+Reference: chị đừng có đổ tiếng oan cho nó
+Prediction: Chị đường có đổ tiếng an cho nó
+----------------------------------------
+Reference: Thậm chí lại đôi chân bị liệt của nó hoạt động lại bình thường
+Prediction: Thật chí lại đôi chân bị niệt của nó họ động lại bình thường
+----------------------------------------
+Reference: Trinh phải có mặt ở nhà để chăm sóc cho Kumanthong
+Prediction: Trinh phải có mặt ở nhà để trăm sóc cho Kumanthong
+----------------------------------------
+Reference: Thậm chí dùng cả cơ thể để mời gọi
+Prediction: Thật chỉ dùng cả tơ thể để mời gọi
+----------------------------------------
+Reference: Vì Trinh không còn nghe được gì nữa
+Prediction: vì trinh không có đề được gì nữa
+----------------------------------------
+Reference: Hôm đó thì tớ đang bên Quảng Châu
+Prediction: Hôm đó thì tứ đang bên khoảng trong
+----------------------------------------
+Reference: Người đàn bà giật mình
+Prediction: Gời đàn bà giật mình
+----------------------------------------
+Reference: Tôi biết em là cô gái mộng mơ
+Prediction: Tôi biết em là cô gái mọng mơ
+----------------------------------------
+Reference: Tiếng nói lại vang lên rất khẽ chỉ đủ cho mình nghe
+Prediction: Chứ nói lại vàng lên trất khẽ chỉ tục cho mình nghe
+----------------------------------------
+Reference: như xé toạc cả mảng âm thanh ồn ào bàn tán xung quanh
+Prediction: Như sẽ tọc tà mạ ơm thanh ôn ào bạn tạ xung quanh
+----------------------------------------
+Reference: thầy bảo là có cái chuyện gì đâu
+Prediction: Thầy bảo là có cái chuyện gì đâu
+----------------------------------------
+Reference: Tiểu sử và sự nghiệp
+Prediction: Tiểu sử và sức nghiệp
+----------------------------------------
+Reference: Có khi nào nó theo thật
+Prediction: Ô khi nào nó theo thật
+----------------------------------------
+Reference: Các cô cậu đều là người ở dưới xuôi lên
+Prediction: Các cô cậu đều là người ở dưới xuôi nên
+----------------------------------------
+Reference: Mẹ ầu mẹ ơi...
+Prediction: Mẹ ầu mẹ ơi
+----------------------------------------
+Reference: mẹ đi xem từ bà tê đến soi tiền chỉ tay viết chữ
+Prediction: Mẹ đi xem từ bà t đến soi tiền chỉ tay với Chữ
+----------------------------------------
+Reference: Nó là cây rớp đó
+Prediction: Nó nào cây rốt đó
+----------------------------------------
+Reference: Ghen
+Prediction: Nghe
+----------------------------------------
+Reference: Gió thổi từng cơn làm tán lá khẽ đung đưa
+Prediction: Gió thổi tực cơn làm tán ná khẽ đung đưa
+----------------------------------------
+Reference: Nhưng lại đi rất xa
+Prediction: Nhưng lại đi rất xa
+----------------------------------------
+Reference: Tuyển tập thơ chủ đề thực vật cho bé mầm non
+Prediction: Tuyển tập thơ chủ đề thật vật cho bé hầm non
+----------------------------------------
+Reference: Some trai cố nói thêm
+Prediction: Sắp trai của nói thêm
+----------------------------------------
+Reference: Sau khi chụp hình thì vẫn chưa hết chuyện
+Prediction: Sao khi chập hành rề vẫn chưa hát chuyện
+----------------------------------------
+Reference: Khi cô đơn cạn tình ai cũng thế
+Prediction: Thêm cô đơn cạn tình ai cũng hết
+----------------------------------------
+Reference: Mong con bình an
+Prediction: Mong con bình an
+----------------------------------------
+Reference: Anh chàng bắt đầu hốt hoảng
+Prediction: Anh chè mặc đờ hốt hoảng
+----------------------------------------
+Reference: Đám đông bu vào đôgn nghẹt cố chen lên trên
+Prediction: Đám đông buồ vào đông ngạc cố chén lên trên
+----------------------------------------
+Reference: chắc là ánh đèn đó con
+Prediction: Chắc là ánh đèn đó con
+----------------------------------------
+Reference: Ngựa đua dưới nước
+Prediction: Ngở rô nhíu nước
+----------------------------------------
+Reference: Nếu được thì anh mong cả anh và em
+Prediction: Nếu được người anh mong cả anh và em
+----------------------------------------
+Reference: Thậm chí để trong bữa ăn Quân còn ít nói hơn bình thường
+Prediction: Hộng chiếc để trong bữa anh uông còn tích nói hơn bình hường
+----------------------------------------
+Reference: À không mọi chuyện vẫn ổn
+Prediction: à không Mỗi chén bụng ổn
+----------------------------------------
+Reference: Cây xoài này là Lộc của bố em trồng để lại đấy
+Prediction: Cây xòi này là lập của bố em chồng để lại đánh
+----------------------------------------
+Reference: Nhưng lúc này anh ở bên em
+Prediction: Như lúc nãy anh ở bên em
+----------------------------------------
+Reference: Hà ni nghiêm giọng
+Prediction: À này nghiêm chọng
+----------------------------------------
+Reference: Chính là cô sao
+Prediction: Chính là cô Sa
+----------------------------------------
+Reference: Đám đông được giải tán
+Prediction: Đắm đông được dã tán
+----------------------------------------
+Reference: chuyện này tôi không phải là chưa gặp
+Prediction: Chỉ này tôi không phải là chương gặp
+----------------------------------------
+Reference: bà ấy lắc đầu nói
+Prediction: và ấy đau nói
+----------------------------------------
+Reference: Mới nghĩ mà đã cảm thấy hưng phấn rồi
+Prediction: Mớ nghĩ mà đã cảm thấy gần tấn gời
+----------------------------------------
+Reference: Gớm nữa cô nói sợ quá
+Prediction: Gớm nửa cô nói sạo quá
+----------------------------------------
+Reference: Hay là nhà đi không thắp hương cho các cụ
+Prediction: Ai là nhà đi không hấp hương cho các cậu
+----------------------------------------
+Reference: Bạn bè lâu năm mới gặp chưa gì đã về
+Prediction: Vã không vã lâu năm mới gặp chơi gì đã về
+----------------------------------------
+Reference: chinh nghĩ ở trong đầu
+Prediction: Chinh nghĩ ở trong đầu
+----------------------------------------
+Reference: Người ta phụ, hoặc thờ ơ, chẳng biết
+Prediction: Người ta phẫu hoạ hợp không biết
+----------------------------------------
+Reference: nhưng bây giờ âm dương cách biệt
+Prediction: Nhưng bây giờ ấm sương cách bể
+----------------------------------------
+Reference: Tôi tôi không chịu nổi tôi chết mất
+Prediction: Tôi tôi không chịu nỗi tôi chết mất
+----------------------------------------
+Reference: Em đã chẳng đổ cho anh bao tội lỗi
+Prediction: Em đã chẳng đảo cho anh bao tòi lỗi
+----------------------------------------
+Reference: Anh gì ơi anh
+Prediction: Anh gì ơi anh
+----------------------------------------
+Reference: Phương
+Prediction: Phương
+----------------------------------------
+Reference: Con bình tĩnh nghe người ta nói hết đi đã
+Prediction: Con bình tĩnh nghe người ta nói hát liên đả
+----------------------------------------
+Reference: Áo bay rải nắng một chiều
+Prediction: Áo bay để ấy nắng một chiêu
+----------------------------------------
+Reference: toàn thân của Trinh đổ mồ hôi lạnh
+Prediction: Toàn thân của tượng đấu mô hôi lạnh
+----------------------------------------
+Reference: Khi tận mắt chứng kiến tai nạn
+Prediction: Khi tận mắt chiến kiến tai nạn
+----------------------------------------
+Reference: Chiều nay xa xứ
+Prediction: Chiều nay xa xứ
+----------------------------------------
+Reference: Em muốn khóc thì em cứ khóc đi!
+Prediction: Em muốn khóc thì em cứ khóc đi
+----------------------------------------
+Reference: Tôi với Sự sẽ ở lại nhà anh ta
+Prediction: Tôi với sợ giới lại nhả anh ta
+----------------------------------------
+Reference: Xe cán bẹp đầu Sao lại thế
+Prediction: Xe cán bẹp đầu sao lại thế
+----------------------------------------
+Reference: Tại sao
+Prediction: tại sao
+----------------------------------------
+Reference: chú liền nói
+Prediction: Chú liền nói
+----------------------------------------
+Reference: Chinh bắt đầu thắc mắc
+Prediction: Chinh bắt đầu thắc mắc
+----------------------------------------
+Reference: Lời chưa được nói
+Prediction: Lời chưa được nói
+----------------------------------------
+Reference: Cao lên mỗi ngày.
+Prediction: Cao lơ mỗi ngày
+----------------------------------------
+Reference: Vượt trên tất cả
+Prediction: Vượt trên tất cả
+----------------------------------------
+Reference: Lẽ phải co chân chạy như ma đuổi
+Prediction: Lẽ phải co chân chạy như ma đuổi
+----------------------------------------
+Reference: Sau khi tất cả những căn nhà sàn được dựng lên
+Prediction: Sau khi tắt cả những căn nhà sàn được dẫn lên
+----------------------------------------
+Reference: thật à thế thì đúng rồi
+Prediction: Thắc à thế thì đúng rồi
+----------------------------------------
+Reference: Vừa nghe thấy tên thì một anh chàng lực lưỡng bước ra
+Prediction: Vừa nghe thấy tên thì một anh chàng lực lẫn bước ra
+----------------------------------------
+Reference: Mới là giờ cho bé Na ăn
+Prediction: Mới là giờ cho bé nan
+----------------------------------------
+Reference: Tinh thần rất dễ bị xúc động
+Prediction: Tình thần rất dễ bị suốt động
+----------------------------------------
+Reference: Người mẹ của ta
+Prediction: Người mẹ của ta
+----------------------------------------
+Reference: Lúc này Trinh cũng đang từ trên tầng đi xuống
+Prediction: Lúc này Trinh cũng đang tự trên tần đi xuống
+----------------------------------------
+Reference: Đã hơn mười một giờ đêm
+Prediction: Đá hơn mười một giờ đêm
+----------------------------------------
+Reference: Những cung đường chia nút giao lối rẽ
+Prediction: Những công đường chia núc dao lôi rẽ
+----------------------------------------
+Reference: Cảm ơn em đã luôn động viên anh lúc yếu đuối
+Prediction: Cảm ơn em đã luôn đọng vì ngăn lúc yêu đuối
+----------------------------------------
+Reference: bà ấy đâu rồi
+Prediction: báy đâu rồi
+----------------------------------------
+Reference: Đến giết người mà nó còn làm được
+Prediction: Đến dịch người mà nó còn làm được
+----------------------------------------
+Reference: Em hãy nhắm mắt và cùng cầu nguyện
+Prediction: Mày phải nhắm mắt vào cùng tâu nguyên
+----------------------------------------
+Reference: Còn quân để quay lại rồi nói
+Prediction: Còn quân để quay lại rồi nói
+----------------------------------------
+Reference: Đây là những người ở dưới xuôi lên để tham quan ngắm cảnh
+Prediction: Đây là những người ở dưới xuôi lên để tham quan ngắm cảnh
+----------------------------------------
+Reference: Vết thương coi bộ là không có nhẹ đâu
+Prediction: Vất thương coi bộ là không có nhẹ đâu
+----------------------------------------
+Reference: Khi mà chinh vẫn đang thức
+Prediction: Khi mà chinh vẫn đang thức
+----------------------------------------
+Reference: Đứng trước cửa phòng thờ
+Prediction: Đứng trước cửa ở phòng thờ
+----------------------------------------
+Reference: cô sẽ gặp nguy hiểm
+Prediction: Cô sẽ gặp mỗi hiếm
+----------------------------------------
+Reference: Cô về đâu, chẳng biết?
+Prediction: Cô vậy đâu chẳng biết
+----------------------------------------
+Reference: Hà ni cũng lẩm bẩm
+Prediction: Hà ni cũng lẩm bẩm
+----------------------------------------
+Reference: Báo hiệu một cơn mưa đêm sắp đến
+Prediction: Báo hiệu một cơn bữa điên sắp đến
+----------------------------------------
+Reference: Người tình là dòng sông nhỏ ra khơi
+Prediction: Người tình là dòng súc nhỏ da khơi
+----------------------------------------
+Reference: Chung nhà nên duyên.
+Prediction: Trung nhà nên duyên
+----------------------------------------
+Reference: Tháng mười về heo may cứ ung dung
+Prediction: Tỏ người về heo máy cứ ôm dung
+----------------------------------------
+Reference: Đêm mở mắt nhìn trăng rơi xuống vực
+Prediction: Đêm ở mắt nhìn trăng rơi xuống vực
+----------------------------------------
+Reference: Nên ngưng ngang câu chuyện
+Prediction: Nên ngưng ngã câu chuyện
+----------------------------------------
+Reference: Muốn ngỏ lời mà sao tôi thật ngốc
+Prediction: Muốn ngọt lời mà sao tôi thật ngốc
+----------------------------------------
+Reference: Không có
+Prediction: Không có
+----------------------------------------
+Reference: Tuyển tập thơ về chủ đề nghề nghiệp cho bé mầm non
+Prediction: Tuyển tập thơ vệ chú đề nghệ nghiệp cho bé mầm non
+----------------------------------------
+Reference: Con đường ai sà trên cỏ
+Prediction: Con đường ai xả trên cỏ
+----------------------------------------
+Reference: Anh sẽ mang hạt hoa vàng đi rải
+Prediction: Anh sẽ mang Hà Thoà vàng đi lại
+----------------------------------------
+Reference: Tôi không biết tôi chỉ gặp ông ấy ghé quán một lần
+Prediction: Tôi không biết tôi chỉ gặp ông ấy ghe quán một lần
+----------------------------------------
+Reference: Chiều lồng lộng mây mù giăng ngõ lối
+Prediction: Trìều lộng lọng mây mùa dâng ngó lối
+----------------------------------------
+Reference: Nơi còn đó một niềm tin từ mẹ
+Prediction: Nơi còn đó một điểm tin thứ mẹ
+----------------------------------------
+Reference: Thoảng sắc hồng, làn mây lướt trên cao
+Prediction: Toảng sắc hồng lận mây lướt trên cao
+----------------------------------------
+Reference: Tháng mười về hả anh.
+Prediction: Tóó mười về hãi
+----------------------------------------
+Reference: Hà ni lo lắng hỏi
+Prediction: Hà ni lo lắng hỏi
+----------------------------------------
+Reference: Cô nói sao bà dã Quỳ bà len đã chết
+Prediction: Cô nói sao bà dác quỳ bà len đã chết
+----------------------------------------
+Reference: Mưa rì rào thánh thót bên thềm vắng
+Prediction: Mưa rời rào tành thót bên thêm vắng
+----------------------------------------
+Reference: Anh đón chờ tháng mười một vừa trao
+Prediction: Anh đón trò thóng mười một vừa trao
+----------------------------------------
+Reference: Và định nói gì đó nhưng không kịp
+Prediction: Và định nói gì đó nhưng không kịp
+----------------------------------------
+Reference: Cô cứ đưa cậu ấy về đi
+Prediction: Cô cũng đưa cõi về đi
+----------------------------------------
+Reference: Đó là tên riêng của bà mà cô gọi là Dã Quỳ đó
+Prediction: Đó là tên riêng của bà mà cô gọi là dã quỳ đó
+----------------------------------------
+Reference: Này ông tướng cô đơn hoài mãi thế
+Prediction: Này ông tướng cô đơn hỏi mái thế
+----------------------------------------
+Reference: Hà ni chợt nhớ ra cô hỏi lại
+Prediction: Hà ni chật đớ ra cô hỏi lại
+----------------------------------------
+Reference: Tôi xui buồn khóc xuống tựa mùa Ngâu!
+Prediction: Tôi xuôi buồn khóc xuống tựa mồ ngâu
+----------------------------------------
+Reference: Phong vẫn cương quyết
+Prediction: Phong vẫn cương quyết
+----------------------------------------
+Reference: Tháng mười một đã về rồi em nhỉ!?
+Prediction: Tháo mười một đã về rồi em nhỉ
+----------------------------------------
+Reference: Thông minh thế cũng mang tim xẻ nửa
+Prediction: Thông minh thế cũng mang tim xe nữa
+----------------------------------------
+Reference: Cách tạo phòng học trên Zoom
+Prediction: Cách tạo phòng hợp trên rung
+----------------------------------------
+Reference: chúa ba ngôi
+Prediction: Chúa bà ngồi
+----------------------------------------
+Reference: bởi phòng của cô nằm ngay lối lên xuống cầu thang
+Prediction: Bởi phòng của cô nằm nghe lối lên xuống cầu thang
+----------------------------------------
+Reference: Mái tranh vàng võ
+Prediction: Mái chân vẹn bỏ
+----------------------------------------
+Reference: Cũng hết thời gian cho kuman ăn
+Prediction: Cũng hát thời gian cho kuman ăn
+----------------------------------------
+Reference: Tao về Đợt này thì cũng Khoảng vài tháng
+Prediction: Tôi về đoàn này thì cũng khoảng vài tháng
+----------------------------------------
+Reference: Công việc làm ăn của Trinh ngày một thuận lợi
+Prediction: Công việc làm anh của Trinh một em một thần lợi
+----------------------------------------
+Reference: Người có chở hẹn về sông cũ
+Prediction: Người có chở hẹn về song cũ
+----------------------------------------
+Reference: Và điều này trình thấy chính xác
+Prediction: Và điều này chình thấy chính xác
+----------------------------------------
+Reference: Anh đang lo cho cả em đấy sao
+Prediction: Anh đang lo cho cả em đấy sao
+----------------------------------------
+Reference: Có gì thì cứ alo cho tao
+Prediction: Có gì thì cứ an nỗi cho tao
+----------------------------------------
+Reference: Mẹ không có an tâm
+Prediction: Mẹ không có an tâm
+----------------------------------------
+Reference: Quân bước vội vào bên trong nhưng không thể bước được
+Prediction: Quân bước của vào bên trong nhưng không thể bước được
+----------------------------------------
+Reference: Vuốt không thể xuống được
+Prediction: vút không thể xung được
+----------------------------------------
+Reference: Cô ấy
+Prediction: cô ấy
+----------------------------------------
+Reference: Tôi chờ người đến với yêu thương
+Prediction: Chẳng người đến với yêu thương
+----------------------------------------
+Reference: Giờ tranh thủ ngủ đi
+Prediction: Giờ trân thủ ngủ đen
+----------------------------------------
+Reference: Anh chàng lắc đầu
+Prediction: Anh chạy bắt đầu
+----------------------------------------
+Reference: Chúng ta nhờ bà nội con thảo tác động được không
+Prediction: Chúng tà nhà mà nỗi con Thảo tắc động được không
+----------------------------------------
+Reference: phải mát mấy ngày Trinh mới đọc thuần thục được một câu chú này
+Prediction: phải mất máy ngày trinh mới đọc thuần thục được một câu chú này
+----------------------------------------
+Reference: Đợi đến giờ bà bói làm lễ
+Prediction: Đợi đứng giờ bà nói lần đấy
+----------------------------------------
+Reference: Cánh cửa được đóng kín lại
+Prediction: Cánh cửa được đóng kín lại
+----------------------------------------
+Reference: Bởi tình yêu tha thiết
+Prediction: Bởi tình yêu tha thiết
+----------------------------------------
+Reference: Đó là một hành động vô thức
+Prediction: Đó là một hành động vô thức
+----------------------------------------
+Reference: Anh chị chào mào
+Prediction: Anh chị chào màu
+----------------------------------------
+Reference: rồi người có Mắt Âm Dương
+Prediction: Về người có mắt không dương
+----------------------------------------
+Reference: Động viên tinh thần cho em
+Prediction: Động viên tinh thần cho em
+----------------------------------------
+Reference: Chẳng bước chân nào được dẫm lên.
+Prediction: Chẳng bước cho nào được dống lên
+----------------------------------------
+Reference: Nhưng đó chưa phải là tất cả
+Prediction: Nhưng đó chưa phải là tất cả
+----------------------------------------
+Reference: Hà ni thở dài
+Prediction: Hà ni thở dài
+----------------------------------------
+Reference: Chính giữa đằng sau bát nhang
+Prediction: Chính giữa đợng sâu bát nhang
+----------------------------------------
+Reference: Vậy mà bạn chết chưa giỗ đầu mà la liếm với chồng của bạn
+Prediction: Vậy mà bạn chết chưa giấu đầu mà la liếm với chồng của bạn
+----------------------------------------
+Reference: Đi thăm Lúc này là không có tiện đâu
+Prediction: Đi thăm lúc này là không có tỉnh đâu
+----------------------------------------
+Reference: Là trong nhà lại xuất hiện tiếng động lạ không
+Prediction: Là chăm nhà lại xuất hiện tính động lẻ không
+----------------------------------------
+Reference: Tuấn nhớ là mình bị người yêu nhảy đè lên người
+Prediction: Tốn nhớ là mình bị người yêu nhảy đè lên người
+----------------------------------------
+Reference: lúc đi qua ngã ba
+Prediction: Lúc đi quàng á ba
+----------------------------------------
+Reference: viêt nam cố lên
+Prediction: việt nam cố lên
+----------------------------------------
+Reference: Mà Nhi lại là bạn thân thiết của em
+Prediction: mà như là bạn thân thích của em
+----------------------------------------
+Reference: đừng có chết đấy
+Prediction: Đừng có chết đấy
+----------------------------------------
+Reference: thanh ơi
+Prediction: Tham ơi
+----------------------------------------
+Reference: Xin lỗi đã làm cho cô sợ
+Prediction: Xin lỗi đã làm cho cô sợ
+----------------------------------------
+Reference: Ông ông nói thế
+Prediction: Ông ông nói thế
+----------------------------------------
+Reference: chức mừng giáng sinh
+Prediction: chúc mừng dán sinh
+----------------------------------------
+Reference: Tác phẩm
+Prediction: Tác phẩm
+----------------------------------------
+Reference: Cái Thảo nó đi rồi
+Prediction: Cết hảo nó đi rồi
+----------------------------------------
+Reference: Tỉnh lại trong trạng thái mệt mỏi
+Prediction: Tình lại trong chặn thái mệt mỏi
+----------------------------------------
+Reference: Đưa tình về cuối sông
+Prediction: Đưa tình về cuối sâu
+----------------------------------------
+Reference: Phụ nữ mà uống nhiều cà phê là không có tốt cho da
+Prediction: Khụ nữ mà uống nhiều cà phê là không tốt cho cha
+----------------------------------------
+Reference: nhìn là cái Thảo
+Prediction: Nhìn là cái thảo
+----------------------------------------
+Reference: mày cứ về thế này tao không có ngủ được
+Prediction: Mày cứ về thế này tao cũng cũng ngủ được
+----------------------------------------
+Reference: Tôi nhớ tới Lan cô ấy bị tai nạn
+Prediction: Tôi nhớ tối Lan cô ấy bị tai nạn
+----------------------------------------
+Reference: Tóm lại em thà tin còn hơn là không tin
+Prediction: Tóm lại em thà tin còn hơn là không tin
+----------------------------------------
+Reference: Tiếng chuông đồng hồ quả lắc Vang lên
+Prediction: Tiếng chuông đồng hồ quả lắp vang lên
+----------------------------------------
+Reference: Anh chàng nhìn vào và tỏ vẻ sợ hãi
+Prediction: Anh sang nhìn vào và tọ bể sợ hại
+----------------------------------------
+Reference: Ai vậy
+Prediction: Bye bye
+----------------------------------------
+Reference: Gom hết giùm tôi mấy ánh trăng
+Prediction: Góm hết dùng tồi mấy anh Chân
+----------------------------------------
+Reference: đám ma bọn tôi đến mà không thấy Trinh đâu cả
+Prediction: Đám ma mọi tôi đến mà không thấy Trinh đâu cả
+----------------------------------------
+Reference: Bởi suy cho cùng tất cả mọi thứ do Nhi lựa chọn
+Prediction: Bởi suy cho cùng tất cả mọi thứ do nhiên lựa trò
+----------------------------------------
+Reference: Trái cây thơm trên miền đất khô cằn
+Prediction: Trái cây thơm trên miền đất khu càng
+----------------------------------------
+Reference: Từ sông hồ biên giới biển xa khơi
+Prediction: Từ xong hồ bên tới biển xa khơi
+----------------------------------------
+Reference: Đôi chân của cô trùng xuống và khép lại
+Prediction: Đôi chân của cô chùng phúống và khép lại
+----------------------------------------
+Reference: Nghĩa là ghen quá đấy mà thôi
+Prediction: Những là phù ghen quả đến mà thôi
+----------------------------------------
+Reference: Anh và em sẽ không gặp lại nhau được đâu
+Prediction: Anh vậy em sẽ không gặp lại nhau được đâu
+----------------------------------------
+Reference: Để bọn họ lừa đảo trục lợi mà thôi
+Prediction: Để họ lừa đảo chúng lợi mà thôi
+----------------------------------------
+Reference: Vậy mà quân vẫn lạnh lùng vô cảm
+Prediction: Vậy mà quân vẫn lạnh lùng bốc cả
+----------------------------------------
+Reference: Tham giàu phụ ngải
+Prediction: Tham giọng phụ ngài
+----------------------------------------
+Reference: tôi tên Duy
+Prediction: Tôi tên duy
+----------------------------------------
+Reference: Tránh voi chẳng xấu mặt nào.
+Prediction: Sánh boi chẳng số mặt nào
+----------------------------------------
+Reference: rốt cuộc con thanh có thấy ác mộng gì nữa đâu
+Prediction: Tốt cuộc con thanh có thấy áp mộng gì rửa đâu
+----------------------------------------
+Reference: bẵng đi đến ngày em xem kết quả thi
+Prediction: Bạn đi đến ngày em sắp kết quả thế nghi
+----------------------------------------
+Reference: Nhất là con Hạ
+Prediction: Nhất là con Hạ
+----------------------------------------
+Reference: Anh vui liền, nhưng bỗng lại buồn ngay
+Prediction: Anh vui liền nhưng bỗng lại buồn ngày
+----------------------------------------
+Reference: nghe sao ồn ào
+Prediction: Ngày sau nào
+----------------------------------------
+Reference: sáng dạ
+Prediction: Sáng lại
+----------------------------------------
+Reference: Những bài thơ hay về các loài cây cho bé mầm non
+Prediction: Những bệnh thưa hay bị cất loài cơ cho bệm mầm non
+----------------------------------------
+Reference: vẫn đang cảm thấy khó hiểu
+Prediction: Vẫn đăng càng thấy khó hiểu
+----------------------------------------
+Reference: Hay là mày đòi dẫn tao xuống đó theo với mày
+Prediction: Hay là mày đòi dẫn tao xuống đó theo với mày
+----------------------------------------
+Reference: Mái trường Thành Công
+Prediction: Mái trường Thành Cô
+----------------------------------------
+Reference: Trinh há hốc mồm
+Prediction: Trình háo một
+----------------------------------------
+Reference: Tôi cũng biết là chuyện này rất khó tin
+Prediction: Tôi cũng biết là chuyện này rất khó tìm
+----------------------------------------
+Reference: Em mới nghe tiếng của bà đấy mà
+Prediction: Ngăm mới nét tiếng của bà đến mà
+----------------------------------------
+Reference: Cứ thế này cho bố mẹ Em "chăm".
+Prediction: Cứ thế này cho bố mẹ chăm
+----------------------------------------
+Reference: Tình theo nét bút
+Prediction: Tình theo nít mút
+----------------------------------------
+Reference: Trước này chưa có một người đàn ông nào từ chối trinh cả
+Prediction: Chước này trước có mọi người đợn ông nào từ chốn chinh cả
+----------------------------------------
+Reference: Ước mong ân ái đậm say
+Prediction: Rước mong ân ấy đẫm say
+----------------------------------------
+Reference: A Hội nằm co ro ở một góc, chân tay run rẩy
+Prediction: A hội nằm con lo ở một góc chân tay vui lại
+----------------------------------------
+Reference: Từng ngày suy nghĩ
+Prediction: Từng ngày sinh ý
+----------------------------------------
+Reference: Sự gắn bó giữa hai người xa lạ
+Prediction: Chứ gắn bó giữa hai người xắt lại
+----------------------------------------
+Reference: sự cứng đầu
+Prediction: sự cứng đầu
+----------------------------------------
+Reference: Tôi tôi đang ở đâu
+Prediction: Tôi tôi đang ở đâu
+----------------------------------------
+Reference: là một tấm gương.
+Prediction: là một tấm hương
+----------------------------------------
+Reference: Giọng của Hạ liền đáp
+Prediction: Sọn của Hạ liền đáp
+----------------------------------------
+Reference: Căn phòng cũng trở nên đột nhiên lạnh ngắt
+Prediction: Cân phòng cũng chở nên đột nhiên lạnh ngáp
+----------------------------------------
+Reference: sự mất mát
+Prediction: sự bất mát
+----------------------------------------
+Reference: với lại năng lực của tôi có hạn
+Prediction: với lại năng lực của tôi có hạn
+----------------------------------------
+Reference: mà khi đã bị bắt đi rồi thì không thể trở về
+Prediction: Mà khi đã bị bắt đi rồi thì không thể trở về
+----------------------------------------
+Reference: và nhất quyết không thưa
+Prediction: Và nhất quét không thưa
+----------------------------------------
+Reference: Mẹ của Phương dơn dớn Nước Mắt
+Prediction: Mẹ của Phương dơn dơn nước mắt
+----------------------------------------
+Reference: Song trai khẽ vẫy tay mặt hớn hở
+Prediction: Song trai khẽ với tay mặt hớn hờ
+----------------------------------------
+Reference: chúng ta vẫn còn trẻ
+Prediction: chúng ta vẫn còn trè
+----------------------------------------
+Reference: Dù chỉ là một bước vào bên trong
+Prediction: Dù chỉ làm một bước vào bên trong
+----------------------------------------
+Reference: Đã có lúc Quân còn không thiết sống
+Prediction: Đã có lúc quân không còn thiết sống
+----------------------------------------
+Reference: tiếng của thảo vang lên
+Prediction: Tiếng của Thảo vang lên
+----------------------------------------
+Reference: Em cũng không có biết đâu
+Prediction: Em cũng không có biết đâu
+----------------------------------------
+Reference: còn bày cách cho mày
+Prediction: Còn cách cho mày
+----------------------------------------
+Reference: Sao lại sợ như thế
+Prediction: Sao lại sợ như thế
+----------------------------------------
+Reference: Anh giờ đây đâu còn riêng em nữa
+Prediction: Anh giờ đây đâu còn riêng em nữa
+----------------------------------------
+Reference: Lấy cũng mệt lả cả ra
+Prediction: Lấy cũng mệt là cả ra
+----------------------------------------
+Reference: Đường đời chia hai ngả
+Prediction: Đường đời chia hai ngà
+----------------------------------------
+Reference: sẽ tốt cho mình
+Prediction: sẽ tốt cho mình
+----------------------------------------
+Reference: Chuyện này không liên quan đến bé hay lớn
+Prediction: Chuyện này không liên quan đến bé hay lớn
+----------------------------------------
+Reference: Đứng yên ở đó
+Prediction: Đứng yên ở đó
+----------------------------------------
+Reference: bánh xe leo lên người của thảo
+Prediction: Bánh xe leo lên người của Thảo
+----------------------------------------
+Reference: Thấm tung trang sách
+Prediction: thấm tung trăng sách
+----------------------------------------
+Reference: Hà ni ngỡ rằng anh ta đóng kịch
+Prediction: Hà ni ngứa rằng anh ta đóng kịch
+----------------------------------------
+Reference: ít ra thì con mình vẫn còn sống mà tỉnh lại
+Prediction: Yết ra thì con mình vẫn còn sống mà tình lại
+----------------------------------------
+Reference: Mẹ của Thảo nói
+Prediction: Mẹ của Thảo nói
+----------------------------------------
+Reference: Tiếng tút dài còn khắc khoải người xa
+Prediction: Tiếng tút dài còn khắc khoải người xa
+----------------------------------------
+Reference: Và nghĩa là cô là tất cả.
+Prediction: Và nghĩa là cô là tất cả
+----------------------------------------
+Reference: Hay đúng hơn là không muốn vùng vẫy nữa
+Prediction: Hay đúng hơn là không muốn vùng vấy nữa
+----------------------------------------
+Reference: chỉ cần con khiến cho người đàn ông trong bức ảnh này yêu mẹ
+Prediction: Chỉ cần con khiến cho người đàn ông trong bức ảnh này yêu mẹ
+----------------------------------------
+Reference: Thì không thấy gì cả
+Prediction: Thì không thấy gì cả
+----------------------------------------
+Reference: Tao chỉ muốn bảo vệ mày chứ không dọa mày
+Prediction: tao chỉ muốn bảo vệ mày chứ không giọng mày
+----------------------------------------
+Reference: cản ơn đã giúp tôi
+Prediction: Cảm ơn đã giúp tôi
+----------------------------------------
+Reference: bà ấy hỏi em mới sực nhớ ra
+Prediction: bà ấy hỏi em mới sực nhớ ra
+----------------------------------------
+Reference: Dựng thêm những hàng rào
+Prediction: Dựng thêm những hàng rào
+----------------------------------------
+Reference: Có một bận em ngồi xa anh quá
+Prediction: Có một bận em ngồi xa anh quá
+----------------------------------------
+Reference: Đã cướp đi mạng sống của bạn thân nhất của em
+Prediction: Đã cấp đi mạng sống của bạn thân nhất của em
+----------------------------------------
+Reference: Ầy
+Prediction: Ối
+----------------------------------------
+Reference: Hạn chế người nhà đến thăm
+Prediction: Hạn chế người nhà đến thăm.
+----------------------------------------
+Reference: Thì có tiếng gọi bảo con tỉnh dậy
+Prediction: thì có tiếng gọi bảo con tình dậy
+----------------------------------------
+Reference: Ngủ không sao nhưng mà lúc tỉnh lại
+Prediction: Ngủ không sao nhưng mà lúc tình lại
+----------------------------------------
+Reference: Vài người nữa cũng đổ xô chạy đến
+Prediction: Vài người nữa cũng đổi xô chạy đến
+----------------------------------------
+Reference: Tâm linh ma quỷ từ xưa đến nay
+Prediction: Tâm linh ma quỷ từ xưa đến nay
+----------------------------------------
+Reference: Em thương mẹ em
+Prediction: Em thương mẹ em
+----------------------------------------
+Reference: mày quay mặt lại đây nói chuyện tử tế với tao xem nào
+Prediction: Mày quay mặt lại đây nói chuyện tử tế với tao xem nào
+----------------------------------------
+Reference: hay là nói được câu nào cả
+Prediction: Hay là nói được câu nào cả
+----------------------------------------
+Reference: Xem thêm
+Prediction: Xem thêm
+----------------------------------------
+Reference: Mong anh chị hãy giúp chúng tôi
+Prediction: Mong anh chị hãy giúp chúng tôi
+----------------------------------------
+Reference: Trinh khẽ cười rồi nói
+Prediction: Trinh khẽ cười rồi nói
+----------------------------------------
+Reference: Em lại thưa lại
+Prediction: Ôm lại thưa lại
+----------------------------------------
+Reference: mẹ như cô tiên
+Prediction: Mẹ như cô tiên
+----------------------------------------
+Reference: Chỉ mở mắt ra nằm yên trong đó
+Prediction: Chỉ mở mất ra nằm yên trong đó
+----------------------------------------
+Reference: Qua thời gian nó sẽ hấp thụ Linh khí xung quanh
+Prediction: Qua thời gian nó sẽ hấp thủ lên khí sung quanh
+----------------------------------------
+Reference: chứ tao có cố ý cho mày nhìn thấy đâu
+Prediction: Chứ tao có cụ ý cho mày nhìn thấy đâu
+----------------------------------------
+Reference: Anh ta trả lời
+Prediction: Anh tất trả lời
+----------------------------------------
+Reference: Tháng mười một đẹp lại duyên
+Prediction: Tháng mười một đẹp lại xuyên
+----------------------------------------
+Reference: Lặng nghe gió hát lời tình yêu thương
+Prediction: Lặng nghe gió Hát lời tình yêu thương
+----------------------------------------
+Reference: Mẹ vẫn lo âu
+Prediction: Mẹ vẫn lo âu
+----------------------------------------
+Reference: Thì là cô ấy
+Prediction: Thì là cô ấy
+----------------------------------------
+Reference: Còn chăng là kỷ niệm
+Prediction: Con chân là kỷ niệm
+----------------------------------------
+Reference: Hai người gặp nhau sau đám tang của mẹ quân
+Prediction: Hai người gặp nhau sau đóm tang của mẹ quân
+----------------------------------------
+Reference: Mùa Thu về ngang phố
+Prediction: Mùa thu về ngang phố
+----------------------------------------
+Reference: Quan trọng hơn
+Prediction: Quan trọng hơn
+----------------------------------------
+Reference: Đừng có sợ tao không có làm hại mày đâu
+Prediction: Đừng có sợ ta không có làm hại mày đâu
+----------------------------------------
+Reference: Tất cả đều nhìn xung quanh phòng nhưng không thấy gì cả
+Prediction: Tất cả đều nhìn xuống quân phòng nhưng không thấy gì cả
+----------------------------------------
+Reference: Người ấy sang sông đứng ngóng đò
+Prediction: Người ấy sang sông đứng ngóng đò
+----------------------------------------
+Reference: Tìm em trong đôi mắt của mùa thu
+Prediction: Tìm em trong đời mắt của Mồ Thính
+----------------------------------------
+Reference: Bà đi vắng Chừng nào mới về
+Prediction: Bà đi bạn chân nào mới về
+----------------------------------------
+Reference: Cho mùa thu rơi thoáng nhẹ qua thềm
+Prediction: Trong một thu rơi thạm nhẹ quá thìm
+----------------------------------------
+Reference: Thoảng mùi hương cốm nơi đâu?
+Prediction: Thoạt ngôi hăng cổm nơi đâu
+----------------------------------------
+Reference: Gió ru giấc ngủ êm đềm say sưa
+Prediction: Dạo đủ dắt ngột yến đềm rời xưa
+----------------------------------------
+Reference: Hà ni giật bắn người
+Prediction: Hang ni dịch bản người
+----------------------------------------
+Reference: Phải chi đừng có lá rơi
+Prediction: Xoạc chi đừng có là rơi
+----------------------------------------
+Reference: Nghe yêu thương vang xốn xang lồng ngực
+Prediction: Nhẹ yêu tương vang sổn sang lòng ngược
+----------------------------------------
+Reference: Nhưng vẫn trồng loài hoa ấy si mê
+Prediction: Nhưng vận trồng lai hà ở chimie
+----------------------------------------
+Reference: Bông cúc chi, thạch thảo tím giao hòa
+Prediction: Bóng cúc chi thể thảo tịm giao hoa
+----------------------------------------
+Reference: Ngồi ở bên đường đốt nhang cúng
+Prediction: Ngồi ở bên trường độ nhang cũng
+----------------------------------------
+Reference: Anh lái xe nghĩ hà ni Lo cho người yêu
+Prediction: Anh lại xe nghĩ hà ni lo cho người yếu
+----------------------------------------
+Reference: Hà Ni cảm thấy hơi bực
+Prediction: Hà ni cảm tì hơi bực
+----------------------------------------
+Reference: Kịch bản văn nghệ chào mừng ngày Nhà giáo Việt Nam
+Prediction: Khịch tạ thánh nghỉ chào mừng ngay nhà nhảo Việt Nam
+----------------------------------------
+Reference: Nụ hôn nồng tê tái lúc đắm say
+Prediction: Nó hôn nông tê tải lúc nằm dây
+----------------------------------------
+Reference: Trên dốc nhớ chợt trời lên cơn bão
+Prediction: Trên nhóc nhớ chợt trời lên cơn bào
+----------------------------------------
+Reference: Dặn anh ta chờ ở đó hà ni dìu phong leo cầu thang
+Prediction: Dành anh ta cho ở đỏ hà ni dù phong léo còn thang
+----------------------------------------
+Reference: Gió cồn cào se sắt đến rã rời
+Prediction: Dõ cồn cao xe sắt đến rà rời
+----------------------------------------
+Reference: Tìm về em để nhắn nhủ nhớ thương
+Prediction: Tím về em để nhắn nhổ những thương
+----------------------------------------
+Reference: Xong rồi về đi
+Prediction: Sống rồi về đi
+----------------------------------------
+Reference: Giai điệu tình xót xa chiều thu trắng
+Prediction: Giai đều tên xọt xa cho thú trặng
+----------------------------------------
+Reference: Tôi đoán là
+Prediction: Tuyệt loạn là
+----------------------------------------
+Reference: Trời Đông lạnh mây mưa buồn ủ rũ.
+Prediction: Trơi đông lạnh mấy mưa buồn ủ rùm
+----------------------------------------
+Reference: Cho hạnh phúc thêm ngập tràn sôi động
+Prediction: Cho hạnh phúc thêm ngập trang xuôi đồng
+----------------------------------------
+Reference: Liu riu róc rách giọt sầu mênh mông
+Prediction: Lưu rư rốc trách chọt sâu minh mong.
+----------------------------------------
+Reference: Hà ni phản đối
+Prediction: Hà ni xoàn đối
+----------------------------------------
+Reference: Thôi em ơi chẳng thể nào mặc cả
+Prediction: Thôi em ơi chẳng thể nào mặc cả
+----------------------------------------
+Reference: Én lạc bầy mỏi mệt nỗi cô đơn
+Prediction: Ảnh lác mày mọi miệt nỗi cô đơn
+----------------------------------------
+Reference: Thổn thức một người xa vắng...
+Prediction: thồn thức một ngày xá vắng
+----------------------------------------
+Reference: Mùa thu chết trong nỗi sầu tê tái
+Prediction: Mua thu chỉ tróng nội râu tê tại
+----------------------------------------
+Reference: Cúc vàng vẫn thắm bên thềm
+Prediction: Cúc vang vận thẫm bên thêm
+----------------------------------------
+Reference: Thu vấn vương lá còn rơi rụng
+Prediction: Thu vận Phương ngã còn rơi rùng
+----------------------------------------
+Reference: Trời tháng mườimây vờn bay bảng lãng
+Prediction: Trời thẳng mười mề vơn mày bàn làng
+----------------------------------------
+Reference: Đủ cho lúa chín vàng.
+Prediction: Đủ cho lộ chỉnh gàng
+----------------------------------------
+Reference: Người thiểu số không biết nói nhiều
+Prediction: người thiều xổ không biết nỗi nhiều
+----------------------------------------
+Reference: Bao tháng mười anh vẫn còn nhớ mãi
+Prediction: Bao tháng mưa anh vẫn còn nhớ mài
+----------------------------------------
+Reference: Tháng mười một về trong sớm chênh vênh
+Prediction: Tháng may một phê trong sợ chính vinh
+----------------------------------------
+Reference: Anh ta chưa kịp đáp thì do phải tránh Một xe đi ngược chiều
+Prediction: Em tắt cho kiếp đạp ti do và trận một xe điên ngập chiêu
+----------------------------------------
+Reference: Bởi giây phút làm ngơ.
+Prediction: Bởi dây phút làm ngơ
+----------------------------------------
+Reference: Vậy mà khi nghe câu nói đó anh đã liền hỏi
+Prediction: Về mà khi nghe câu nỏi đỏ anh đã liền hỏi
+----------------------------------------
+Reference: Nỗi buồn về trên những bước chân êm
+Prediction: Nồi buồn ve tên những bước chấn êm
+----------------------------------------
+Reference: Anh đã tới cuối đường hoa tháng chín
+Prediction: Anh đã tới quỷ đơn hoa thằng chính
+----------------------------------------
+Reference: Bài phát biểu khai mạc lễ kỉ niệm Nhà giáo Việt Nam
+Prediction: bai phản biểu khái mác lệ kỳ niềm nhà dạo Việt Nam
+----------------------------------------
+Reference: Tháng mười cong chiếc lá khô
+Prediction: Thẳng mươi cũng chuyện lạ cô
+----------------------------------------
+Reference: Mang theo cả những bài thơ dang dở
+Prediction: Bán théo cả những bài thơ dăng dờ
+----------------------------------------
+Reference: Trang viết chỉ toàn giấy trắng
+Prediction: Táng viết đi tan dậy tắng
+----------------------------------------
+Reference: Thu qua rồi chiếc lá chẳng còn xanh
+Prediction: Thu qua tôi chuyện lạ chẳng còn xin
+----------------------------------------
+Reference: Tháng mười ơi yêu thương nặng ân tình
+Prediction: Thẳng mời ơi yêu thương nàng ấn tình
+----------------------------------------
+Reference: Tháng mười một mà lòng sao trống vắng
+Prediction: thạng mười một ma long sao trọng vắng
+----------------------------------------
+Reference: Em e thẹn như nụ hoa hàm tiếu
+Prediction: Em e thèn như nô há hàm tiểu
+----------------------------------------
+Reference: Giọt thương giọt đợi đôi bờ thổn thức
+Prediction: Nhặt thương dặt đời đối bờ thổn thức
+----------------------------------------
+Reference: Mùa thu vàng úa vẫn tươi sắc màu
+Prediction: Mô thú vang của vển tới sắc mau
+----------------------------------------
+Reference: Cô gái lắc đầu đáp
+Prediction: Cô gái lắc đâu đã
+----------------------------------------
+Reference: Thu sắp tàn lá vẫn rơi mê mải
+Prediction: Thu sắp tan lạ vận rơi mê mài
+----------------------------------------
+Reference: Đìu hiu cơn gió đón mùa đông sang
+Prediction: Điêu hiếu cơn dõi đọt moa đông sang
+----------------------------------------
+Reference: Nhưng đến thật bất ngờ.
+Prediction: Nhưng điện thịt bịch ngơ
+----------------------------------------
+Reference: Cô ngồi kèm phía sau và giục
+Prediction: Cô ngôi cam phiện sáo và dục
+----------------------------------------
+Reference: Môi vẫn thắm gọi thuyền quyên về bến.
+Prediction: Môi viện thẳng gọi thuyền quyền về bệnh
+----------------------------------------
+Reference: Thoảng thơ từng búi tóc dài
+Prediction: Hoàng thơ tưng quỷ tóc nhai
+----------------------------------------
+Reference: Những chiếc lá trút xuống đời thật tội
+Prediction: Nhưng chiếc lã rút xuống đời thích tôi
+----------------------------------------
+Reference: Cung đàn buồn còn lỡ phím yêu đương
+Prediction: Cùng đang buồn còn lợ phím yêu đương
+----------------------------------------
+Reference: Khi niềm nhớ tháng mười còn thao thức
+Prediction: Khi niềm nhậu tháng mươi con tháo thức
+----------------------------------------
+Reference: Tháng mười về con nắng lại vỡ đôi
+Prediction: Thẳng mời về con nặng lại vợ đuôi
+----------------------------------------
+Reference: Tháng mười một Đông sang rồi em đó
+Prediction: Tháng mười một đông sang rồi em đỏ
+----------------------------------------
+Reference: Nhất là lại nhớ đến người phụ nữ dân tộc kia
+Prediction: Nhất là lại nhớ đến người phụ nữ dân tộc kìa
+----------------------------------------
+Reference: Mặc cho nhân viên gọi với theo
+Prediction: Mặc cho nhân biên gọi bới theo
+----------------------------------------
+Reference: đừng bỏ con nha mẹ
+Prediction: Đừng bỏ con nha mẹ
+----------------------------------------
+Reference: tiện đây tao nói cho mày nghe cái này nhé
+Prediction: Tiện đây tao nói cho mày nghe cái này nhé
+----------------------------------------
+Reference: cũng chẳng biết là hợp thầy hợp thuốc nào
+Prediction: Cũng chẳng biết là hợp thầy hợp thuốc nào
+----------------------------------------
+Reference: Thuyền to sóng cả.
+Prediction: Thuyền to sống cả
+----------------------------------------
+Reference: Một vầng trăng khuyết
+Prediction: Một vần chăng khuyết
+----------------------------------------
+Reference: Em còn xa mãi
+Prediction: Em còn xa mãi
+----------------------------------------
+Reference: Chứ không phải là gần đây Cứ nửa đêm
+Prediction: Chứ không phải là gần đây cứ nửa đêm
+----------------------------------------
+Reference: Tuy nhiên hễ thả ra thì nó lại khóc lên nức nở
+Prediction: Tuy nhiên hãy thả ra thì nó lại khóc lên nước nở
+----------------------------------------
+Reference: quá khứ anh, anh không nhắc cùng em.
+Prediction: Qua khứ anh, anh không nhắc cùng em
+----------------------------------------
+Reference: Như không khí, như màu xanh lá cỏ
+Prediction: Như không khí, như một xanh lá cỏ
+----------------------------------------
+Reference: Vất vả nắng sương
+Prediction: Bất vả nắng sương
+----------------------------------------
+Reference: nên chúng em bị giữ lại phạt
+Prediction: nên chúng em bị giữ lại phạt
+----------------------------------------
+Reference: Gần đây rất hay suy nghĩ mọi thứ quá nên
+Prediction: Đường đây rất hay suy nghĩ mọi thứ quá nên
+----------------------------------------
+Reference: Mà trải nghiệm qua rồi thì mới thấy đó là sự thật
+Prediction: Mà chạy nghiệm qua rồi thì mới thấy đó là sự thật
+----------------------------------------
+Reference: Còn Phương may mắn chỉ bị gãy vài cái xương
+Prediction: Còn Phương may mắn khi bị gãy vài cái sương
+----------------------------------------
+Reference: Ai là người chết đưa Nhi đến gặp thầy bói Miền
+Prediction: Ai là người chết đưa Nhi đến gặp thầy bói miền
+----------------------------------------
+Reference: Thơ tình cuối mùa thu
+Prediction: Tho tình cuối mùa thu
+----------------------------------------
+Reference: Nó còn bảo là hôm nay nó muốn con đưa đi chơi cùng
+Prediction: Nó còn bảo là hôm nay nó muốn con đưa đi chơi cùng
+----------------------------------------
+Reference: Hay là còn có nguyện vọng gì
+Prediction: Hay là còn có miệng vọng gì
+----------------------------------------
+Reference: gian khổ
+Prediction: Giang khổ
+----------------------------------------
+Reference: Con kêu con gọi
+Prediction: Con kêu con gọi
+----------------------------------------
+Reference: Nghỉ một lát hà liền ổ lên
+Prediction: Nghĩ một lát Hà liền ổ lên
+----------------------------------------
+Reference: Cứ đi đi
+Prediction: Cứ đi đi
+----------------------------------------
+Reference: Khoan đã
+Prediction: Khoan đã
+----------------------------------------
+Reference: Theo như lời của Sâm Trai phiên dịch lại
+Prediction: Theo như lời của song trai phim dịch lại
+----------------------------------------
+Reference: được đặt ở khắp mọi miền Việt Nam
+Prediction: Được đặt ở khắp mọi miền Việt Nam
+----------------------------------------
+Reference: Anh thích thì lát nữa tôi sẽ tặng anh
+Prediction: Anh thích thì lát đỡ tôi sẽ đặn anh
+----------------------------------------
+Reference: Nếu thật thế thì tội nghiệp con bé lắm
+Prediction: Nếu thật thế thì tội nghiệp con bé lắm
+----------------------------------------
+Reference: Vậy con có cần mang hòn đá này bên người nữa không hả mẹ
+Prediction: Vậy con có cần mang họn đá này bên người nữa không hả mẹ
+----------------------------------------
+Reference: ai cũng kêu đây là vụ án kinh hoàng nhất mà họ được thấy
+Prediction: Ai cũng kêu đây là một án kinh hoàng nhất mà họ được thấy
+----------------------------------------
+Reference: Đến việc khiến cho cái Hà với cái Phương bị tai nạn
+Prediction: Đến vị khiến cho cái Hà với cái Phương bị tai nạn
+----------------------------------------
+Reference: rồi nhẹ nhàng đóng cửa lại
+Prediction: Rồi nhè nhè đóng cơ lại
+----------------------------------------
+Reference: Cùng chia sẻ sức người đời chà đạp
+Prediction: Cùng chia sẻ sức người đời chà đạp
+----------------------------------------
+Reference: bàn chân nào ở lại
+Prediction: Bàn chân nào ở lại
+----------------------------------------
+Reference: Có cái chuyện ban nãy là tao nói thật đấy
+Prediction: Có cái chuyện ban nãy là tao nói thật đấy
+----------------------------------------
+Reference: Đừng nghĩ quẩn anh nhé
+Prediction: Đừng nghĩ huống anh nhé
+----------------------------------------
+Reference: Dạ Nhớ bà dã Quỳ ông là
+Prediction: Dạ nhớ bà dã quỳ ông là
+----------------------------------------
+Reference: tiếc là cái chân của em không nhấc lên được
+Prediction: Tiếc là cái chân của em không nhất lên được
+----------------------------------------
+Reference: Với một cái chất giọng địa phương nai nái
+Prediction: Với một chất dọn địa phương nai nái
+----------------------------------------
+Reference: nhưng do sợ nên Trinh không dám nhận đó là bạn của mình
+Prediction: Nhưng do sợ nên chinh không dám nhận đó là bạn của mình
+----------------------------------------
+Reference: Trên tay của Trinh đủ các loại bánh kẹo đồ chơi mới
+Prediction: Trên tay của Trinh đủ các loại bánh kẹo đồ chơi mới
+----------------------------------------
+Reference: Mưa lớn biết bao!
+Prediction: Mưa lớn bị bao
+----------------------------------------
+Reference: Sao sao à ừ tớ thấy trong người không được khỏe
+Prediction: Sao sao ạ ừ ta thấy trong người không được khỏe
+----------------------------------------
+Reference: giờ mày nói cái vụ đi ăn
+Prediction: Giờ mày nói cái bụi đi ăn
+----------------------------------------
+Reference: Em chạy lên phía Thảo
+Prediction: Em chạy lên phía thảo
+----------------------------------------
+Reference: Có đêm trong mơ
+Prediction: Có đen chong mơ
+----------------------------------------
+Reference: Chỉ có điều là không thể nhìn thấy
+Prediction: Chỉ có điều là không thể nhìn thấy
+----------------------------------------
+Reference: Hay là phóng con Thảo là không còn ở đây nữa
+Prediction: Hay là phóng con Thảo là không còn ở đây nữa
+----------------------------------------
+Reference: Hai chiếc dép kia gặp nhau tự bao giờ
+Prediction: Hai chiếc dép kia gặp nhau tự bao giờ
+----------------------------------------
+Reference: Thế được rồi đi sang đây tao cho mày xem
+Prediction: Thế được rồi đi sáng đây tao cho mình xem
+----------------------------------------
+Reference: mẹ dẫn đi đâu thì theo đó
+Prediction: Mẹ dẫn đi đâu thì theo đó
+----------------------------------------
+Reference: mà mua về ngay cạnh nhà ông nội đã mất của thảo
+Prediction: Mà mua về ngay cạnh nhau nội đã mất của thảo
+----------------------------------------
+Reference: chinh lúc này mới Giật mình nhìn sang bên cạnh
+Prediction: Chinh lúc này mới dật mình nhìn sang bên cạnh
+----------------------------------------
+Reference: Ông tiển ông tiên
+Prediction: Ôm tỉ ngông tinh
+----------------------------------------
+Reference: giờ thành con ma dại đến nhà cũng k thể về
+Prediction: giờ thành con má dại đến nhà cũng không thể về
+----------------------------------------
+Reference: Bà bói liền đáp
+Prediction: bà bói liền đáp
+----------------------------------------
+Reference: Nuôi càng lâu thì giữa Kumanthong và chủ nhân
+Prediction: Nuôi càng lâu thì dỡ kumanthong và chủ nhân
+----------------------------------------
+Reference: Hôm nào em lỡ quá chén về tẩn nó
+Prediction: Hôm nào em lỡ quá chén về tổn nó
+----------------------------------------
+Reference: Nên hà ni đã phải kêu đau đớn
+Prediction: Nên hà ni đã phải teo đâu đớn
+----------------------------------------
+Reference: Hà ni bây giờ mới lên tiếng
+Prediction: Hà đi bây giờ mới lên tiếng
+----------------------------------------
+Reference: Vẫn nhìn được rõ chiếc xe tải tử thần màu xanh ấy
+Prediction: Vẫn nhìn được rõ chiếc xe tải tử thần một xanh đấy
+----------------------------------------
+Reference: Gắn bó nhau vì một lối đi chung
+Prediction: Gắn bó nhau vì một lối đi chung
+----------------------------------------
+Reference: Lòng đen lòi cả con mắt
+Prediction: Lòng đen lọi cả con mắt
+----------------------------------------
+Reference: Ôi! tình mẫu tử.
+Prediction: Ôi tình mẫu tử
+----------------------------------------
+Reference: A Hội và A Pheng là hai đứa bạn thân
+Prediction: A hội và phen cả hai đứa bản thân
+----------------------------------------
+Reference: Yêu, là chết ở trong lòng một ít
+Prediction: Yêu là chết ở trong loạt một ích
+----------------------------------------
+Reference: Không đề
+Prediction: Không đề
+----------------------------------------
+Reference: Họp lớp sau nhiều năm Mỗi Người Một Nơi
+Prediction: Họa lớp sau nhiều năm mỗi người một nơi
+----------------------------------------
+Reference: Bởi vì họ cũng bị chẻ mắt
+Prediction: bởi vì họ cũng bị chẽ mắt
+----------------------------------------
+Reference: Bà đưa tay lên như có ý muốn bỏ con rời khỏi
+Prediction: bà đưa tay lên như có ý bún bỏ con rời khỏi
+----------------------------------------
+Reference: ai tới số chết thì mới chết được thôi, Có đúng không bà bói
+Prediction: Ai tới số chết thì mới chết được thôi có đúng không bà bói
+----------------------------------------
+Reference: bà chậm rãi nói
+Prediction: bà chậm rãi nói
+----------------------------------------
+Reference: Là nó cứu con nhà cô một mạng
+Prediction: Là nó cứ con nhà cô một mạng
+----------------------------------------
+Reference: tôi yêu việt nam
+Prediction: tôi yêu Việt Nam
+----------------------------------------
+Reference: Cứ đến nửa đêm sau khi cho kumanthong ăn
+Prediction: Cứ đến nở đêm sau khi cho kumanthong ăn
+----------------------------------------
+Reference: Tao chỉ muốn chơi với mày thôi
+Prediction: Tao chỉ muốn chơi với mày thôi
+----------------------------------------
+Reference: Qua ngày bốn mươi chín tôi sợ là không giúp được nữa rồi
+Prediction: Qua ngày bốn mươi chín tôi sợ là không giúp được nữa rồi
+----------------------------------------
+Reference: Hay là tay sai cho quỷ thì thực sự rất là khủng khiếp
+Prediction: Hay là tay xa cho quỷ thì tực sự đó cũng khiếp
+----------------------------------------
+Reference: Chợt mưa cái ào
+Prediction: Chật mưa cái ào
+----------------------------------------
+Reference: Bên trong đèn hồng đèn đỏ đèn xanh lờ mờ luôn được bật sáng
+Prediction: Bên trong đèn hồng, đèn đỏ, đèn xanh là mờ luôn được bật sáng
+----------------------------------------
+Reference: con chào mẹ
+Prediction: con chào mẹ
+----------------------------------------
+Reference: Buồn thế chứ
+Prediction: Buồn thế chứ
+----------------------------------------
+Reference: Dứt lời Trinh vội bỏ ra ngoài quên lấy cả tiền
+Prediction: Dứt là chinh vội bỏ ra ngoài quên lấy cả tiền
+----------------------------------------
+Reference: kịch nghệ
+Prediction: Kích nghe
+----------------------------------------
+Reference: Ở bên trong Trinh tự hỏi
+Prediction: Bên trong Trinh tự hỏi
+----------------------------------------
+Reference: Nhưng đáng tiếc là thảo không hề xuất
+Prediction: Nhưng đang tiếc là thảo không hề xuất
+----------------------------------------
+Reference: Nó bắt hồn anh chàng ấy định biến anh ta thành một cặp đôi
+Prediction: Nó bắt hồn anh chàng ấy định biến anh ta thành một cặp đôi
+----------------------------------------
+Reference: Mấy người cứ tin thầy cúng rồi mất mạng lại trách nhau
+Prediction: Mấy người cứ tin thầy cúng rồi mất mạng lại chắc nhau
+----------------------------------------
+Reference: Trước khi đi ra khỏi cửa Trinh có nghe bác sĩ nói
+Prediction: Chứ khi đi ra khỏi cửa Trinh có nghe bác sĩ nói
+----------------------------------------
+Reference: Nếu nhà có phúc
+Prediction: Nếu nhà có phúc
+----------------------------------------
+Reference: Nhớ Bác nói láo cây xoài em không ra quả thật
+Prediction: Nhớ bác nói láo cây xoài em không ra quả thật
+----------------------------------------
+Reference: Thả hổ về rừng
+Prediction: Thả hộ về dừng
+----------------------------------------
+Reference: Được rồi anh nghỉ ngơi rồi sẽ nhớ
+Prediction: Được rồi anh nghỉ ngơi rồi sẽ nhớ
+----------------------------------------
+Reference: Bố em liền cười bảo với chú
+Prediction: Bố em liền cười bảo với chú
+----------------------------------------
+Reference: Thế còn chuyện cầu xin tình cảm với anh chàng khi thị sao
+Prediction: Thế còn chuyện câu xin tình cảm với anh chàng khi thị sao
+----------------------------------------
+Reference: Thì cũng chưa bao giờ phát nhanh được như vậy
+Prediction: thì cũng chưa bao giờ phát nhanh được như vậy
+----------------------------------------
+Reference: Bên trong đặt một lọ thủy tinh
+Prediction: Bên trong đặt một lọ thủy tinh
+----------------------------------------
+Reference: Chắc là hợp nên nó bắt theo hầu nó đấy
+Prediction: chắc là hợp nên nó bắt theo hầu nói đấy
+----------------------------------------
+Reference: Còn Cái Thảo nó ở đâu mẹ không nhìn thấy gì cả
+Prediction: Còn cái Thảo nó ở đâu mẹ không nhìn thấy gì cả
+----------------------------------------
+Reference: Cô cười thật tươi
+Prediction: Cô cười thật tươi
+----------------------------------------
+Reference: Vang vang tiếng hát
+Prediction: Vang vang tiếng hát
+----------------------------------------
+Reference: Tay làm hàm nhai, tay quai miệng trễ.
+Prediction: Tai làm hàm nhai tay quay miệng trễ
+----------------------------------------
+Reference: Hay là thôi đường ai nấy bước
+Prediction: Hay là thôi đường ai nấy bước
+----------------------------------------
+Reference: Đứa thì chết đứa thì điên dại nó còn làm được
+Prediction: Đứa thì chết, đứa thì điên dại nó còn làm được
+----------------------------------------
+Reference: Vì lâu lắm mới có người lên đấy
+Prediction: Vì lâu lắm mới có người lên đấy
+----------------------------------------
+Reference: Để Bác sĩ về tận nhà cũng chỉ là uống thuốc
+Prediction: Để bác sĩ về tận nhà cũng chỉ là uống thuốc
+----------------------------------------
+Reference: Đúng rồi Gần đây tôi thấy có gì đó lạ lắm
+Prediction: Đúng rồi gần đây tôi thấy có gì đó lạ lắm
+----------------------------------------
+Reference: Sau đó họ đốn chặt những cái cây to lớn
+Prediction: Sau đó họ đốn chặt những cái cây to lớn
+----------------------------------------
+Reference: Không nhìn vào mắt sầu
+Prediction: Không nhìn vào mắt sầu
+----------------------------------------
+Reference: Cuộc đời con người ai cũng phải chết
+Prediction: Quạt đời con người ai cũng phải chết
+----------------------------------------
+Reference: Cô ngượng ngùng nhìn phong
+Prediction: Cô ngựa ngồn nhìn phong
+----------------------------------------
+Reference: Chỉ một ước mơ thôi
+Prediction: Chỉ một ướt mơ thôi
+----------------------------------------
+Reference: đừng nghe đời của ông ta nói ông ta là kẻ xấu đấy
+Prediction: Đừng nghe đời của ông ta nói, ông ta là kẻ xấu đấy
+----------------------------------------
+Reference: Quay lại sau cậu bạn nhìn chinh rồi nói
+Prediction: Quay lại sau cậu bạn nhìn Trinh rồi nói
+----------------------------------------
+Reference: Và cảnh đời là sa mạc vô liêu
+Prediction: Và cảnh đời là xa mạc vô liêu
+----------------------------------------
+Reference: Hoặc là sẽ quanh quẩn bên xác
+Prediction: hoặc là sẽ quen quẩn bên xác
+----------------------------------------
+Reference: Bởi đối với cô
+Prediction: Bại đối với cô
+----------------------------------------
+Reference: Vần vũ mây che đèn cao áp chập chờn
+Prediction: Vần vũ mây che đèn cao ác chập trờn
+----------------------------------------
+Reference: Quân đã bị kumanthong của mình tác động
+Prediction: Quân đã bị kumanthong của mình tắc động
+----------------------------------------
+Reference: Muôn vàng tấc đất
+Prediction: Muôn vàng tất tất
+----------------------------------------
+Reference: Khiếp thật đấy
+Prediction: Khiếp thật đấy
+----------------------------------------
+Reference: Như là người bị mất hồn vậy
+Prediction: Như là người bị bắt hồn vậy
+----------------------------------------
+Reference: Cô chú chưa bao giờ mơ thấy cả
+Prediction: Cô chú chưa bao giờ mơ thấy cả
+----------------------------------------
+Reference: Nó nghĩ mình đang nằm mơ rồi chìm lại vào trong giấc ngủ
+Prediction: Nó nghĩ mình đang đắm mơ dời chín lại vào trong giấc ngủ
+----------------------------------------
+Reference: Quay trở lại tầng hai
+Prediction: Quách trở lại tần hai
+----------------------------------------
+Reference: mà này
+Prediction: Mà nay
+----------------------------------------
+Reference: Như chị hoa đào
+Prediction: Như chị hoa đào
+----------------------------------------
+Reference: Chính liền nói lớn
+Prediction: Chính liền nói lớn
+----------------------------------------
+Reference: Nhưng đã bị chết đi mà thôi
+Prediction: Nhưng đã bị chết đi mà thôi
+----------------------------------------
+Reference: tôi sợ nó thân nhau lại bắt nhau đi theo cùng xuống đó
+Prediction: Tôi sợ thân nhau lại bắt nhau đi theo cùng xuống bó
+----------------------------------------
+Reference: Đầu óc của Trinh không hiểu tại sao
+Prediction: Đọa của Trinh không hiểu tại sao
+----------------------------------------
+Reference: Ánh Mắt Của trinh nhìn quân đầy gợi tình
+Prediction: Anh mắt của Trinh nhìn quân đầy gợi tình
+----------------------------------------
+Reference: Hay là thôi mùa đừng thay lá
+Prediction: Ai là thôi, mùa đường thay lá
+----------------------------------------
+Reference: Mồ hôi mẹ thấm
+Prediction: Mố ơi mẹ thống
+----------------------------------------
+Reference: sau đó mệt sẽ ngủ một giấc thật sâu
+Prediction: Sau đó mệt sẽ ngủ một rất thật sâu
+----------------------------------------
+Reference: Tổng hợp những bài thơ hay nhất
+Prediction: Tộng hợp với bà thơ hay nhất
+----------------------------------------
+Reference: Nhưng mà tôi được người ta nhờ vả
+Prediction: Nhưng mà tôi được người ta nhờ và
+----------------------------------------
+Reference: chăm học chăm làm
+Prediction: Trăm học trăm làm
+----------------------------------------
+Reference: Đọc chú song Trinh liền tiếp tục
+Prediction: Đọc Chú xong truyên liền tiếp tượng
+----------------------------------------
+Reference: Chỉ có vậy thôi
+Prediction: Chỉ có vậy tôi
+----------------------------------------
+Reference: Đã khuya lắm màn hình còn nhấp nháy
+Prediction: Đó khuya lắm màn hình còn nhấp nhai
+----------------------------------------
+Reference: Còn gì đau đớn hơn hình ảnh một người đàn ông
+Prediction: Tần gì đau đớn hơn hình ảnh một người đàn ông
+----------------------------------------
+Reference: Thân hình thì toàn là những áo ngâm máu mà thôi
+Prediction: Thân hình thì toàn là những áo nấm máu mà thôi
+----------------------------------------
+Reference: Sự thật về kumanthong có như chúng ta đã nghĩ
+Prediction: Sự thật về kumanthong có người chúng ta đã nghĩ
+----------------------------------------
+Reference: để giúp cho mẹ
+Prediction: Để giúp cho mẹ
+----------------------------------------
+Reference: Nặng trĩu âu lo
+Prediction: Nạc chiếu ôm nô
+----------------------------------------
+Reference: Mồ hôi của A Hội nhễ nhại, ướt đẫm cả áo
+Prediction: Mỗi quá hội nhé nhai út đấm cả ạo
+----------------------------------------
+Reference: Bố mẹ nó thì khóc lóc kêu trời
+Prediction: Bố mẹ nó thì phóc lóc kênh chời
+----------------------------------------
+Reference: Đôi bờ lấm tấm cánh vô vi
+Prediction: Đôi bà nắm tấm cánh vô vi
+----------------------------------------
+Reference: Anh cố nhớ lại xem có đúng là cô ấy đã chết không
+Prediction: Anh cô nhớ lại xem có đúng là cô ấy đã chết không
+----------------------------------------
+Reference: với nhiều tác phẩm viết bằng tiếng Việt
+Prediction: Với nhiều tác phẩm viết bàn tính biệt
+----------------------------------------
+Reference: Để cho anh tới dạt dào bên Em
+Prediction: Để cho anh tới giặt dào bên em
+----------------------------------------
+Reference: mặt của mày tao lạ gì mà phải sợ chứ
+Prediction: Mặt của mày tao lạ gì mà phải dạ chứ
+----------------------------------------
+Reference: Run rẩy nghĩ rằng mình gặp ma
+Prediction: Dôn dày nghĩ rằng mình gặp ma
+----------------------------------------
+Reference: cho chúng mình ấm mộng
+Prediction: Cho xuất hiện ấm mộng
+----------------------------------------
+Reference: bản thân của Trinh hưởng lợi từ kumanthong không phải là ít
+Prediction: Bản thân của Trinh gần lại từ cô Ma Thông không phả lại ít
+----------------------------------------
+Reference: Những bài thơ về động vật cho bé mầm non
+Prediction: Những bài thơ về động vặt cho bé mầm non
+----------------------------------------
+Reference: ơ Kìa sao về sớm thế
+Prediction: Ước gì ở sao về sớm thể
+----------------------------------------
+Reference: tối nay chúng ta ngồi ở đó làm lễ được không
+Prediction: Tối nay chúng ta ngồi ở đó làm lễ được không
+----------------------------------------
+Reference: chưa kể lời của Sâm Trai
+Prediction: Chưa kể lại của sân trai
+----------------------------------------
+Reference: Bao năm rồi cô nhỉ?
+Prediction: Bác năm rồi cô nhỉ
+----------------------------------------
+Reference: Nó còn có cả những tên đầu chỉ toàn là xương trắng
+Prediction: nó còn có cả những tên đầu chỉ toàn là sương trắng
+----------------------------------------
+Reference: Có lẽ ít nhiều người cũng đã từng nghe đến
+Prediction: Có lẽ ít nhiều người cũng đã từng nghe đến
+----------------------------------------
+Reference: để Tìm được ông thầy đó
+Prediction: Để tìm được ông thầy đó
+----------------------------------------
+Reference: Chào một đứa bé cao tầm đến đầu gối
+Prediction: Chào một đứa bé cao tầng đến đầu gối
+----------------------------------------
+Reference: Bị quỷ nó chặn đường
+Prediction: Bị quỷ nó chẳng đường
+----------------------------------------
+Reference: Khi mẹ em ốm
+Prediction: Khi mẹ em uống
+----------------------------------------
+Reference: Chăm sóc kuman Càng tốt càng hiệu quả
+Prediction: Chăm sóc kuman càng tốt càng hiệu quả
+----------------------------------------
+Reference: Đến lúc bạc đầu
+Prediction: Đến lúc bạn đau
+----------------------------------------
+Reference: Hà liền Ấp úng đáp lại
+Prediction: Hà lên ấp úm đáp lạ
+----------------------------------------
+Reference: Đời vô tình nghiệt ngã
+Prediction: Đời vô tình Nhật ngá
+----------------------------------------
+Reference: Rất nhiều hình ảnh đủ mọi góc độ
+Prediction: Rất nhiều hình ảnh đủ mọi góc đụ
+----------------------------------------
+Reference: mẹ em nghe em hỏi mà gào lên
+Prediction: Mẹ em nghe em hoảng mà gào lên
+----------------------------------------
+Reference: Và thường đem lòng yêu thương cô chủ quán đây
+Prediction: Và thường bêm lòng yêu thương của chủ quán đây
+----------------------------------------
+Reference: Chị nghĩ rằng thà cho tên trộm lấy hết đồ đạc cũng được
+Prediction: Chị nghĩ rằng thẻ cho tên trộm lấy hết đồ đẹp cũng được
+----------------------------------------
+Reference: Không thể chịu đựng nổi nữa
+Prediction: Không thể chiếu đức nổi nữa
+----------------------------------------
+Reference: Sóng cả ba đào vượt ghềnh thác nhấp nhô
+Prediction: Sóng cả ba đào vượt gầnh khát nhấp nhu
+----------------------------------------
+Reference: Sáng ngày mai, tuổi mới thật bình an.
+Prediction: Sáng ngày mai tuổi mới thật bình an
+----------------------------------------
+Reference: Con đã thêm cao
+Prediction: Con đã thêm cao
+----------------------------------------
+Reference: Ngoài ban công được đặt những chậu cây cảnh
+Prediction: Ngoài ban công được đặt những chọn cây cảnh
+----------------------------------------
+Reference: Gió ngoài hiên cũng tắt tự khi nào
+Prediction: Gió ngoài hơn cũng tắt tựng khi nào
+----------------------------------------
+Reference: Hà liền đáp lại
+Prediction: Hà liền đép lại ai
+----------------------------------------
+Reference: Mới làm lễ kiệu vong lên được
+Prediction: Mới làm lế kiểu vong lên được
+----------------------------------------
+Reference: Rồi anh ta quay sang nói với Tuấn
+Prediction: Rồi anh ta quay sang ngoài bếp uấn
+----------------------------------------
+Reference: Từng ngày từng ngày
+Prediction: Từng ngay từng ngay
+----------------------------------------
+Reference: Thơ tình ngày không anh
+Prediction: Thơ tình này không anh
+----------------------------------------
+Reference: Em mấy ngày qua chỉ sợ là anh buồn rồi nghĩ quẩn thôi
+Prediction: Em mấy ngày qua chỉ sợ là anh buồn rồi nghĩ quần thôi
+----------------------------------------
+Reference: Nhà em là nhà cuối cùng của xóm
+Prediction: Nhà em là nhà cuối cùng của xóm
+----------------------------------------
+Reference: Nền động viên em rất nhiều
+Prediction: Nên động viên em rất nhiều
+----------------------------------------
+Reference: Thế này phải tìm thầy Cao tay hơn
+Prediction: Ngế này phải tìm thầy cao tay hơn
+----------------------------------------
+Reference: Thấy anh ta lảo đảo hà ni vội chụp lấy vai và kêu lên
+Prediction: Thấy anh ta lào đảo hà ni vội trụm lấy vai và kêu lên
+----------------------------------------
+Reference: nghe nói là bị ô tô cán đứt cả người
+Prediction: Ngà nói là bị ô tô cán đất cả rồi
+----------------------------------------
+Reference: Trình hơi sững lại khi quân vừa nhắc đến nhi
+Prediction: Chình hơi xứng lại khi quân vừa ngắc đến nhìn
+----------------------------------------
+Reference: Nghe hà ni nói như vậy
+Prediction: ngà ni nói như vậy
+----------------------------------------
+Reference: nếu qua bốn mươi chín ngày thì muộn
+Prediction: Đếu có bao nhiêu bốn mươi chín ngày thì mọi
+----------------------------------------
+Reference: bà bói gật gù nói
+Prediction: Và bói gật bôn ngoái
+----------------------------------------
+Reference: Những cánh cửa gỗ đều bị rèm che phủ
+Prediction: Những cánh cửa gỗ đều bị làm cháp phổ
+----------------------------------------
+Reference: Nước mắt chảy giàn giụa
+Prediction: Nước mắt chảy dằn ruộn
+----------------------------------------
+Reference: Chẳng Phải có sức mạnh hơn rồi sao
+Prediction: Chẳng phải có sức mạnh hơn rồi sao
+----------------------------------------
+Reference: Ai đã chăm con
+Prediction: Ai đã trăm con
+----------------------------------------
+Reference: Em muốn anh
+Prediction: Em muốn anh
+----------------------------------------
+Reference: Có lân tao định mở lời nhưng mà nó gạt đi
+Prediction: Có lên tao định mở lời nhưng mà nó gạt đi
+----------------------------------------
+Reference: Thế nhưng cánh cửa không thể xảy ra bất cứ điều gì
+Prediction: Thế nhưng cánh cửa không thể xảy ra bất cứ hiểu gì
+----------------------------------------
+Reference: Sao anh vội ngỏ lời
+Prediction: Sao anh vội mỏ lời
+----------------------------------------
+Reference: Toàn thân của chị nóng ran
+Prediction: Toàn thân của chị Nóng Vang
+----------------------------------------
+Reference: Vạn vật khô ráo
+Prediction: Vậy vật khô réo
+----------------------------------------
+Reference: Linh hồn ta còn u ẩn hơn đêm
+Prediction: Lênh hồn ta quán u ẩn hơn đêm
+----------------------------------------
+Reference: quỷ đã đánh đổi con bé ấy những thứ mà cháu muốn
+Prediction: quỷ đã đánh đổi con bé ấy những thứ mà cháu muốn
+----------------------------------------
+Reference: Bố em lúc ấy chen ngang
+Prediction: Bố em lúc ấy chăn ngăn
+----------------------------------------
+Reference: Tóc mẹ bạc trắng
+Prediction: Tóc mẹ bạc chắn
+----------------------------------------
+Reference: Tình hình cho đến ngày hôm nay
+Prediction: Tình hình cho đến ngày hôm nay
+----------------------------------------
+Reference: Vuốt bờ tóc mây
+Prediction: Vốt bờ tóc mây
+----------------------------------------
+Reference: Nếu không muốn là một thứ quỷ già như tôi
+Prediction: Nếu không muốn là một thứ quỷ già như tôi
+----------------------------------------
+Reference: Lái xe đến phòng tập
+Prediction: Lại xe đến phòng tập
+----------------------------------------
+Reference: Anh chàng cười trên đôi môi héo hắt
+Prediction: Anh chàng cười trên tôi môi héo hấp
+----------------------------------------
+Reference: Chưa hề ghi nhớ
+Prediction: Chưa hề ghi nhớ
+----------------------------------------
+Reference: Xấu hay làm tốt, dốt hay nói chữ
+Prediction: Sấu hay làm tốt, giốt hay nói chữ
+----------------------------------------
+Reference: Ví dụ như là có tiếng bước chân ai đó đi vòng quanh nhà
+Prediction: ví dụ như là của tiếng bước chân ai đó đi phòng quay nhà
+----------------------------------------
+Reference: là Kumanthong ở bên lọ thủy tinh ngày hôm nay
+Prediction: Là cua ma thông ở bên lọ thể tinh ngày hôm nay
+----------------------------------------
+Reference: em phải học hành
+Prediction: Em phải học anh
+----------------------------------------
+Reference: Tôi còn mong nó về nhà gặp mà còn chẳng được
+Prediction: tôi còn mong muốn về nhà gặp mà quân chẳng được
+----------------------------------------
+Reference: Chỉ vô tình mà thôi
+Prediction: Chỉ vô tình mà thôi
+----------------------------------------
+Reference: Mỗi khi ra về
+Prediction: Mỗi khi ra về
+----------------------------------------
+Reference: Mẹ nghe này
+Prediction: Mẹ nghe mày
+----------------------------------------
+Reference: Thương chúc người giấc ngủ thật dịu êm
+Prediction: Thương chúc người giấc một thật riêng em
+----------------------------------------
+Reference: bà bói liền đáp
+Prediction: Bà bói liền đáp
+----------------------------------------
+Reference: Từ sợ hãi chính bỗng dưng cười khúc khích
+Prediction: Từ sạ hái chính bóng dưng cười khúc khích
+----------------------------------------
+Reference: Sinh li tử biệt
+Prediction: Xinh lý tự biệt
+----------------------------------------
+Reference: Cây cối xanh tươi
+Prediction: Cây cối xanh tươi
+----------------------------------------
+Reference: Một chút tên tôi đối với nàng
+Prediction: Một chút tên tôi đối với nàng
+----------------------------------------
+Reference: xem thảo hợp với ai sẽ nhập vào người đó
+Prediction: Xem thảo học với ai sẽ nhập tao người đỏ
+----------------------------------------
+Reference: Lúc đó sẽ giải quyết được cái cảnh chán chông của mày bây giờ
+Prediction: Lúc đó sẽ giải quyết được cái cảnh chán trông của mày bây giờ
+----------------------------------------
+Reference: hai chuyện khác nhau
+Prediction: Hai chuyện khác nhau
+----------------------------------------
+Reference: Điện thoại đổ chuông nhưng mà không có ai bắt máy
+Prediction: Điện thoại đổ chuông nhưng mà không có áp áp máy
+----------------------------------------
+Reference: đang đêm mà cứ thưa như vậy là sao
+Prediction: Đang đêm mà cứ thua như vậy là sao
+----------------------------------------
+Reference: còn người thì chắc là đưa đi rồi
+Prediction: Còn người thì chắc là đưa đi rồi
+----------------------------------------
+Reference: Nguồn gốc của muôn ngàn khát vọng
+Prediction: Nguồn gấp của muôn ngàn khác vặng
+----------------------------------------
+Reference: Chinh không còn sợ chết nữa
+Prediction: Chinh không còn sợ chết nữa
+----------------------------------------
+Reference: Sinh cơ lập nghiệp
+Prediction: Xinh cơ lập nhập
+----------------------------------------
+Reference: Vậy bây giờ làm sao cô làm ơn giúp cho mẹ con tôi
+Prediction: Vậy bây giờ làm sao cô làm ơn giúp cho mẹ con tôi
+----------------------------------------
+Reference: Trăng quầng thì hạn, trăng tán thì mưa.
+Prediction: Trăng quần thì hẹn trăng tán thì mưa.
+----------------------------------------
+Reference: Xa mặt cách lòng
+Prediction: Xa mặt cách lòng
+----------------------------------------
+Reference: Bỗng dưng chinh thấy người của mình lạnh toát
+Prediction: Bỗng dưng Trinh thấy người của mình lạnh toát
+----------------------------------------
+Reference: Đi đi con
+Prediction: Bí bí con
+----------------------------------------
+Reference: Chăm sóc được chủ của mình
+Prediction: Trăm xóc nước chủ của mình
+----------------------------------------
+Reference: mãi sau bố mẹ em đến đưa em về nhà
+Prediction: Mãi sau bố mẹ em bến đưa em về nhà
+----------------------------------------
+Reference: nhọn hoắt cào cào vào không trung
+Prediction: Nõn hót cào cào vào không chung
+----------------------------------------
+Reference: Chúng tôi đang cố gắng thu xếp
+Prediction: chúng tôi đang cố gắng thu xếp
+----------------------------------------
+Reference: Sẽ dừng lại khi chỉ còn một chiếc
+Prediction: Xé dừng lại khi chỉ còn một chiếc
+----------------------------------------
+Reference: Còn bé bị xe công nông cán chết ở ngã ba đấy
+Prediction: Quàn bé bị xe không nông cán chết ở hẻ ba đấy
+----------------------------------------
+Reference: Làm lỡ tình duyên cũ mất rồi
+Prediction: Làm lỡ tình duyên cũ mất rồi
+----------------------------------------
+Reference: Trinh đột nhiên nổi da gà
+Prediction: Trinh tốt nhiên nổi ra ngà
+----------------------------------------
+Reference: Tất cả những người đi làm hoặc ở nhà
+Prediction: Tất cả những người đi làm hoạt ở nhà
+----------------------------------------
+Reference: Anh vừa mới kí xong một bản hợp đồng
+Prediction: Anh vừa mới ký xong một bàn hợp đồng
+----------------------------------------
+Reference: Trinh quay sang hai bên không thấy gì cả
+Prediction: Trinh quay sang hai bên không thấy gì cả
+----------------------------------------
+Reference: mẹ nói nhiều lắm
+Prediction: Mẹ nói nhiều lắm
+----------------------------------------
+Reference: Chị ơi Chị bị cảm à
+Prediction: Chị ơi chị bị cả mày
+----------------------------------------
+Reference: Cô không lời từ giã
+Prediction: Cô không lời tự dãi
+----------------------------------------
+Reference: Không dám nói thật hà liền đáp
+Prediction: Không dám nói thật Hà liền đáp
+----------------------------------------
+Reference: Chinh mở chốt cửa rồi phóng như bay sang phía phòng thờ
+Prediction: Trinh mà trốt cửa ngồi phóng như bay sang phía phòng thờ
+----------------------------------------
