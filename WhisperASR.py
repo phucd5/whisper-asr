@@ -12,7 +12,7 @@ from MetricsEval import MetricsEval
 
 # change constants as applicable
 OUTPUT_DIR = "../models"
-HF_API_KEY = "ap_key"
+HF_API_KEY = "api_key"
 BASE_MODEL = "openai/whisper-small"
 
 # training constants
@@ -33,18 +33,20 @@ class WhisperASR:
     def __init__(self, model_name="openai/whisper-small", dataset_name="mozilla-foundation/common_voice_13_0", existing_model=False, language="Korean", language_code="ko", save_to_hf=False, output_dir="./models/whisper", ref_key="sentence"):
         """
         Initialize the model and load the data. 
-        The default config is the small model trained on the Common Voice dataset for Hindi.
+        The default config is the small model trained on the Common Voice dataset for Korean.
 
         Args:
-            model_name (str, optional): The model name from Hugging Face or custom path.
+            model_name (str): The model name from Hugging Face or custom path.
             If 'existing_model' is True, this should be the path to the pre-trained model. Ex: "openai/whisper-small".
             
-            existing_model (bool, optional): Flag to indicate whether to load an existing model from the specified 
+            existing_model (bool): Flag to indicate whether to load an existing model from the specified 
             'model_name' path. If False, a new model is initialized.
             
-            language (str, optional): The language of the model. Ex: "Korean".
-            language_code (str, optional): The language code of the model. Must match the language. Ex: "ko"
-            output_dir (str, optional): The output directory of the model to save to
+            language (str): The language of the model. Ex: "Korean".
+            language_code (str): The language code of the model. Must match the language. Ex: "ko"
+            output_dir (str): The output directory of the model to save to
+            save_to_hf (bool): Whether to push to Hugging Face Repo
+            ref_key (str): The key to the reference data in the dataset
         """
         # setting up to save to hugging face repo
         self.save_to_hf = save_to_hf
