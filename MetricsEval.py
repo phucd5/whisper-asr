@@ -1,5 +1,6 @@
 import evaluate
 
+
 class MetricsEval:
     """Class for evaluating using certain metrics."""
 
@@ -7,8 +8,8 @@ class MetricsEval:
         """Initate the metric evaluation class.
 
         Args:
-            tokenizer (Tokenizer): The tokenizer used for tokenizing the text.
-            metric_type (str, optional): The metric type to use. Defaults to "wer".
+            tokenizer (Tokenizer): The tokenizer used for tokenizing the text
+            metric_type (str, optional): The metric type to use. Defaults to "wer"
         """
 
         self.tokenizer = tokenizer
@@ -19,7 +20,7 @@ class MetricsEval:
         """Compute the metric.
 
         Args:
-            pred (dict): The predictions.
+            pred (dict): The predictions
         """
 
         pred_ids = pred.predictions
@@ -39,5 +40,3 @@ class MetricsEval:
             predictions=pred_str, references=label_str)
 
         return {self.metric_type: metric_value}
-
-

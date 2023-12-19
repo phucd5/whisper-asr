@@ -6,6 +6,7 @@ import torch
 
 from WhisperASR import WhisperASR
 
+
 def env_check():
     # check if GPU is available
     print(torch.__version__)
@@ -27,7 +28,7 @@ def env_check():
 
 
 if __name__ == "__main__":
-    
+
     env_check()
 
     # parse command line arguments
@@ -40,7 +41,6 @@ if __name__ == "__main__":
     parser.add_argument('--output_dir', type=str, required=True,
                         help='Directory to save the trained model')
 
-
     parser.add_argument('--model_name', type=str, default="openai/whisper-small",
                         help="Model name from Hugging Face or custom path (default: 'openai/whisper-small')")
     parser.add_argument('--existing_model', action='store_true',
@@ -49,12 +49,13 @@ if __name__ == "__main__":
                         help="Flag to indicate saving the model to Hugging Face Hub (default: False).")
     parser.add_argument('--dataset_name', type=str,  default="mozilla-foundation/common_voice_13_0",
                         help="Dataset name to train on (default: 'mozilla-foundation/common_voice_13_0')")
-    parser.add_argument("--ref_key", type=str, default="sentence", help="Key in dataset for reference data (default: 'sentence' - matches with Common Voice)")
-    
+    parser.add_argument("--ref_key", type=str, default="sentence",
+                        help="Key in dataset for reference data (default: 'sentence' - matches with Common Voice)")
+
     args = parser.parse_args()
 
     # train the model with command-line arguments
     model = WhisperASR(model_name=args.model_name,
-                    language=args.language, language_code=args.language_code, 
-                    existing_model=args.existing_model, save_to_hf=args.save_to_hf, output_dir=args.output_dir, dataset_name=args.dataset_name, ref_key=args.ref_key)
+                       language=args.language, language_code=args.language_code,
+                       existing_model=args.existing_model, save_to_hf=args.save_to_hf, output_dir=args.output_dir, dataset_name=args.dataset_name, ref_key=args.ref_key)
     model.train()

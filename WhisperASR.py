@@ -36,13 +36,13 @@ class WhisperASR:
         The default config is the small model trained on the Common Voice dataset for Korean.
 
         Args:
-            model_name (str): The model name from Hugging Face or custom path.
-            If 'existing_model' is True, this should be the path to the pre-trained model. Ex: "openai/whisper-small".
-            
+            model_name (str): The model name from Hugging Face or custom path
+            If 'existing_model' is True, this should be the path to the pre-trained model. Ex: "openai/whisper-small"
+
             existing_model (bool): Flag to indicate whether to load an existing model from the specified 
-            'model_name' path. If False, a new model is initialized.
-            
-            language (str): The language of the model. Ex: "Korean".
+            'model_name' path. If False, a new model is initialized
+
+            language (str): The language of the model. Ex: "Korean"
             language_code (str): The language code of the model. Must match the language. Ex: "ko"
             output_dir (str): The output directory of the model to save to
             save_to_hf (bool): Whether to push to Hugging Face Repo
@@ -51,8 +51,8 @@ class WhisperASR:
         # setting up to save to hugging face repo
         self.save_to_hf = save_to_hf
         if save_to_hf:
-            HfFolder.save_token(HF_API_KEY) # token to save to HF
-        
+            HfFolder.save_token(HF_API_KEY)  # token to save to HF
+
         self.dataset_name = dataset_name
         self.ref_key = ref_key
 
@@ -75,11 +75,14 @@ class WhisperASR:
 
         # load correct model
         if existing_model:
-            print(f"[INFO] Loading {self.model_name} model from existing model...")
+            print(
+                f"[INFO] Loading {self.model_name} model from existing model...")
             self.model = AutoModelForSpeechSeq2Seq.from_pretrained(model_name)
         else:
-            print(f"[INFO] Loading {self.model_name} from hugging face library...")
-            self.model = WhisperForConditionalGeneration.from_pretrained(self.model_name)
+            print(
+                f"[INFO] Loading {self.model_name} from hugging face library...")
+            self.model = WhisperForConditionalGeneration.from_pretrained(
+                self.model_name)
 
         self.model.config.forced_decoder_ids = None
         self.model.config.suppress_tokens = []
@@ -94,14 +97,15 @@ class WhisperASR:
     def _load_data(self):
         """Load the data from the Common Voice dataset and prepare it for training."""
 
-        print(f"[INFO] Preparing {self.dataset_name} data for training phase...")
+        print(
+            f"[INFO] Preparing {self.dataset_name} data for training phase...")
 
         # load data from Common Voice dataset
         self.data["train"] = load_dataset(
             self.dataset_name, self.language_code, split=self.train_split, token=HF_API_KEY)
         self.data["test"] = load_dataset(
-           self.dataset_name, self.language_code, split=self.test_split, token=HF_API_KEY)
-        
+            self.dataset_name, self.language_code, split=self.test_split, token=HF_API_KEY)
+
         print("[INFO] Structure of the loaded data:")
         print(self.data)
 
@@ -161,7 +165,7 @@ class WhisperASR:
             greater_is_better=False,
             push_to_hub=self.save_to_hf,
         )
- 
+
         # initialize trainer
         trainer = Seq2SeqTrainer(
             args=training_args,
@@ -175,10 +179,10 @@ class WhisperASR:
 
         self.processor.save_pretrained(training_args.output_dir)
 
-        # # start training
+        # start training
         print("[INFO] Starting training...: ")
         trainer.train()
-        
+
         # training finished and save model to model directory
         print(f"[INFO] Training finished and model saved to {self.OUTPUT_DIR}")
 

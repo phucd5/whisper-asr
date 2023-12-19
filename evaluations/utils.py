@@ -4,7 +4,7 @@ def remove_punctuation(input_string):
 
     Args:
         input_string (str): string to apply this function to
-    
+
     Returns:
         result_string (str): string with punctuation removed
 
@@ -17,6 +17,7 @@ def remove_punctuation(input_string):
     result_string = result_string.replace(':', '')
     result_string = result_string.replace('?', '')
     return result_string
+
 
 def compute_spacing(references, predictions):
     """
@@ -31,7 +32,7 @@ def compute_spacing(references, predictions):
     Args:
         references (list of str): list of reference speech transcription
         predictions (list of str): list of predicted speech transcription
-    
+
     Returns:
         spacing error rate (float): as defined above.    
 
@@ -52,7 +53,7 @@ def compute_spacing(references, predictions):
 
         j = 0
         k = 0
-        
+
         # number of indices at which string differs
         error_count = 0
         while j < len(reference_lst) and k < len(prediction_lst):
@@ -64,7 +65,7 @@ def compute_spacing(references, predictions):
                 ref_count = 0
                 pred_count = 0
                 error_count += 1
-                
+
                 # if more characters in reference item than prediction item
                 if len(reference_lst[j]) > len(prediction_lst[k]):
                     ref_count = len(reference_lst[j])
@@ -72,7 +73,7 @@ def compute_spacing(references, predictions):
                         pred_count += len(prediction_lst[k])
                         k += 1
                     j += 1
-                
+
                 # elif more characters in prediction item than reference item
                 elif len(reference_lst[j]) < len(prediction_lst[k]):
                     pred_count = len(prediction_lst[k])
