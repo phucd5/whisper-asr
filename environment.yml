@@ -1,4 +1,4 @@
-name: env_whisper_asr
+name: whisper_asr
 channels:
   - pytorch
   - conda-forge
